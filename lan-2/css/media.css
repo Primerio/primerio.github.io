@@ -1,0 +1,132 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .top-section .left-box h1  {
+        font-size: 23px;
+    }
+    .social a {
+        font-size: 39px;
+        margin-top: 10px;
+    }
+    .tab-box img {
+        margin-top: 100px;
+        max-width: 100%;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 766px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+    .top-section .left-box {
+        text-align: center;
+    }
+    .top-section .left-box hr {
+        width: 100%;
+    }
+    .top-section .left-box a {
+        margin: 40px auto 0;
+    }
+    .top-section .right-box {
+        margin-top: 40px;
+    }
+    .top-social  {
+        text-align: center;
+    }
+    .social a {
+        font-size: 29px;
+        margin-left: 10px;
+    }
+    .wrapper-tab {
+        text-align: center;
+    }
+    .tabs {
+        float: none;
+    }
+    .tabs .tab {
+        display: inline-block;
+        max-width: 73px;
+        height: 60px;
+        line-height: 60px;
+        text-align:center;
+    }
+    .tab_item {
+        margin-left: 0;
+        padding-top: 10px;
+    }
+    .first-tab a {
+        margin: 20px auto;
+    }
+    .list-img  img {
+        text-align: content !important;
+    }
+    .sub-list h4 {
+        text-align: center;
+    }
+    .sub-list hr {
+        margin: 20px auto;
+    }
+    .descr h4 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .descr hr {
+        margin: 20px auto;
+    }
+    .price-descr {
+        margin: 30px auto !important;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    .input-mobile {
+        max-width: 100%;
+    }
+    
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
