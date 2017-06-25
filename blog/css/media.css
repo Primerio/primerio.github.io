@@ -1,0 +1,113 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .subscribe p {
+        margin-top: 0;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .subscribe input[type="text"] {
+        margin-top: 10px;
+    }
+    .subscribe p {
+        text-align: center;
+    }
+    .subscribe-btn {
+        float: none;
+        margin-top: 10px;
+    }
+    .blog-box {
+        margin-top: 20px;
+    }
+    .side-banner {
+        text-align: center;
+    }
+    .footer .about-blog,
+    .footer .latest-tweets,
+    .footer .instagram,
+    .footer .latest-comments {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+    .low-footer a {
+        display: block;
+        margin: 0;
+    }
+    .low-footer p {
+        margin: 0;
+    }
+    .sidebar .categiries-list,
+    .sidebar .latest-post,
+    .sidebar .sidebar-social,
+    .sidebar .sidebar-slider-wrapper {
+        max-width: 420px;
+        margin: 30px auto;
+    }
+    .lp-box {
+        margin-bottom: 30px;
+    }
+    .search-404 button {
+        display: block;
+        margin: 20px auto;
+    }
+    .search-404 input[type="text"] {
+        max-width: 100%;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .contact-form input[type="text"] {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
