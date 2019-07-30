@@ -1,0 +1,117 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    .header .logo_descr {
+        text-align: center;
+    }
+
+    .header .header_social {
+        padding: 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .call_back {
+        display: block;
+        text-align: center;
+        margin: 0 !important;
+    }
+
+    .header .header_social {
+        text-align: center;
+    }
+
+    article {
+        margin-top: 30px;
+    }
+
+    .side_content {
+        margin: 0;
+        text-align: center;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .header {
+        text-align: center;
+    }
+
+    .header_phone a {
+        display: block;
+        text-align: center !important;
+        margin: 10px 0 !important;
+    }
+
+    .call_back {
+        line-height: 20px !important;
+        border-bottom: none !important;
+    }
+
+    .header .header_social {
+        margin: 10px;
+    }
+
+    .tour_number {
+        left: 0;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        margin: auto;
+    }
+
+
+
+    .hotel_info_left li {
+        margin: 10px 0;
+        display: block;
+        text-align: center;
+    }
+
+    .hotel_info_left li:nth-child(2) ul li {
+        display: inline-block;
+    }
+
+    .hotel_rating li {
+        margin: 10px 0;
+        display: list-item;
+        list-style: none;
+        text-align: center;
+    }
+
+    .blue_bg {
+        margin: 0 auto !important;
+        line-height: 10px;
+
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
