@@ -93,6 +93,9 @@
     .main_content h3 {
         font-size: 30px !important;
     }
+    table {
+        font-size: 12px !important;
+    }
 }
 
 /* Extra Small Devices, Phones */
