@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <title>Заголовок</title>
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <meta name="theme-color" content="#0e385e">
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-2 col-xs-8">
+                <div class="logo"><a href="/"><img src="img/logo-white-1.png" alt="logo"></a></div>
+            </div>
+
+            <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+                <span class="mobile_calendar_btn mobile_header_btn_style"><i class="far fa-calendar-alt"></i></span>
+                <div class="mobile_calendar_popup"></div>
+            </div>
+            <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+                <span class="mobile_nav_btn mobile_header_btn_style"><i class="fas fa-bars"></i></span>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-12">
+                <nav class="main_menu">
+                    <ul>
+                        <li><a href="#">Головна</a></li>
+                        <li class="sub_menu_container"><a href="/" onclick="return false">Категорії </a>
+                            <ul class="sub-menu computer-sub_menu">
+                                <li><a href="#">lorem</a></li>
+                                <li><a href="#">lorem</a></li>
+                                <li><a href="#">lorem</a></li>
+                                <li><a href="#">lorem</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Календар подій</a></li>
+                        <li><a href="#" class="add_event">Добавити подію <i class="fas fa-plus"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="top_content">
+    <div class="container-fluid">
+        <div class="row">
+            <!--<div class="col-md-7">
+                <div class="top_slider_events">
+                    <div class="top_se_item">
+                        <img src="img/2.jpg" alt="img">
+                        <div class="top_se_descr">
+                            <div class="top_se_date">22 sseptember 2019</div>
+                            <div class="top_se_location"><a href="#">Some street 12</a></div>
+                            <a href="#"><h2>Lorem ipsum dolor sit amet.</h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="col-md-12">
+                <div class="top_slider_cat">
+
+                    <div class="top_se_item">
+                        <figure>
+                           <a href="#">
+                            <img src="img/3.jpg" alt="img">
+                             </a>
+                        </figure>
+                       <a href="#"> <h2>For kids</h2></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--
+
+<tr>
+            <td>
+                #_EVENTDATES<br/>
+                #_EVENTTIMES
+            </td>
+            <td>
+                #_EVENTLINK
+                {has_location}<br/><i>#_LOCATIONNAME, #_LOCATIONTOWN #_LOCATIONSTATE</i>{/has_location}
+            </td>
+        </tr>
+
+        <h2>#s</h2>
+-->
+
+
+<main>
+    <div class="container">
+        <div class="row post_index">
+           <div class="col-md-9">
+            <div class="col-md-6 col-sm-6">
+               <article>
+                <div class="post_wrapper">
+                    <a href="#" class="img_post_link">
+                        <img src="img/1.jpg" alt="" class="post_img">
+                    </a>
+                    <div class="post_descr">
+                       <a href="#" class="post_link"><h2>Безкоштовний вхід в ботанічний сад</h2></a>
+                        <span class="event_date"><img src="img/appointment.png" alt="calendar" class="date_calendar"> 25.09. 2019</span>
+
+                        <span class="event_location"> <img src="img/location-pin.png" alt="location" class="location_img"> <a href="#">вул. Личаківська 119</a></span>
+                        <span class="post_price"><img src="img/price-tag.png" alt="price" class="price_img"> від 100 грн</span>
+                        <div class="bottom_posr_descr">
+                            <a href="#" class="post_desct_tag"><i class="fas fa-child"></i> Для дітей</a>
+                            <a href="#" class="add_favorite"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </article>
+            </div>
+
+                <div class="col-md-6 col-sm-6">
+               <article>
+                <div class="post_wrapper">
+                    <a href="#" class="img_post_link">
+                        <img src="img/2.jpg" alt="" class="post_img">
+                    </a>
+                    <div class="post_descr">
+                       <a href="#" class="post_link"><h2>Безкоштовний вхід в ботанічний сад</h2></a>
+                        <span class="event_date"><img src="img/appointment.png" alt="calendar" class="date_calendar"> 25.09. 2019</span>
+
+                        <span class="event_location"> <img src="img/location-pin.png" alt="location" class="location_img"> <a href="#">вул. Личаківська 119</a></span>
+                        <span class="post_price"><img src="img/price-tag.png" alt="price" class="price_img"> від 100 грн</span>
+                        <div class="bottom_posr_descr">
+                            <a href="#" class="post_desct_tag"><i class="fas fa-child"></i> Для дітей</a>
+                            <a href="#" class="add_favorite"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-sm-6">
+               <article>
+                <div class="post_wrapper">
+                    <a href="#" class="img_post_link">
+                        <img src="img/3.jpg" alt="" class="post_img">
+                    </a>
+                    <div class="post_descr">
+                       <a href="#" class="post_link"><h2>Безкоштовний вхід в ботанічний сад</h2></a>
+                        <span class="event_date"><img src="img/appointment.png" alt="calendar" class="date_calendar"> 25.09. 2019</span>
+
+                        <span class="event_location"> <img src="img/location-pin.png" alt="location" class="location_img"> <a href="#">вул. Личаківська 119</a></span>
+                        <span class="post_price"><img src="img/price-tag.png" alt="price" class="price_img"> від 100 грн</span>
+                        <div class="bottom_posr_descr">
+                            <a href="#" class="post_desct_tag"><i class="fas fa-child"></i> Для дітей</a>
+                            <a href="#" class="add_favorite"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-sm-6">
+               <article>
+                <div class="post_wrapper">
+                    <a href="#" class="img_post_link">
+                        <img src="img/4.jpg" alt="" class="post_img">
+                    </a>
+                    <div class="post_descr">
+                       <a href="#" class="post_link"><h2>Безкоштовний вхід в ботанічний сад</h2></a>
+                        <span class="event_date"><img src="img/appointment.png" alt="calendar" class="date_calendar"> 25.09. 2019</span>
+
+                        <span class="event_location"> <img src="img/location-pin.png" alt="location" class="location_img"> <a href="#">вул. Личаківська 119</a></span>
+                        <span class="post_price"><img src="img/price-tag.png" alt="price" class="price_img"> від 100 грн</span>
+                        <div class="bottom_posr_descr">
+                            <a href="#" class="post_desct_tag"><i class="fas fa-child"></i> Для дітей</a>
+                            <a href="#" class="add_favorite"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-sm-6">
+               <article>
+                <div class="post_wrapper">
+                    <a href="#" class="img_post_link">
+                        <img src="img/5.jpg" alt="" class="post_img">
+                    </a>
+                    <div class="post_descr">
+                       <a href="#" class="post_link"><h2>Безкоштовний вхід в ботанічний сад</h2></a>
+                        <span class="event_date"><img src="img/appointment.png" alt="calendar" class="date_calendar"> 25.09. 2019</span>
+
+                        <span class="event_location"> <img src="img/location-pin.png" alt="location" class="location_img"> <a href="#">вул. Личаківська 119</a></span>
+                        <span class="post_price"><img src="img/price-tag.png" alt="price" class="price_img"> від 100 грн</span>
+                        <div class="bottom_posr_descr">
+                            <a href="#" class="post_desct_tag"><i class="fas fa-child"></i> Для дітей</a>
+                            <a href="#" class="add_favorite"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-sm-6">
+               <article>
+                <div class="post_wrapper">
+                    <a href="#" class="img_post_link">
+                        <img src="img/1.jpg" alt="" class="post_img">
+                    </a>
+                    <div class="post_descr">
+                       <a href="#" class="post_link"><h2>Безкоштовний вхід в ботанічний сад</h2></a>
+                        <span class="event_date"><img src="img/appointment.png" alt="calendar" class="date_calendar"> 25.09. 2019</span>
+
+                        <span class="event_location"> <img src="img/location-pin.png" alt="location" class="location_img"> <a href="#">вул. Личаківська 119</a></span>
+                        <span class="post_price"><img src="img/price-tag.png" alt="price" class="price_img"> від 100 грн</span>
+                        <div class="bottom_posr_descr">
+                            <a href="#" class="post_desct_tag"><i class="fas fa-child"></i> Для дітей</a>
+                            <a href="#" class="add_favorite"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-sm-6">
+               <article>
+                <div class="post_wrapper">
+                    <a href="#" class="img_post_link">
+                        <img src="img/1.jpg" alt="" class="post_img">
+                    </a>
+                    <div class="post_descr">
+                       <a href="#" class="post_link"><h2>Безкоштовний вхід в ботанічний сад</h2></a>
+                        <span class="event_date"><img src="img/appointment.png" alt="calendar" class="date_calendar"> 25.09. 2019</span>
+
+                        <span class="event_location"> <img src="img/location-pin.png" alt="location" class="location_img"> <a href="#">вул. Личаківська 119</a></span>
+                        <span class="post_price"><img src="img/price-tag.png" alt="price" class="price_img"> від 100 грн</span>
+                        <div class="bottom_posr_descr">
+                            <a href="#" class="post_desct_tag"><i class="fas fa-child"></i> Для дітей</a>
+                            <a href="#" class="add_favorite"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </article>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <aside>
+                <div class="aside_calendar">
+                        <h3>Блок Календар</h3>
+                </div>
+                <div class="aside_cat_list">
+                    <ul>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                        <li> <a href="#"><img src="img/16.jpg" alt="img">Для дітей</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div><!--aside col-->
+        </div>
+
+    </div>
+</main>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer_calendar">
+                    <h3>Календар подій</h3>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="center_footer_box">
+                    <h3>Події на сьогодні</h3>
+                    <ul>
+                        <li>
+                            <a href="#">free enter to botanick garden</a>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="#">center</a> </p>
+                        </li>
+                        <li>
+                            <a href="#">free enter to botanick garden</a>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="#">center</a> </p>
+                        </li>
+                        <li>
+                            <a href="#">free enter to botanick garden</a>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="#">center</a> </p>
+                        </li>
+                        <li>
+                            <a href="#">free enter to botanick garden</a>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="#">center</a> </p>
+                        </li>
+                        <li>
+                            <a href="#">free enter to botanick garden</a>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="#">center</a> </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer_menu">
+                   <h3>Меню</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">lorem 1</a></li>
+                            <li><a href="#">lorem 2</a></li>
+                            <li><a href="#">lorem 3</a></li>
+                            <li><a href="#">lorem 4</a></li>
+                            <li><a href="#">lorem 5</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="mobile_body_wrapper"></div>
+    <!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+    <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+    <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+    <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+    <script src="libs/countdown/jquery.plugin.js"></script>
+    <script src="libs/countdown/jquery.countdown.min.js"></script>
+    <script src="libs/countdown/jquery.countdown-ru.js"></script>
+    <script src="libs/landing-nav/navigation.js"></script>
+    <script src="js/common.js"></script>
+    <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
