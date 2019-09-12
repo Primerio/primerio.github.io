@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-addToHomescreen();
+
 
 
      $(window).on("scroll", function() {
