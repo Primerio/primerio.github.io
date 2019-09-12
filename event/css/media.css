@@ -97,12 +97,7 @@
     .top_content {
 
     }
-    .top_content form {
-        margin: 100px 0 0;
-    }
-    .top_content input[type="button"] {
-        width: 25%;
-    }
+
     .top_content .todays_events {
         margin: 30px auto;
     }
