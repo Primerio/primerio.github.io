@@ -33,6 +33,11 @@
         border-top: 4px solid #ff3d55;
         overflow-y: auto;
     }
+    .logo {
+        margin-top: 10px;
+        height: 40px;
+        width: 130px;
+    }
     .main_menu ul{
         height: 100%;
     }
@@ -106,6 +111,14 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+     .post_img {
+        height: 200px !important;
+        width: 100%;
+    }
+    .img_post_link {
+        height: 200px;
+    }
 
 }
 
