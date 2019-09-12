@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+addToHomescreen();
+
 
      $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
