@@ -36,6 +36,7 @@ body {
 }
 .header_wrapper {
     background: url(../img/hb.jpg) center no-repeat ;
+    background-size: cover;
 }
 .header {
     background: rgba(30, 32, 36, 0.89);
@@ -72,16 +73,16 @@ address {
 
 .main_button {
     display: block;
-    height: 40px;
+    height: 50px;
     width: 215px;
-    line-height: 40px;
+    line-height: 50px;
     margin: 0 auto;
     text-align: center;
     background: #ffd25f;
     color: #1e2024;
     font-weight: bold;
     font-size: 16px;
-    letter-spacing: 1px;
+
 }
 
 .button_top .main_button:hover {
@@ -244,6 +245,7 @@ address {
     border: none;
     outline: none;
     font-weight: bold;
+    color: #1e2024;
 }
 .top_form {}
 .top_form {}
