@@ -30,6 +30,7 @@
         padding: 10px 20px;
         border-top: 4px solid #ff3d55;
         overflow-y: auto;
+        visibility: hidden;
     }
     .logo {
         margin-top: 10px;
@@ -58,6 +59,7 @@
         width: 70%;
         transition: all .30s;
         opacity: 1;
+        visibility: visible;
     }
     .sub-menu {
         position: static;
@@ -104,7 +106,16 @@
     .top_content .todays_events {
         margin: 30px auto;
     }
+    .add_event {
 
+        float: none;
+        margin: 10px auto;
+        background: #f91942;
+        height: 40px;
+        color: #fff !important;
+        padding: 0 !important;
+        line-height: 40px;
+    }
 }
 
 /* Extra Small Devices, Phones */

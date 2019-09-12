@@ -236,6 +236,7 @@ body {
     list-style: none;
     display: inline-block;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .fast_day a {
     display: block;
@@ -243,6 +244,10 @@ body {
     color: #fff;
     background: #f91942;
     border-radius: 5px;
+    text-align: center;
+    max-width: 150px;
+    width: 100%;
+    margin: 10px auto;
 }
 .fast_day {}
 .fast_day {}

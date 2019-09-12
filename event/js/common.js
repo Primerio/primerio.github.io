@@ -13,7 +13,7 @@ $(document).ready(function() {
 });
 
 $(".mobile_calendar_btn").click(function () {
-    $(this).next().slideToggle();
+    $(this).next().fadeToggle();
 });
 
 
