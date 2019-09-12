@@ -8,9 +8,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-    .top_content form {
-        max-width: 100%;
-    }
+
 }
 
 /* Small Devices, Tablets */
@@ -95,7 +93,7 @@
         height: 60px;
     }
     .top_content {
-        height: 300px;
+
     }
     .top_content form {
         margin: 100px 0 0;
@@ -118,6 +116,9 @@
     }
     .img_post_link {
         height: 200px;
+    }
+    .fast_day li {
+        display: list-item;
     }
 
 }
