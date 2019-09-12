@@ -338,10 +338,13 @@ main {
 .post_wrapper h2 {
     display: block;
     font-size: 20px;
-    margin: 5px 15px 5px;
-    color: #3e3e3e;
+    margin: 10px 0 5px;
+    color: #000000;
     transition: all .30s;
     font-weight: 600;
+    height: 50px;
+    border-left: 7px solid #f91942;
+    padding-left: 15px;
 }
 .post_wrapper h2:hover {
     color: #f91942;
@@ -367,13 +370,13 @@ main {
 }
 .post_wrapper .event_location a {
     color: #868686;
-    font-size: 17px;
+    font-size: 15px;
 }
 .location_img, .price_img, .date_calendar {
     float: left;
     height: 17px !important;
     width: 18px !important;
-    margin: 5px 5px 0 15px;
+    margin: 5px 10px 0 15px;
 
 }
 /*.fa-map-marker-alt {
@@ -384,7 +387,7 @@ main {
     display: block;
     margin: 10px 0 15px;
     color: #868686;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .post_wrapper .reed_more {
