@@ -72,15 +72,15 @@ address {
 
 .main_button {
     display: block;
-    height: 50px;
+    height: 40px;
     width: 215px;
-    line-height: 50px;
+    line-height: 40px;
     margin: 0 auto;
     text-align: center;
     background: #ffd25f;
     color: #1e2024;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
@@ -404,18 +404,24 @@ address {
 }
 .portfolio img {
     width: 100%;
+    height: 400px;
+
+    margin: 0px 0;
 }
 .portfolio h3 {
     margin-bottom: 20px;
+    text-align: center;
 }
-.portfolio p {}
+.portfolio p {
+
+}
 .portfolio a {
     display: block;
     height: 40px;
     width: 170px;
     line-height: 40px;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px auto;
     color: #434343;
     background: #ffd25f;
     font-weight: bold;
@@ -505,105 +511,6 @@ address {
 /******ready_offers******/
 
 
-.ready_offers {
-    padding-top: 50px;
-    background: #f5f5f5;
-}
-
-.all_offers_btn {
-    margin: 20px 0;
-    transition: all .30s;
-
-}
-
-.all_offers_btn a:hover {
-    background: #1e2024;
-    color: #fff;
-    transition: all .30s;
-}
-
-.all_offers_btn .fas {
-    margin-left: 8px;
-}
-
-.offers_slider {
-    margin-top: 30px;
-}
-
-.offers_item {
-    width: 95%;
-    margin: 10px;
-    border: 1px solid #eee;
-}
-
-.offers_item img {
-    width: 100%;
-    height: 240px !important;
-
-}
-
-.offers_item h4 {
-    text-align: center;
-    margin: 10px 0;
-    font-size: 16px;
-    font-weight: normal;
-}
-
-.offers_item h4 .offer_item_name {
-    font-weight: bold;
-    font-size: 20px;
-    margin-left: 5px;
-    color: #ffd25f;
-    max-width: 100%;
-}
-
-.offers_item .Offer_descr {
-    color: #a5a5a5;
-    margin: 10px
-}
-
-.offers_item .offer_item_price {
-    text-align: center;
-    font-size: 18px;
-}
-
-.offers_item .offer_item_price span {
-    color: #ffd25f;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.offers_item .get_offer {
-    display: block;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    margin-top: 20px;
-    background: #1e2024;
-    color: #fff;
-    transition: all .30s;
-
-}
-
-.offers_item .get_offer .fas {
-    margin-left: 8px;
-}
-
-.offers_item .get_offer:hover {
-    background: #ffd25f;
-    color: #1e2024;
-    transition: all .30s;
-    font-weight: bold;
-}
-
-.offers_slider .slick-prev {
-    background: #ffd25f !important;
-}
-
-.offers_slider .slick-next {
-    background: #ffd25f !important;
-}
 
 /******about_us******/
 
@@ -650,6 +557,27 @@ address {
     color: #a3a3a3;
 }
 
+
+
+/***********/
+.how_we_work {
+    background: #f5f5f5;
+    padding: 20px 0;
+}
+.work_wrapper {
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #ffd25f;
+    border-radius: 5px;
+}
+.work_wrapper h2 {
+    font-size: 18px;
+}
+.work_wrapper p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+.work_wrapper {}
 /******form******/
 .form {
     background: #1e2024;
