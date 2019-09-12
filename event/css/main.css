@@ -338,12 +338,12 @@ main {
 .post_wrapper h2 {
     display: block;
     font-size: 20px;
-    margin: 10px 0 5px;
+    margin: 10px 0 10px;
     color: #000000;
     transition: all .30s;
     font-weight: 600;
     height: 50px;
-    border-left: 7px solid #f91942;
+   border-left: 7px solid #f91942;
     padding-left: 15px;
 }
 .post_wrapper h2:hover {
@@ -379,15 +379,20 @@ main {
     margin: 5px 10px 0 15px;
 
 }
-/*.fa-map-marker-alt {
-    color: #d4d4d4;
+.post_wrapper .fa-map-marker-alt, .post_wrapper .fa-hand-holding-usd, .post_wrapper .fa-calendar-alt {
+    margin-left: 15px !important;
+    color: #f91942;
     margin: 0 5px 0 0;
-}*/
+}
 .post_price {
     display: block;
     margin: 10px 0 15px;
     color: #868686;
     font-size: 16px;
+}
+.post_price span {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .post_wrapper .reed_more {
