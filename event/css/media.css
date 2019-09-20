@@ -126,6 +126,9 @@
     .fast_day li {
         display: list-item;
     }
+    .post_index .col-xs-12 {
+        padding: 0;
+    }
 
 }
 
