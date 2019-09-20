@@ -331,7 +331,9 @@ main {
     font-size: 17px;
     color: #767676;
     font-weight: 100;
-    margin:0 0 10px;;
+    margin:0 0 10px;
+        color: #2e2e2e;
+    letter-spacing: 1px;
 }
 
 .post_wrapper h2 {
@@ -369,8 +371,9 @@ main {
 
 }
 .post_wrapper .event_location a {
-    color: #868686;
-    font-size: 15px;
+    color: #2e2e2e;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 .location_img, .price_img, .date_calendar {
     float: left;
@@ -380,7 +383,7 @@ main {
 
 }
 .post_wrapper .fa-map-marker-alt, .post_wrapper .fa-hand-holding-usd, .post_wrapper .fa-calendar-alt {
-    margin-left: 15px !important;
+    margin-left: 18px !important;
     color: #fff;
     background: #f91942;
     margin: 0 5px 0 0;
@@ -394,8 +397,9 @@ main {
 .post_price {
     display: block;
     margin: 10px 0 15px;
-    color: #868686;
+    color: #2e2e2e;
     font-size: 16px;
+    letter-spacing: 1px;
 }
 .post_price span {
     font-weight: bold;
