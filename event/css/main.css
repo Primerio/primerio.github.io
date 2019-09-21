@@ -37,12 +37,12 @@ body {
 
 .header {
     height: 80px;
-    background: #212121;
-    box-shadow: 0px 13px 25px -12px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    box-shadow: 0px 13px 15px -15px rgba(0, 0, 0, 0.25);
     z-index: 100;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid #838383;
+    border-bottom: 1px solid #c3c3c3;
 }
 
 .logo {
@@ -70,7 +70,7 @@ body {
 
 .main_menu a {
     display: inline-block;
-    color: #fff;
+    color: #464646;
     transition: all .30s;
     font-size: 17px;
     height: 80px;
@@ -90,10 +90,11 @@ body {
     margin-top: 15px;
     line-height: 50px !important;
     text-align: center;
-    color: #555 !important;
+    color: #2387ac !important;
     background: #fff;
     border-radius: 5px;
     font-weight: 400 !important;
+    border: 1px solid #c7c7c7;
 }
 
 .mobile_header_btn_style {
@@ -137,7 +138,7 @@ body {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #fff;
+    border-bottom: 10px solid #d4d3d3;
     z-index: 1000;
 }
 .sub-menu li {
@@ -231,40 +232,26 @@ body {
     padding-top: 100px;
     padding-bottom: 20px;
 }
-.fast_day {}
-.fast_day li {
-    list-style: none;
+.top_content img {
+    width: 100%;
+}
+.top_content h1 {
+}
+.top_content ul {
+    text-align: center;
+}
+.top_content li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 10px;
 }
-.fast_day a {
+.top_content a {
     display: block;
-    padding: 10px;
-    color: #fff;
-    background: #f91942;
-    border-radius: 5px;
-    text-align: center;
-    max-width: 150px;
-    width: 100%;
-    margin: 10px auto;
-}
-.fast_day {}
-.fast_day {}
-/*.top_se_descr {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.78);
     padding: 10px 20px;
-    color: #fff;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    color: #3291b4;
 }
-.top_se_descr .top_se_date {
-}
-.top_se_descr .top_se_location {
-}
-.top_se_descr h2 {
-}*/
 
 /*****************************************/
 
@@ -521,7 +508,7 @@ main {
     font-weight: 900;
     content: "\f078";
     position: absolute;
-    color: #fff;
+    color: #2c2c2c;
     font-size: 10px;
     right: -10px;
     top: 4px;

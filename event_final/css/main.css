@@ -1,0 +1,120 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+body input:required:valid,
+body textarea:required:valid {
+
+}
+body {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+    background: #fafafa;
+}
+
+.aside {
+    background: #fff;
+    padding: 20px 10px;
+}
+.cat_wrapper {}
+.cat_wrapper ul {}
+.cat_wrapper li {
+    list-style: none;
+    margin-top: 5px;
+    border: 1px solid #ebebeb;
+    height: 42px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 3px 7px -8px #000000;
+}
+.cat_wrapper img {
+    display: block;
+    width: 60px;
+    height: 40px;
+    margin-right: 15px;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.cat_wrapper a {
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+/**********************/
+.events_wrapper {
+
+}
+.event_item {
+    background: #fff;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 3px 7px -5px #000000;
+    margin-top: 25px;
+}
+.event_item figure {}
+.event_item figure img {
+    width: 100%;
+    height: 150px;
+}
+.event_item .event_descr {
+    padding: 10px;
+    height: 160px;
+}
+.event_item h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #464646;
+}
+.event_item .event_lpcation {
+    font-size: 14px;
+    color: #6a92ff;
+
+}
+.event_item .event_date {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #888787;
+}
+.event_bottom_descr {
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    border-top: 1px solid #ededed;
+}
+.event_bottom_descr .event_item_cat {
+    float: left;
+    font-size: 15px;
+    color: #6a92ff;
+}
+.event_bottom_descr .add_to_favorite {
+    float: right;
+}
+
+.event_bottom_descr {}
+.event_bottom_descr {}
+.event_bottom_descr {}
