@@ -234,6 +234,7 @@ body {
 }
 .top_content img {
     width: 100%;
+    border-radius: 30px;
 }
 .top_content h1 {
 }
@@ -280,7 +281,7 @@ main {
 
 .post_wrapper img {
     width: 100%;
-    height: 250px;
+    height: 150px;
     transition: all .80s;
 }
 .img_post_link {
@@ -288,7 +289,7 @@ main {
  /*   position: absolute;
     top: 0;
     left: 0;*/
-    height: 250px;
+    height: 150px;
     width: 100%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.58);
@@ -309,13 +310,13 @@ main {
     transition: all .80s;
 }
 .post_wrapper .post_descr {
-
+    height: 150px;
 }
 
 .post_wrapper .event_date {
 
     display: block;
-    font-size: 17px;
+    font-size: 15px;
     color: #767676;
     font-weight: 100;
     margin:0 0 10px;
@@ -325,12 +326,12 @@ main {
 
 .post_wrapper h2 {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0 10px;
     color: #000000;
     transition: all .30s;
     font-weight: 600;
-    height: 50px;
+
   /* border-left: 5px solid #f91942;*/
     /*border-right: 5px solid #f91942;*/
     padding-left: 15px;
@@ -358,9 +359,10 @@ main {
 
 }
 .post_wrapper .event_location a {
+    display: block;
     color: #2e2e2e;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
 .location_img, .price_img, .date_calendar {
     float: left;
@@ -423,8 +425,7 @@ main {
     border-bottom-right-radius: 5px;
 }
 .bottom_posr_descr {
-    height: 50px;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #ffffff;
 }
 .bottom_posr_descr {
     border-top: 1px solid #e8e8e8;
