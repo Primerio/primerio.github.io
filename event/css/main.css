@@ -279,7 +279,7 @@ body {
     padding: 5px;
     color: #fff;
     font-weight: bold;
-    background: #c7d464;
+    background: #2baae1;
     z-index: 10;
 }
 .post_slider_item figure {
@@ -380,6 +380,7 @@ main {
     margin: 0 0 32px 0;
     transition: all .30s;
     background: #fff;
+    padding-bottom: 10px;
 
 }
 
@@ -390,6 +391,7 @@ main {
 
 .post_wrapper img {
     width: 100%;
+    height: 100%;
     transition: all .80s;
 }
 .img_post_link {
@@ -397,7 +399,6 @@ main {
     height: 220px;
     width: 100%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.58);
     position: relative;
 }
 .img_post_link:before {
@@ -462,15 +463,13 @@ main {
     display: block;
 }*/
 
-.post_wrapper .event_location {
-    display: block;
 
-}
-.post_wrapper .event_location a {
+.event_location {
     display: block;
     color: #2e2e2e;
-    font-size: 15px;
-    margin-bottom: 15px;
+    font-size: 16px;
+
+
 }
 .location_img, .price_img, .date_calendar {
     float: left;
@@ -491,30 +490,9 @@ main {
     border-radius: 50%;
     font-size: 15px;
 }
-.post_price {
-    display: block;
-    margin: 10px 0 15px;
-    color: #2e2e2e;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-.post_price span {
-    font-weight: bold;
-    font-size: 18px;
-}
 
-.post_wrapper .reed_more {
-    display: block;
-    height: 50px;
-    text-align: center;
-    border-top: 1px solid #eee;
-    line-height: 50px;
-    background: #0e385e;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    transition: all .30s;
-}
+
+
 
 .post_wrapper .reed_more:hover {
     background: #ff6644;
@@ -744,4 +722,17 @@ aside {
 }
 .single_post .post_text {
     margin: 50px 0;
+}
+
+
+
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+    flex-wrap: wrap;
 }
