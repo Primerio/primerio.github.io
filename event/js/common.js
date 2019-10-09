@@ -9,6 +9,9 @@ $('.post_slider').slick({
 });
 
 
+
+
+
      $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
         $(".header").addClass("scroll_active");
