@@ -125,7 +125,20 @@
         display: list-item;
     }
 
+    .post_slider_item h2  {
+        padding: 5px;
+        font-size: 20px;
+    }
 
+    .post_slider {
+       height: 300px;
+    }
+    .post_slider_item figure {
+        height: 270px;
+    }
+    .post_slider_item:before {
+        height: 270px;
+    }
 }
 
 /* Custom, iPhone Retina */
