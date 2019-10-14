@@ -147,10 +147,12 @@
     .slick-next {
         top: 38%;
         right: -5px !important;
+        display: none !important;
     }
     .slick-prev {
         top: 38%;
         left: -5px !important;
+        display: none !important;
     }
     .top-slider-item .headline-price:before {
         height: 0;
@@ -178,6 +180,11 @@
     }
     .vcenter{
         padding: 0;
+    }
+    .slick-dots li button:before {
+        background: #f1861d;
+        color: transparent !important;
+        border-radius: 50%;
     }
 }
 
