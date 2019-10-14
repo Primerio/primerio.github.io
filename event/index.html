@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="libs/slick/slick.css">
     <link rel="stylesheet" href="libs/slick/slick-theme.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <!--   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">-->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
@@ -32,7 +32,7 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-8">
+                <div class="col-md-3 col-sm-3 col-xs-8">
                     <div class="logo"><a href="/"><img src="img/logo-white-1.png" alt="logo"></a></div>
                 </div>
 
@@ -43,7 +43,7 @@
                 <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
                     <span class="mobile_nav_btn mobile_header_btn_style"><i class="fas fa-bars"></i></span>
                 </div>
-                <div class="col-md-10 col-sm-10 col-xs-12">
+                <div class="col-md-9 col-sm-9 col-xs-12">
                     <nav class="main_menu">
                         <ul>
                             <li><a href="#">Головна</a></li>
@@ -56,7 +56,7 @@
                                 </ul>
                             </li>
                             <li><a href="#">Календар подій</a></li>
-                            <li><a href="#" class="add_event hidden-sm ">Добавити подію <i class="fas fa-plus"></i></a></li>
+                            <li><a href="#" class="add_event hidden-sm gradient gradient-hover">Добавити подію <i class="fas fa-plus"></i></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -65,88 +65,68 @@
     </header>
     <section class="top_content">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="post_slider">
-                        <div class="post_slider_item">
-                            <span class="slider_img_wrapper">
-                                <a href="#" class="slider_item_cat">Цікаві події</a>
-                                <span class="slider_item_time">01 жовтня 2019</span>
-                                <figure>
-                                    <a href="#"><img src="img/2.jpg" alt="img"></a>
-                                    <figcaption>
-                                        <a href="#">
-                                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </h2>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </span>
+            <div class="top-slider">
+               <!--post-->
+                <div class="top-slider-item">
+                   <span class="slider-date gradient">13 жовт</span>
+                    <figure>
+                        <img src="img/5.jpg" alt="#">
+                    </figure>
+                    <div class="slider-descr">
+                        <div class="headline-price">
+                            <h2>Безкоштовний вхід в ботанічний сад</h2>
+                            <p>Ціна:<span>100-200 грн</span></p>
                         </div>
-
-                        <div class="post_slider_item">
-                            <span class="slider_img_wrapper">
-                                <a href="#" class="slider_item_cat">Цікаві події</a>
-                                <span class="slider_item_time">01 жовтня 2019</span>
-                                <figure>
-                                    <a href="#"><img src="img/3.jpg" alt="img"></a>
-                                    <figcaption>
-                                        <a href="#">
-                                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ipsam?</h2>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </span>
-                        </div>
-
-                        <div class="post_slider_item">
-                            <span class="slider_img_wrapper">
-                                <a href="#" class="slider_item_cat">Цікаві події</a>
-                                <span class="slider_item_time">01 жовтня 2019</span>
-                                <figure>
-                                    <a href="#"><img src="img/4.jpg" alt="img"></a>
-                                    <figcaption>
-                                        <a href="#">
-                                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ipsam?</h2>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </span>
-                        </div>
-
-                        <div class="post_slider_item">
-                            <span class="slider_img_wrapper">
-                                <a href="#" class="slider_item_cat">Цікаві події</a>
-                                <span class="slider_item_time">01 жовтня 2019</span>
-                                <figure>
-                                    <a href="#"><img src="img/5.jpg" alt="img"></a>
-                                    <figcaption>
-                                        <a href="#">
-                                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ipsam?</h2>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </span>
-                        </div>
+                        <span class="inner-date"><i class="far fa-calendar-alt"></i> 10.10.2019 - 13.10.2019</span>
+                        <span class="slider-location"><i class="fas fa-map-marker-alt"></i> вул. Личаківська 115</span>
+                        <a href="#" class="slider-more-info gradient">Переглянути</a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="today_events_top">
-                        <h2>Події сьогодні</h2>
-                        <ul>
-                            <li><a href="#"> Lorem ipsum dolor sit amet, consectetur adipisicing.</a></li>
-                            <li><a href="#"> Ex recusandae culpa, autem consequatur, modi dicta.</a></li>
-                            <li><a href="#"> Vitae, animi quaerat iste esse distinctio eveniet!</a></li>
-                            <li><a href="#"> Veritatis voluptates ipsam asperiores omnis. Earum, ratione?</a></li>
-                            <li><a href="#"> At, molestias iure tempora obcaecati, corporis impedit.</a></li>
-
-                        </ul>
-                        <a href="#" class="more_today_events">Більше подій</a>
+                <!--post end-->
+                   <!--post-->
+                <div class="top-slider-item">
+                   <span class="slider-date gradient">13 жовт</span>
+                    <figure>
+                        <img src="img/5.jpg" alt="#">
+                    </figure>
+                    <div class="slider-descr">
+                        <div class="headline-price">
+                            <h2>Безкоштовний вхід в ботанічний сад</h2>
+                            <p>Ціна:<span>100-200 грн</span></p>
+                        </div>
+                        <span class="inner-date"><i class="far fa-calendar-alt"></i> 10.10.2019 - 13.10.2019</span>
+                        <span class="slider-location"><i class="fas fa-map-marker-alt"></i> вул. Личаківська 115</span>
+                        <a href="#" class="slider-more-info gradient">Переглянути</a>
                     </div>
                 </div>
+                <!--post end-->
+                   <!--post-->
+                <div class="top-slider-item">
+                   <span class="slider-date gradient">13 жовт</span>
+                    <figure>
+                        <img src="img/5.jpg" alt="#">
+                    </figure>
+                    <div class="slider-descr">
+                        <div class="headline-price">
+                            <h2>Безкоштовний вхід в ботанічний сад</h2>
+                            <p>Ціна:<span>100-200 грн</span></p>
+                        </div>
+                        <span class="inner-date"><i class="far fa-calendar-alt"></i> 10.10.2019 - 13.10.2019</span>
+                        <span class="slider-location"><i class="fas fa-map-marker-alt"></i> вул. Личаківська 115</span>
+                        <a href="#" class="slider-more-info gradient">Переглянути</a>
+                    </div>
+                </div>
+                <!--post end-->
             </div>
         </div>
     </section>
+<section class="top-search">
+    <div class="container">
+        <div class="row">
 
+        </div>
+    </div>
+</section>
 
     <!--
 
