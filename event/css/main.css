@@ -46,6 +46,9 @@ body {
     background: linear-gradient(to top left, #ffbe30 , #ff3e00) !important;
     transition: all .3s ease-in-out;
 }
+.flex-container {
+}
+
 .header {
     height: 80px;
     background: #212121;
@@ -399,9 +402,9 @@ main {
     background: #fff;
     padding-bottom: 10px;
     padding-bottom: 10px;
-
+    width: 100%;
+    min-height: 330px;
 }
-
 .post_wrapper:hover {
     box-shadow: 0px 0px 27px -19px #000000;
     transition: all .30s;
@@ -749,7 +752,5 @@ aside {
 
 .vcenter {
   display: inline-block;
-  float: none;
-  vertical-align: middle;
+  vertical-align: top;
 }
-

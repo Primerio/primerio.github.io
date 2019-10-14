@@ -1,8 +1,11 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1300px) {
 
+    .post_wrapper  {
+        min-height: 360px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -13,6 +16,13 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+      .post_wrapper  {
+        max-width: 400px;
+          width: 100%;
+          margin: 20px auto;
+        min-height: 300px !important;
+    }
 
     .main_menu {
         position: absolute;
@@ -112,32 +122,60 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-     .post_img {
-        height: 200px !important;
+@media only screen and (max-width : 600px) {
+    .top-slider-item .slider-descr {
+        position: static;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10px;
+        padding: 20px 0 20px 0;
+    }
+    .top-slider {
+        padding-left: 0;
+    }
+    .top-slider-item {
+        height: 100%;
+        padding: 0;
+        padding: 5px;
+        min-height: 510px;
+        height: 100%;
+    }
+    .top-slider-item figure img {
+        height: 200px;
         width: 100%;
     }
-    .img_post_link {
-        height: 200px;
+    .slick-next {
+        display: none !important;
     }
-    .fast_day li {
-        display: list-item;
+    .slick-prev {
+        display: none !important;
     }
-
-    .post_slider_item h2  {
-        padding: 5px;
-        font-size: 20px;
+    .top-slider-item .headline-price:before {
+        height: 0;
+        width: 0;
+        display: none;
     }
-
-    .post_slider {
-       height: 300px;
+    .top-slider-item .headline-price h2 {
+        height: 100%;
+        margin-bottom: 20px;
+        border-left: 6px solid #f1861d;
+        padding-left: 20px;
     }
-    .post_slider_item figure {
-        height: 270px;
+    .top-slider-item .inner-date {
+        padding-left: 20px;
+        margin: 10px 0;
     }
-    .post_slider_item:before {
-        height: 270px;
+    .top-slider-item .slider-location {
+        padding-left: 20px;
+    }
+    .top-slider-item .headline-price p {
+        padding-left: 34px;
+    }
+    .top-slider-item .slider-more-info {
+        max-width: 90%;
+    }
+    .vcenter{
+        padding: 0;
     }
 }
 
