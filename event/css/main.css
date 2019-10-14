@@ -117,7 +117,7 @@ body {
     height: 40px;
     width: 40px;
     margin: 10px 0;
-    background: #ff6644;
+    background: transparent;
     z-index: 10;
     font-size: 20px;
     color: #fff;
@@ -126,6 +126,7 @@ body {
     float: right;
     cursor: pointer;
     border-radius: 5px;
+    border: 1px solid #4a4a4a;
 }
 
 .sub_menu_container {
