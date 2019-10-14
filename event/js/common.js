@@ -6,7 +6,8 @@ $('.top-slider').slick({
   speed: 300,
   slidesToShow: 2,
     'centerPadding': '60px',
-
+ autoplay: true,
+  autoplaySpeed: 3000,
   slidesToScroll: 1,
   responsive: [
     {
