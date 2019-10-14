@@ -145,10 +145,12 @@
         width: 100%;
     }
     .slick-next {
-        display: none !important;
+        top: 38%;
+        right: -5px !important;
     }
     .slick-prev {
-        display: none !important;
+        top: 38%;
+        left: -5px !important;
     }
     .top-slider-item .headline-price:before {
         height: 0;
