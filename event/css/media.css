@@ -75,7 +75,7 @@
         z-index: 100;
         opacity: 0;
         padding: 10px 20px;
-        border-top: 4px solid #ff3d55;
+        border-top: 4px solid #f1861d;
         overflow-y: auto;
         visibility: hidden;
     }
@@ -102,6 +102,9 @@
         line-height: 30px !important;
         color: #3e3e3e;
     }
+    .sub-menu:after {
+        display: none;
+    }
     .mobile_menu_open {
         width: 70%;
         transition: all .30s;
@@ -120,7 +123,7 @@
     .sub_menu_container:before {
         color: #000;
         top: 20px;
-        left: 70px;
+        left: 80px;
     }
     .sub-menu li {
         padding: 0;
@@ -162,6 +165,11 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 460px) {
+
+    .main_headline {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
     .top-slider-item .slider-descr {
         position: static;
         width: 100%;
@@ -231,6 +239,10 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+    .main_menu ul li:last-child a {
+    font-size: 14px !important;
+    width: 180px;
+}
 
 }
 
