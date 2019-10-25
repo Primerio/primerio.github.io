@@ -109,7 +109,7 @@ body {
     background: #ff6644;
     border-radius: 5px;
     font-weight: 400 !important;
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
 }
 
 .mobile_header_btn_style {
@@ -154,7 +154,7 @@ body {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #d4d3d3;
+    border-bottom: 10px solid #ffffff;
     z-index: 1000;
 }
 .sub-menu li {
@@ -179,7 +179,7 @@ body {
 }
 
 .sub-menu li a:hover {
-    background: #ff6644;
+    background: #f1861d;
     color: #fff;
 }
 
@@ -394,7 +394,7 @@ body {
 
 /*****************************************/
 .top-search {
-    min-height: 240px;
+
     padding: 10px 0;
     background: url(../img/special-offer-bg.png) center no-repeat;
     background-size: cover;
@@ -459,7 +459,9 @@ main {
     margin-bottom: 30px;
     font-size: 30px;
 }
-
+.main_headline span {
+    color: #f1861d;
+}
 .post_wrapper {
     max-width: 100%;
     border: 1px solid #e5e5e5;
@@ -530,7 +532,7 @@ main {
     transition: all .30s;
     font-weight: 600;
     padding-left: 15px;
-    border-left: 4px solid #f1861d
+    border-left: 4px solid #f1861d;
 }
 .post_wrapper h2:hover {
     color: #ff6644;
@@ -639,7 +641,7 @@ main {
 /**************************************************************************/
 
 .footer {
-    background: url(../img/footer-bg.jpg) center no-repeat;
+    background: #212121;
     background-size: cover;
     padding: 20px 0;
 }
@@ -742,18 +744,27 @@ main {
 /****************************************/
 
 aside {
-    background: #fff;
 }
 .aside_calendar {
     width: 100%;
     height: 300px;
+    background: #212121;
+    padding: 10px;
 }
 .aside_calendar h3 {
     text-align: center;
-}
-.aside_cat_list {}
-.aside_cat_list ul {
+    color: #fff;
 
+}
+.aside_cat_list {
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.aside_cat_list h3 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 .aside_cat_list li {
     list-style: none;
@@ -761,15 +772,12 @@ aside {
     border-bottom: 1px solid #f5ecec;
     padding: 10px
 }
-.aside_cat_list img {
-    display: inline-block;
-    border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    margin-right: 10px;
-}
+
 .aside_cat_list a {
     color: #717171;
+}
+.aside_cat_list a:hover {
+    color: #f0a81f;
 }
 /************************page ************************************************/
 
@@ -787,11 +795,33 @@ aside {
 .single_post figure {
     text-align: center;
 }
+.single_post .item-wrapper {
+    background: #e2e2e2;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.single_post .item-wrapper h2 {
+    font-size: 16px;
+}
+.single_post .item-wrapper p {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.post-cat {
+    text-align: left;
+    display: block;
+    margin: 20px 32px 0;
+}
 .single_post h1 {
     text-align: left;
     font-size: 30px;
     color: #484848;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: normal;
 }
 .single_post .left_post_descr {
     margin-left: 30px;
@@ -801,8 +831,15 @@ aside {
     margin: 10px 0;
 }
 .single_post i {
-    margin-right: 10px;
-    color: #ff6644
+    margin-right: 5px;
+    color: #f1861d;
+}
+.left_post_descr a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+   background: linear-gradient(to bottom right, #ffbe30 , #ff3e00);
+    color: #fff;
 }
 .single_post .post_text {
     margin: 50px 0;
@@ -813,3 +850,56 @@ aside {
   display: inline-block;
   vertical-align: top;
 }
+
+/*****************form********************/
+.send-event-form {}
+.send-event-form h1 {
+    margin: 20px 10px;
+    color: #f1861d;
+}
+.send-event-form p {
+    margin: 10px 10px;
+}
+.send-event-form form{
+    padding: 10px;
+}
+.send-event-form input[type="text"]{
+    display: block;
+    outline: none;
+    padding: 7px 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+}
+.send-event-form input[type="file"] {
+    display: block;
+}
+.send-event-form textarea {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    padding: 15px;
+    font-size: 15px;
+}
+.send-event-form input[type="button"]{
+    display: block;
+    max-width: 150px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #212121;
+}
+
+
+/*****************form********************/
