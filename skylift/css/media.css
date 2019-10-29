@@ -14,9 +14,7 @@
         float: none;
         margin: 20px auto;
     }
-    .header-phone {
-        margin-top: 10px;
-    }
+
     .header-phone a {
         margin: 0 auto;
     }
@@ -27,6 +25,43 @@
         max-width: 500px;
     }
 
+    .main-menu {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background: #fff;
+        z-index: 100;
+        display: none;
+    }
+    .main-menu li {
+       display: block;
+        margin: 20px 0;
+    }
+    .main-menu a {
+        color: #000;
+    }
+    .main-menu .active {
+        color: #E37422;
+        border-bottom: 1px solid #E37422;
+    }
+    .menu-btn {
+        background: transparent;
+        border: none;
+        outline: none;
+        color:#fff;
+        font-size: 18px;
+        margin-top: 0px;
+        position: absolute;
+        right: 20px;
+        top: 70px;
+        z-index: 1000;
+    }
+    .menu-btn i {
+        color: #E37422;
+        font-size: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -41,6 +76,45 @@
     }
     .header-text h1 {
         font-size: 30px;
+    }
+    .header-services-item {
+        width: 256px;
+        margin: 20px auto;
+    }
+    .header-services  {
+        margin-top: 50px;
+    }
+    .get-price h3 {
+        text-align: center;
+    }
+    .get-price-btn {
+        margin: 20px auto;
+    }
+    .slick-prev {
+        visibility: hidden;
+        display: none !important;
+    }
+    .slick-next {
+        visibility: hidden;
+        display: none !important;
+    }
+    .social-links {
+        text-align: center;
+        margin: 20px;
+    }
+    .left-footer-menu, .right-footer-menu {
+        float: none;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .footer-bottom a {
+        float: none;
+
+    }
+    .footer-bottom p {
+        float: none;
+        margin-bottom: 10px;
     }
 
 }
@@ -75,10 +149,14 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+     .main-menu {
+        display: block !important;
+    }
 
 }
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
 
 }

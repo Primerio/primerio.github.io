@@ -7,6 +7,10 @@ $(document).ready(function() {
       slidesToScroll: 1
     });
 
+    $(".menu-btn").click(function () {
+    $(".main-menu").fadeToggle();
+    });
+
     //Таймер обратного отсчета
     //Документация: http://keith-wood.name/countdown.html
     //<div class="countdown" date-time="2015-01-07"></div>

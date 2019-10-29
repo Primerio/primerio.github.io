@@ -27,7 +27,7 @@ body textarea:required:valid {
 
 }
 body {
-    font-family: "RobotoRegular", sans-serif;
+    font-family: 'SF Pro Display' normal;
     font-size: 15px;
 }
 
@@ -41,7 +41,7 @@ body {
 .logo {
     margin: 20px 0;
 }
-.left-header-menu, .right-header-menu {
+/*.left-header-menu, .right-header-menu {
     margin: 40px 0;
     float: right;
 }
@@ -60,21 +60,47 @@ body {
 .left-header-menu .active, .right-header-menu .active {
     border-bottom: 1px solid #fff;
 
+}*/
+.main-menu {
+    text-align: center;
+    margin: 30px 0;
+}
+.main-menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 16px;
+}
+.main-menu li:first-child {
+    margin-left: 0;
+}
+.main-menu li:last-child {
+    margin-right: 0;
+}
+.main-menu a {
+    color: #bebebe;
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 5px;
+}
+.main-menu .active {
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
 .header-phone {
     margin-top: 60px;
+    text-align: right;
 }
 .header-phone a {
-    display: block;
-    width: 220px;
-    height: 40px;
     border: 2px solid #E37422;
     border-radius: 22px;
+    padding: 10px 20px;
     color: #fff;
     text-align: center;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 36px;
+}
+.header-text {
+    margin-top: 70px;
 }
 .header-text h1 {
     font-size: 50px;
@@ -103,7 +129,7 @@ body {
 }
 /**********************************header-services***************************/
 .header-services {
-    margin-top: -150px;
+    margin-top: -100px;
 }
 .header-services-item {
     margin-bottom: 26px;
@@ -384,3 +410,161 @@ font-size: 18px;
 .footer-bottom a {
     float: right;
 }
+/**********************************************************************************************/
+/***********************************************demontaj page**********************************/
+/**********************************************************************************************/
+.text-info-services {
+    padding: 50px 0;
+    background: #F4F4F4;
+}
+.text-info-services p {
+    font-size: 16px;
+}
+.sevrice-form {
+    margin-top: 59px;
+    text-align: center;
+    padding-top: 70px;
+    border-top: 1px solid #DDDDDD;
+}
+.text-info-services h2 {
+    text-align: center;
+    margin: 0 0 30px;
+    font-size: 36px;
+    color: #000;
+    text-transform: uppercase;
+}
+.sevrice-form input[type="text"] {
+    display: inline-block;
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    color: #000;
+    margin: 8px;
+}
+.sevrice-form button {
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background: #E37422;
+    margin: 8px;
+}
+.features-white-bg {
+    background: #fff;
+}
+/*****************************price-list******************************/
+.price-list {
+    text-align: center;
+    margin-bottom: -150px;
+    z-index: 100;
+    position: relative;
+}
+.price-wrapper {
+    background: url(../img/get-price-list-bg.jpg) center no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.price-wrapper h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+}
+.price-wrapper p {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0 30px;
+}
+.price-wrapper a {
+    display: block;
+    width: 200px;
+    height: 60px;
+    background: #fff;
+    color: #000;
+    line-height: 60px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+/***********************************quotes-service-page**************************/
+.quotes-service-page {
+    padding-top: 200px;
+}
+/**********************************************************************************************/
+/***********************************************mojka-okon page**********************************/
+/**********************************************************************************************/
+
+.single-service {
+    padding: 70px 0;
+}
+.single-service-wrapper img {
+    max-width: 500px;
+    width: 100%;
+    max-height: 370px;
+    height: 100%;
+}
+.single-service-wrapper h2 {
+    font-size: 36px;
+    line-height: 42px;
+    margin: 20px 0;
+    color: #000;
+}
+.single-service-wrapper p {
+    font-size: 16px;
+    margin: 30px 0;
+    color: #555555;
+}
+.single-service-wrapper li {
+    margin: 20px 0;
+    padding-left: 20px;
+    list-style: none;
+    position: relative;
+}
+.single-service-wrapper li:before {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: #E37422;
+    border-radius: 50%;
+    left: 0;
+    top: 6px;
+}
+.single-service-wrapper ul li p {
+    margin: 0;
+}
+.price-list-single {
+    margin-bottom: 0;
+    position: static;
+}
+/**************************how-work-video********************/
+.how-work-video {
+    text-align: center;
+    margin: 50px 0;
+    padding: 195px 0;
+    background: url(../img/video-bg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.how-work-video h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+}
+.how-work-video a {
+    display: block;
+    height: 90px;
+    width: 90px;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 90px;
+    color: #E37422;
+    font-size: 20px;
+    margin: 20px auto;
+}
+.how-work-video {}
+.how-work-video {}
