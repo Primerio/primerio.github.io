@@ -32,7 +32,7 @@ body {
 }
 
 /**************************************header*******************************/
-.header-wrapper {
+.header-wrapper-index {
     height: 900px;
     background: url(../img/BG.jpg) center no-repeat;
     background-size: cover;
@@ -413,6 +413,16 @@ font-size: 18px;
 /**********************************************************************************************/
 /***********************************************demontaj page**********************************/
 /**********************************************************************************************/
+.header-wrapper-destr {
+    background: url(../img/demontaj-bg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+.header-wrapper-destr h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
 .text-info-services {
     padding: 50px 0;
     background: #F4F4F4;
@@ -496,7 +506,23 @@ font-size: 18px;
 /**********************************************************************************************/
 /***********************************************mojka-okon page**********************************/
 /**********************************************************************************************/
-
+.header-wrapper-clean {
+    background: url(../img/clean-bg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+.header-wrapper-clean h1 {
+    color: #fff;
+}
+.header-descr {
+    padding-left: 30px;
+    border-left: 4px solid #E37422;
+}
+.header-descr p {
+    font-size: 20px;
+    color: #BBBBBB;
+}
 .single-service {
     padding: 70px 0;
 }
@@ -566,5 +592,3 @@ font-size: 18px;
     font-size: 20px;
     margin: 20px auto;
 }
-.how-work-video {}
-.how-work-video {}
