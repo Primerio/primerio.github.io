@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]>
+<!-->
 <html lang="ru">
 <!--<![endif]-->
+
 <head>
     <meta charset="utf-8" />
     <title>Заголовок</title>
@@ -24,92 +30,576 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
 </head>
+
 <body>
-<div class="top-section">
-    <header class="header">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2">
-                <div class="logo">
-                    <a href="#">
-                        <img src="img/logo.png" alt="logo">
-                    </a>
+    <div class="top-section">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <nav class="main-menu">
+                            <ul>
+                                <li><a href="#" class="active">Головна</a></li>
+                                <li><a href="#">Набори</a></li>
+                                <li><a href="#">Доставка</a></li>
+                                <li><a href="#">Сервіс</a></li>
+                                <li><a href="#">Відгуки</a></li>
+                                <li><a href="#">Контакти</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="top-phone">
+                            <a href="tel:0957885380">+38 095 788 53 80</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-7">
-                <nav class="main-menu">
-                    <ul>
-                        <li><a href="#" class="active">Головна</a></li>
-                        <li><a href="#">Набори</a></li>
-                        <li><a href="#">Доставка</a></li>
-                        <li><a href="#">Сервіс</a></li>
-                        <li><a href="#">Відгуки</a></li>
-                        <li><a href="#">Контакти</a></li>
-                    </ul>
-                </nav>
+        </header>
+        <section class="top-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-2">
+                        <div class="top-slider">
+                            <div class="top-slider-item">
+                                <span class="top-slider-headline wow rollIn">
+                                    стильна <br>
+                                    класика
+                                </span>
+                                <p>
+                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                                </p>
+                            </div>
+                            <div class="top-slider-item">
+                                <span class="top-slider-headline">
+                                    стильна <br>
+                                    класика
+                                </span>
+                                <p>
+                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                                </p>
+                            </div>
+                            <div class="top-slider-item">
+                                <span class="top-slider-headline">
+                                    стильна <br>
+                                    класика
+                                </span>
+                                <p>
+                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <figure class="top-socks wow fadeInRight">
+                            <img src="img/socks-top.png" alt="socks-top">
+                        </figure>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3">
-                <div class="top-phone">
-                    <a href="tel:0957885380">+38 095 788 53 80</a>
+        </section>
+    </div>
+
+    <section class="counters">
+        <div class="container benefits__inner">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="count-item">
+                        <span class="benefits__number">1537</span>
+                        <p>Замовили повторно <br> клієнтів</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count-item">
+                        <span class="benefits__number">751</span>
+                        <p>відправили в населених <br> пунктів україни</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count-item">
+                        <span class="benefits__number">5285</span>
+                        <p>продано наборів <br> шкарпетов</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count-item">
+                        <span class="benefits__number">81130</span>
+                        <p>продано пар <br> шкарпеток</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
-<section class="top-content">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 col-md-offset-2">
-                <div class="top-slider">
-                    <div class="top-slider-item">
-                       <span class="top-slider-headline wow rollIn">
-                           стильна <br>
-                            класика
-                       </span>
-                            <p>
-                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                            </p>
+    </section>
+    <section class="mens-line">
+        <div class="headline-main headline-img-left">
+            <h2 class="wow fadeInLeft">men's line</h2>
+        </div>
+        <div class="container">
+            <div class="row items-list">
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
                     </div>
-                    <div class="top-slider-item">
-                       <span class="top-slider-headline">
-                           стильна <br>
-                            класика
-                       </span>
-                            <p>
-                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                            </p>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
                     </div>
-                    <div class="top-slider-item">
-                       <span class="top-slider-headline">
-                           стильна <br>
-                            класика
-                       </span>
-                            <p>
-                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                            </p>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+
+
+
+     <section class="womens-line">
+        <div class="headline-main headline-img-right">
+            <h2 class="wow fadeInRight">women's line</h2>
+        </div>
+        <div class="container">
+            <div class="row items-list">
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+ <section class="kids-line">
+        <div class="headline-main headline-img-left">
+            <h2 class="wow fadeInLeft">kid's line</h2>
+        </div>
+        <div class="container">
+            <div class="row items-list">
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUpBig">
+                    <div class="main-item">
+                        <figure>
+                            <img src="img/sock-m-1.jpg" alt="img">
+                        </figure>
+                        <div class="main-item-descr">
+                            <h3>Premium black</h3>
+                            <p>8 пар - <span>299</span> грн</p>
+                            <p>15 пар - <span>599</span> грн</p>
+                            <p>30 пар - <span>1099</span> грн</p>
+                            <a href="#">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="sevices">
+   <div class="services-headline">
+       <h2>Ідеальний сервіс<br> від mr. socks - це ...</h2>
+   </div>
+    <div class="container">
+        <div class="row">
             <div class="col-md-6">
-                <figure class="top-socks wow fadeInRight">
-                    <img src="img/socks-top.png" alt="socks-top">
-                </figure>
+                <div class="service-item">
+                    <figure>
+                        <img src="img/diamant.png" alt="img">
+                    </figure>
+                    <h3>Краща якість та склад<br> від українських<br> виробників</h3>
+                    <p>Ми відібрали тільки кращої якості шкарпетки від українських виробників, і можемо гарантувати, що вони будуть міцними навіть після 10-го прання</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                 <div class="service-item">
+                    <figure>
+                        <img src="img/free.png" alt="img">
+                    </figure>
+                    <h3>своєчасна БЕЗКОШТОВНА<br> доставка в зручний для Вас<br> час</h3>
+                    <p>Вам не доведеться чекати весь день кур'єра не виходячи з дому. Ви самі обираєте зручний проміжок часу
+і місце доставки.</p>
+                </div>
+            </div>
+                        <div class="col-md-6">
+                <div class="service-item">
+                    <figure>
+                        <img src="img/cash.png" alt="img">
+                    </figure>
+                    <h3>розрахунок зручним <br>
+для Вас способом</h3>
+                    <p>Відправка по Україні здійснюється за наш рахунок. Оплатити замовлення можна післяплатою або попередньо
+на карту Приват Банку. По Києву розрахунок здійснюється кур'єру
+при отриманні замовлення</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                 <div class="service-item">
+                    <figure>
+                        <img src="img/pac.png" alt="img">
+                    </figure>
+                    <h3>можливість вибору <br> на місці</h3>
+                    <p>Ми привеземо кілька наборів які Ви обрали. Купуєте те, що Вам сподобалося більше</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
-</div>
+
+<section class="quotes">
+   <div class="headline-main">
+            <h2 class="wow fadeInLeft">відгуки</h2>
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="quote-wrapper">
+                <div class="quote-slider">
+                    <div class="quote-slider-item">
+                        <p>«Зробила коханому подарунок, довго не наважувалась, не знала, яка буде реакція). Вже не шкодую! Бачили б, який захват викликав цей сюрприз). Дякую!...</p>
+                        <figure>
+                            <img src="img/face-1.jpg" alt="img">
+                        </figure>
+                        <span class="face-name">Ксенія бургимова</span>
+                        <span class="face-city">м. Полтава</span>
+                    </div>
+                    <div class="quote-slider-item">
+                        <p>«Зробила коханому подарунок, довго не наважувалась, не знала, яка буде реакція). Вже не шкодую! Бачили б, який захват викликав цей сюрприз). Дякую!...</p>
+                        <figure>
+                            <img src="img/face-1.jpg" alt="img">
+                        </figure>
+                        <span class="face-name">Ксенія бургимова</span>
+                        <span class="face-city">м. Полтава</span>
+                    </div>
+                    <div class="quote-slider-item">
+                        <p>«Зробила коханому подарунок, довго не наважувалась, не знала, яка буде реакція). Вже не шкодую! Бачили б, який захват викликав цей сюрприз). Дякую!...</p>
+                        <figure>
+                            <img src="img/face-1.jpg" alt="img">
+                        </figure>
+                        <span class="face-name">Ксенія бургимова</span>
+                        <span class="face-city">м. Полтава</span>
+                    </div>
+                    <div class="quote-slider-item">
+                        <p>«Зробила коханому подарунок, довго не наважувалась, не знала, яка буде реакція). Вже не шкодую! Бачили б, який захват викликав цей сюрприз). Дякую!...</p>
+                        <figure>
+                            <img src="img/face-1.jpg" alt="img">
+                        </figure>
+                        <span class="face-name">Ксенія бургимова</span>
+                        <span class="face-city">м. Полтава</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="questions-form">
+        <div class="container">
+            <div class="row">
+                <h2>Залишились питання?</h2>
+                <div class="quest-form">
+                    <form action="" method="post">
+                    <input type="text" name="textfield" placeholder="Ім'я">
+                    <input type="text" name="textfield" placeholder="Телефон">
+                    <input type="text" name="textfield" placeholder="Email">
+                    <textarea name="textarea" placeholder="Ваше повідомлення"></textarea>
+                    <input type="button" name="button" value="Відправити">
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <srction class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1068.7806598853715!2d30.643701216906155!3d50.42241331180687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c51a6c65f9dd%3A0x42fa714468b131c6!2z0KXQsNGA0YzQutC-0LLRgdC60L7QtSDRiC4sIDU40JAsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1575625013750!5m2!1sru!2sua" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+   </srction>
 
 
 
 
-
+   <footer class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-3">
+                   <div class="footer-logo">
+                       <a href="#"><img src="img/logo.png" alt="logo"></a>
+                   </div>
+               </div>
+               <div class="col-md-3 cotacts-footer-block">
+                   <h4>Контакти:</h4>
+                   <address>м. Київ, <br>вул. Харківське шосе, 58 А</address>
+                   <ul class="contacts-footer">
+                       <li><a href="tel:0957885380">095 788-53-80</a></li>
+                       <li><a href="mailto:info@mr-socks.com.ua">info@mr-socks.com.ua</a></li>
+                       <li><a href="mr-socks.com.ua">mr-socks.com.ua</a></li>
+                   </ul>
+                   <ul class="we-open">
+                       <li>
+                           <p>Пн - Сб. 9:00-18:00</p>
+                       </li>
+                       <li>
+                           <p>Нд - Вихідний</p>
+                       </li>
+                   </ul>
+               </div>
+               <div class="col-md-3 coloboration-footer footer-menu">
+                  <h4>Співробітництво</h4>
+                   <nav>
+                       <ul>
+                           <li><a href="#">Корпоративні продажі</a></li>
+                           <li><a href="#">Оптові продажі</a></li>
+                       </ul>
+                   </nav>
+               </div>
+               <div class="col-md-3 costumers-menu-footer footer-menu">
+                  <h4>Центр підтримки</h4>
+                   <nav>
+                       <ul>
+                           <li><a href="#">Оплата</a></li>
+                           <li><a href="#">Доставка</a></li>
+                           <li><a href="#">Часті питання</a></li>
+                           <li><a href="#">Бонуси</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+       </div>
+   </footer>
 
     <div class="social-side wow fadeInUpBig">
-    <span>follow</span>
-    <div class="line"></div>
-    <a href="#"><img src="img/inst-side.png" alt="social"></a>
-    <a href="#"><img src="img/fb-side.png" alt="social"></a>
+        <span>follow</span>
+        <div class="line"></div>
+        <a href="#"><img src="img/inst-side.png" alt="social"></a>
+        <a href="#"><img src="img/fb-side.png" alt="social"></a>
     </div>
 
     <!--[if lt IE 9]>
@@ -118,7 +608,7 @@
     <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
     <script src="libs/respond/respond.min.js"></script>
     <![endif]-->
-    <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
     <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
     <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
@@ -130,9 +620,11 @@
     <script src="libs/landing-nav/navigation.js"></script>
     <script src="libs/slick/slick.min.js"></script>
     <script src="libs/wow/wow.min.js"></script>
+    <script src="libs/wow/intAnim.min.js"></script>
     <script src="js/blocks.js"></script>
     <script src="js/common.js"></script>
-    <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
-    <!-- Google Analytics counter --><!-- /Google Analytics counter -->
-</body>
-</html>
+    <!-- Yandex.Metrika counter -->
+    <!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter -->
+    <!-- /Google Analytics counter -->
+</body></html>
