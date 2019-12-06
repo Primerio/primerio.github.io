@@ -1,6 +1,21 @@
  new WOW().init();
 $(document).ready(function() {
 
+    $(".menu-btn").click(function () {
+        $(".main-menu").fadeToggle();
+    });
+
+     if (window.innerWidth > 992) {
+        $(".sub-menu-link").removeClass("mob-sub_menu");
+    } else {
+         $(".sub-menu-link").addClass("mob-sub_menu");
+    };
+
+
+    $(".mob-sub_menu").click(function () {
+    $(".sub-menu").slideToggle();
+    });
+
 var show = true;
     var countbox = ".benefits__inner";
     $(window).on("scroll load resize", function () {
@@ -21,7 +36,7 @@ var show = true;
 
 
 
-$('.top-slider').slick({
+/*$('.top-slider').slick({
   dots: true,
   infinite: true,
   speed: 500,
@@ -29,7 +44,7 @@ $('.top-slider').slick({
 });
     $('.slider .slick-dots .button').each(function() {
  $(this).text('0'+$(this).parent().index()+1);
-});
+});*/
     $('.quote-slider').slick({
   dots: true,
   infinite: true,

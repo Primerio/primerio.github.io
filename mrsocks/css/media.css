@@ -7,7 +7,69 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .top-phone {
+        float: none;
+        text-align: center;
+    }
+    .menu-btn {
+       position: absolute;
+        right: 20px;
+        top: 55px;
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-size: 30px;
+        outline: none;
+    }
+    .main-menu {
+        position: absolute;
+        display: block;
+        left: 0;
+        top: -70px;
+        background: #000;
+        height: 100%;
+        position: fixed;
+        z-index: 100;
+        padding-top: 10%;
+        width: 220px;
+        text-align: center;
+        display: none;
+    }
+    .main-menu li {
+        display: list-item;
+        margin-top: 10px;
+    }
+    .main-menu a {
+        margin: 0;
+    }
+    .sub-menu {
+        visibility: visible;
+        opacity: 1;
+        position: static;
+        display: none;
+    }
+    .sub-menu li {
+        margin-top: 0;
+    }
+    .sub-menu a {
+        background: #151515;
+        border-bottom: 1px solid #000;
+    }
+    .top-slider {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .top-socks {
+        max-width: 400px;
+        margin: auto;
+    }
+    .top-section {
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .quest-form {
+        max-width: 310px;
+    }
 }
 
 /* Small Devices, Tablets */

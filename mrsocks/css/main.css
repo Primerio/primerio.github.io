@@ -29,7 +29,7 @@ body textarea:required:valid {
 body {
     font-family: 'Gotham Pro';
     font-size: 18px;
-    overflow-x: hidden;
+ /*   overflow-x: hidden;*/
     background: #f4f3f4;
 }
 /*********************sociaL-side**************************/
@@ -97,9 +97,38 @@ position: fixed;
     color: #a9946e;
     transition: all .30s;
 }
+
+.sub-menu {
+    position: absolute;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .30s;
+}
+.sub-menu li {
+    display: list-item;
+
+}
+.sub-menu a {
+    margin: 0;
+    display: block;
+    padding: 10px 35px;
+    background: #6c6c6c;
+    border-bottom: 1px solid #959595;
+    text-align: center;
+}
+.sub-menu a:hover {
+    background: #a9946e;
+    color: #fff;
+}
+.sub-menu-link:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    transition: all .30s;
+}
 .top-phone {
     float: right;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 57px;
     margin-right: 20px;
 }
@@ -227,7 +256,8 @@ position: fixed;
     text-align: center;
 }
 .main-item img {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     margin-bottom: -30px;
 }
 .main-item-descr {

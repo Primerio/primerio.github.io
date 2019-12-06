@@ -36,7 +36,7 @@
         <header class="header">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
                         <div class="logo">
                             <a href="#">
                                 <img src="img/logo.png" alt="logo">
@@ -47,7 +47,14 @@
                         <nav class="main-menu">
                             <ul>
                                 <li><a href="#" class="active">Головна</a></li>
-                                <li><a href="#">Набори</a></li>
+                                <li  class="sub-menu-link"><a href="#" onclick="return false">Набори</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Для дітей</a></li>
+                                        <li><a href="#">Для чоловіків</a></li>
+                                        <li><a href="#">Для жінок</a></li>
+                                        <li><a href="#">Подарункові набори</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#">Доставка</a></li>
                                 <li><a href="#">Сервіс</a></li>
                                 <li><a href="#">Відгуки</a></li>
@@ -55,10 +62,12 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-md-3">
-                        <div class="top-phone">
+                    <div class="col-md-3 col-sm-10 col-xs-10">
+                        <div class="top-phone hidden-sm hidden-xs">
                             <a href="tel:0957885380">+38 095 788 53 80</a>
                         </div>
+                        <button class="menu-btn hidden-md hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i>
+</button>
                     </div>
                 </div>
             </div>
@@ -66,7 +75,7 @@
         <section class="top-content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-2">
+                    <div class="col-md-4 col-md-offset-2 col-sm-12">
                         <div class="top-slider">
                             <div class="top-slider-item">
                                 <span class="top-slider-headline wow rollIn">
@@ -77,7 +86,7 @@
                                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                                 </p>
                             </div>
-                            <div class="top-slider-item">
+                           <!-- <div class="top-slider-item">
                                 <span class="top-slider-headline">
                                     стильна <br>
                                     класика
@@ -94,10 +103,10 @@
                                 <p>
                                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                                 </p>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <figure class="top-socks wow fadeInRight">
                             <img src="img/socks-top.png" alt="socks-top">
                         </figure>
