@@ -29,7 +29,7 @@ body textarea:required:valid {
 body {
     font-family: 'Gotham Pro';
     font-size: 18px;
- /*   overflow-x: hidden;*/
+  overflow-x: hidden;
     background: #f4f3f4;
 }
 /*********************sociaL-side**************************/
@@ -97,7 +97,6 @@ position: fixed;
     color: #a9946e;
     transition: all .30s;
 }
-
 .sub-menu {
     position: absolute;
     z-index: 100;
@@ -125,6 +124,10 @@ position: fixed;
     visibility: visible;
     opacity: 1;
     transition: all .30s;
+}
+.sub-menu-link:before {
+    content: "";
+    position: absolute;
 }
 .top-phone {
     float: right;
