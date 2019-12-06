@@ -70,6 +70,12 @@
     .quest-form {
         max-width: 310px;
     }
+    .quote-wrapper {
+    padding: 40px 30px 20px;
+    }
+    .cotacts-footer-block, .footer-menu {
+        margin-top: 30px;
+    }
 }
 
 /* Small Devices, Tablets */
