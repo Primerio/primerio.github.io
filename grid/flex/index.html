@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="left">w - 150</div>
+        <div class="center">w - Dynamic</div>
+        <div class="right">w - 150</div>
+    </header>
+    <div class="content">
+        <div class="left-side">
+            <div class="bottom-left">w - 60%</div>
+            <div class="bottom-right">w - 40%</div>
+        </div>
+        <div class="right-side">w 50%</div>
+    </div>
+</div>
+
+
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-size: 25px;
+        text-align: center;
+    }
+    .header {
+        display: flex;
+
+    }
+    .header .left {
+        background: red;
+        width: 150px;
+        height: 150px;
+    }
+    .header .center {
+        background: green;
+        height: 150px;
+        flex-grow: 2;
+    }
+    .header .right {
+        background: #c3207e;
+        width: 150px;
+        height: 150px;
+    }
+    .content {
+        height: 100vh;
+        display: flex;
+        align-items: stretch;
+    }
+    .left-side {
+        background: #2ad895;
+        flex-grow: 1;
+        display: flex;
+    }
+    .bottom-left {
+        background: #bf4949;
+        flex-basis: 60%;
+        height: 50px;
+    }
+    .bottom-right {
+        background: #9191ff;
+        flex-basis: 40%;
+        height: 50px;
+    }
+
+
+    .right-side {
+        background: blue;
+        flex-grow: 1;
+    }
+
+
+
+    @media screen and (max-width: 1024px) {
+        .right {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .right {
+            display: block;
+        }
+        .header {
+            flex-wrap: wrap;
+        }
+        .header .left {
+            width: 100%;
+        }
+        .header .right {
+            width: 100%;
+        }
+        .content {
+            flex-wrap: wrap;
+        }
+        .left-side {
+            width: 100%;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+        .bottom-left {
+            flex-basis: 100%;
+        }
+        .bottom-right {
+            flex-grow: 1;
+            flex-basis: 100%;
+        }
+
+    }
+
+</style>
+</body>
+</html>

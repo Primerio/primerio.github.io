@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="grid-header">
+        <div class="left">
+            <p>w - 150</p>
+        </div>
+        <div class="center">w - Dynamic</div>
+        <div class="right"> w - 150</div>
+    </div>
+    <div class="grid-content">
+        <div class="content-left">
+            <div class="left-60">w - 60%</div>
+            <div class="left-40"> w - 40%</div>
+        </div>
+        <div class="content-right">w - 50%</div>
+    </div>
+
+
+
+    <!--******************************************-->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .grid-header {
+            display: grid;
+            grid-template-columns: 150px 1fr 150px;
+            grid-template-areas:
+                "header-left header-center header-right";
+        }
+
+        .grid-header .left {
+            background: #646464;
+            grid-area: header-left;
+            height: 150px;
+        }
+
+        .grid-header .center {
+            background: #404040;
+            grid-area: header-center;
+            height: 150px;
+        }
+
+        .grid-header .right {
+            background: #646464;
+            grid-area: header-right;
+            height: 150px;
+        }
+
+        .grid-content {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: "content-left content-right";
+            height: 100vh;
+        }
+
+        .content-left {
+            background: #058883;
+            grid-area: content-left;
+        }
+
+        .content-right {
+            background: #dd2ed6;
+            grid-area: content-right;
+        }
+
+        .content-left {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            grid-template-areas: "left-60  left-40";
+        }
+
+        .left-60 {
+            background: #fa7777;
+            grid-area: left-60;
+            height: 50px;
+        }
+
+        .left-40 {
+            background: #5bb519;
+            grid-area: left-40;
+            height: 50px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .grid-header .right {
+                display: none;
+            }
+
+            .grid-header {
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                grid-template-areas: "'header-left header-center'";
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .grid-header .right {
+                display: block;
+            }
+
+            .grid-header {
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    'header-left'
+                    'header-center'
+                    'header-right';
+            }
+
+            .grid-content {
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    'content-left'
+                    'content-right';
+            }
+
+            .content-left {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-auto-rows: 50px;
+                grid-template-areas:
+                    'left-60'
+                    'left-40';
+            }
+        }
+    </style>
+</body>
+
+</html>
