@@ -1,0 +1,268 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .search_form select:nth-child(2) {
+        width: 22%;
+    }
+
+    .search_form button {
+        width: 25%;
+    }
+
+    .reviews_slider .slick-prev {
+        left: 350px;
+        top: 330px;
+
+    }
+
+    .reviews_slider .slick-next {
+        top: 330px !important;
+        right: 10px;
+    }
+
+    .aprt_item .aprt_item-detal li {
+        padding: 0 15px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .header_menu_mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 290px;
+        background: rgb(0, 0, 0);
+        z-index: 200;
+        padding-top: 30px;
+        display: none;
+        overflow: auto;
+    }
+
+    .header_menu_mobile ul {
+        margin-top: 30px;
+    }
+
+    .header_menu_mobile ul li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .header_menu_mobile ul li a {
+        font-weight: 300;
+    }
+
+    .scroll-header .header_menu a {
+        color: #fff;
+        font-weight: 300;
+    }
+    .mobile_social {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 50px;
+    }
+    .mobile_social ul {
+        text-align: center;
+    }
+    .mobile_social li {
+        display: inline-block !important;
+        margin-left: 18px !important;
+    }
+    .mobile_social a {
+        color: #FECA36;
+        font-size: 22px;
+    }
+    .mobile_lang {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .mobile_lang ul {
+        text-align: center;
+    }
+    .mobile_lang li {
+        display: inline-block !important;
+        margin-left: 18px !important;
+    }
+    .mobile_lang a {
+        color: #fff;
+        font-weight: 500 !important;
+    }
+    .mobile_phones {
+        padding: 15px 0;
+        border-top: 1px solid #171717;
+        border-bottom: 1px solid #171717;
+    }
+    .mobile_phones a {
+        display: block;
+        color: #fff;
+        font-weight: 100;
+        margin-top: 10px;
+    }
+    .mobile_phones .header_get_call {
+        color: #FECA36;
+        font-weight: 300;
+        text-decoration: underline;
+    }
+    .mob_menu_btn {
+        float: right;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 40px;
+        color: #fff;
+    }
+    .scroll-header .mob_menu_btn {
+        color: #000;
+    }
+    /*.black_wrapper {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.85);
+        z-index: 50;
+    }*/
+    .top_left {
+        margin-top: 100px;
+    }
+    .top_left h1 {
+        font-size: 40px;
+    }
+    .top_left ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .top-right {
+        margin-top: 150px;
+    }
+    .search_form select {
+        display: block;
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .serch_box {
+        margin-top: 0;
+    }
+    .search_form input[type=text] {
+        width: 32%;
+        margin: 1px; 
+    }
+    .big_headline wrapper {
+        margin-top: 150px;
+    }
+    .search_form {
+        height: auto;
+    }
+    .search_form button {
+        width: 100%;
+        margin-top: 20px;
+        color: #fff;
+    }
+    .aprt_item {
+        max-width: 340px;
+        margin: 20px auto;
+    }
+    .we_work h2 {
+        text-align: center;
+    }
+    .get_cityzen_form span {
+        display: block;
+    }
+    .get_cityzen_form input[type=text] {
+        width: 100%;
+        display: block;
+    }
+    .get_sityzen_info {
+        margin-top: 50px;
+    }
+    .reviews_slider .slick-prev {
+    left: 450px;
+    top: 300px;
+}
+.reviews_slider .slick-next {
+    top: 300px !important;
+    right: 30px;
+}
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .wrapper {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .legal_advice {
+        background-image: none;
+    }
+    .legal_form {}
+    .legal_form span {
+        display: block;
+    }
+    .legal_form span:before {
+        top: 12px;
+    }
+    .legal_form span:nth-child(2):before {
+        left: 0px;
+    }
+    .legal_form input[type=text]{
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .legal_form input[type=submit] {
+        margin: 0;
+    }
+    .get_cityzen {
+        padding: 20px;
+    }
+    
+    .faq_slider {
+        max-width: 310px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    } 
+    .faq_box h2 {
+        text-align: center;
+    }
+    .reviews_wrapper {
+        background: #F7F7F7;
+        padding: 30px 15px;
+    }
+    .reviews_wrapper h2 {
+        text-align: center;
+        margin-bottom: -50px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
