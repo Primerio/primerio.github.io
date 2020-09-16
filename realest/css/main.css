@@ -29,7 +29,10 @@ body input:required:valid,
 body textarea:required:valid {
 
 }
-
+.row {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
 body {
     font-family: 'Graphik LCG';
@@ -73,7 +76,9 @@ body {
     color: #FECA36;
     transition: all .30s;
 }
-
+.header_phones li {
+     list-style: none;
+}
 .header_phones a {
     color: #EEEEEE;
     float: right;
