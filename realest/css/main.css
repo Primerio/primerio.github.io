@@ -33,7 +33,7 @@ body {
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
-    overflow-x: hidden;
+   
 }
 .wrapper {
        padding-left: 30px !important;
@@ -840,10 +840,15 @@ color:rgb(255, 255, 255);
     top: 300px;
     z-index: 1;
     opacity: 1 !important;
+    display: none !important;
 }
 .reviews_slider .slick-next {
     top: 300px !important;
     right: 10px;
+    display: none !important;
+}
+.reviews_slider .slick-dots{
+    bottom: 0 !important;
 }
 /**************/
 .footer {

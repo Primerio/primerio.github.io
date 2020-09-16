@@ -71,7 +71,7 @@ $('.faq_slider').slick({
   /*reviews slider*/
     
 $('.reviews_slider').slick({
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 500,
   fade: true,

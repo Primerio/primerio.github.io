@@ -244,7 +244,20 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {}
+@media only screen and (max-width : 480px) {
+    .faq_slider .slick-prev {
+        left: 5px;
+    }
+    .faq_slider .slick-next {
+        right: 40px;
+    }
+    .top_left h1 span {
+        font-size: 40px;
+    }
+    .header .row {
+        margin: 0 !important;
+    }
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {}
