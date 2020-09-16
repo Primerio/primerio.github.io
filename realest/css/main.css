@@ -179,6 +179,7 @@ body {
     font-size: 14px;
     border: 1px solid #FECA36;
     text-transform: uppercase;
+    padding: 0 15px;
 }
 .top_left li:last-child a {
     background: transparent;
@@ -557,6 +558,15 @@ body {
     background: #fff;
     padding: 30px 50px 70px;
 }
+.features_slider .slick-prev {
+    display: none  !important;
+}
+.features_slider .slick-dots{
+    bottom: 20px;
+}
+.features_slider .slick-next {
+    display: none !important;
+}
 .features_slider-item {
     
 }
@@ -569,6 +579,7 @@ body {
     float: left;
     margin-top: 20px;
     margin-right: 50px;
+    padding-bottom: 30px;
 }
 
 
@@ -590,7 +601,7 @@ li.slick-active button {
 }
 .slick-dots {
     bottom: 40px;
-    left: 20px;
+    left: 0;
 }
 /***********************/
 .we_work {

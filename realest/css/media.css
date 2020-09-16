@@ -40,7 +40,9 @@
         display: none;
         overflow: auto;
     }
-
+    .mobile_menu_logo {
+        text-align: center;
+    }
     .header_menu_mobile ul {
         margin-top: 30px;
     }
@@ -59,10 +61,7 @@
         font-weight: 300;
     }
     .mobile_social {
-        position: absolute;
         width: 100%;
-        left: 0;
-        bottom: 50px;
     }
     .mobile_social ul {
         text-align: center;
@@ -76,10 +75,11 @@
         font-size: 22px;
     }
     .mobile_lang {
-        position: absolute;
-        bottom: 0;
-        left: 0;
         width: 100%;
+    }
+    .mobile_lang ul {
+        margin-bottom: 0;
+        margin-top: 0;
     }
     .mobile_lang ul {
         text-align: center;
@@ -252,12 +252,16 @@
         float: none;
         display: inline-block;
         margin: 0;
+        padding-bottom: 0;
     }
     .features_slider-item-item h3 {
         text-align: center;
     }
     .features_slider-item-item p {
         text-align: center;
+    }
+    .features_slider {
+        padding: 10px;
     }
 }
 
