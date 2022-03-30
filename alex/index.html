@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Заголовок</title>
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="libs/slick/slick.css" />
+    <link rel="stylesheet" href="libs/slick/slick-theme.css" />
+    <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-6 col-xs-6">
+                    <div class="header_logo">
+                        <a href="/">Logo</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mob-menu">
+                    <div class="mob_logo hidden-lg hidden-md">
+                        <a href="/">Logo</a>
+                    </div>
+                    <div class="header_menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#why-we" class="scrollto">Преимущества</a></li>
+                                <li><a href="#about" class="scrollto">О вебинаре</a></li>
+                                <li><a href="#reviews" class="scrollto">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mob_phone hidden-lg hidden-md">
+                        <ul>
+                            <li><a href="tel:79022578800"> <img src="img/phone.svg" alt=""> +7 902 257 88 00</a></li>
+                            <li><button class="open-popup">Записаться</button></li>
+                        </ul>
+                    </div>
+                    <button class="close-mob-menu-btn hidden-lg hidden-md"><img src="img/close-mob.svg" alt=""></button>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+                    <div class="header_phone hidden-sm hidden-xs">
+                        <ul>
+                            <li><a href="tel:79022578800"> <img src="img/phone.svg" alt=""> +7 902 257 88 00</a></li>
+                            <li><button class="open-popup">Записаться</button></li>
+                        </ul>
+                    </div>
+                    <button class="open-mob-menu-btn hidden-lg hidden-md"><img src="img/open-mob.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="top-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="top-section_content">
+                        <div class="top_date">
+                            Дата: 10 апреля
+                        </div>
+                        <h1>Онлайн подготовка к ОГЭ по математике с гарантией результата! </h1>
+                        <p>Выполняйте домашнее задание и читайте теорию в любое удобное время! Подробности на вебинаре. </p>
+                        <button class="main_btn open-popup">Записаться на вебинар</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="top_img">
+                        <div class="white_timer top-timer hidden-lg hidden-md">
+                            <div class="countdown" date-time="2021-04-15"></div>
+                        </div>
+                        <img src="img/top-img.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-we" id="why-we">
+        <div class="container">
+            <div class="we_numbers">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="we_numbers_item">
+                            <span>237</span>
+                            <p>Количество <br> учеников</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="we_numbers_item">
+                            <span>2-6</span>
+                            <p>Человек <br> в группе</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="we_numbers_item">
+                            <span>4,5</span>
+                            <p>Средний <br> балл</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="we_features">
+                <div class="col-lg-12">
+                    <div class="section_headline we_headline">
+                        <p>Преимущества</p>
+                        <h2>Почему наш вебинар</h2>
+                    </div>
+                </div>
+                <div class="we_features_items">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="we_features_item">
+                            <img src="img/we-icon1.svg" alt="">
+                            <h3>Максимальный результат</h3>
+                            <p>Программа охватывает все темы ЕГЭ от простых к сложным, включая их повторение в течение года</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="we_features_item">
+                            <img src="img/we-icon1.svg" alt="">
+                            <h3>Максимальный результат</h3>
+                            <p>Программа охватывает все темы ЕГЭ от простых к сложным, включая их повторение в течение года</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="we_features_item">
+                            <img src="img/we-icon1.svg" alt="">
+                            <h3>Максимальный результат</h3>
+                            <p>Программа охватывает все темы ЕГЭ от простых к сложным, включая их повторение в течение года</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="we_features_item">
+                            <img src="img/we-icon1.svg" alt="">
+                            <h3>Максимальный результат</h3>
+                            <p>Программа охватывает все темы ЕГЭ от простых к сложным, включая их повторение в течение года</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="we_features_item">
+                            <img src="img/we-icon1.svg" alt="">
+                            <h3>Максимальный результат</h3>
+                            <p>Программа охватывает все темы ЕГЭ от простых к сложным, включая их повторение в течение года</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="we_features_item">
+                            <img src="img/we-icon1.svg" alt="">
+                            <h3>Максимальный результат</h3>
+                            <p>Программа охватывает все темы ЕГЭ от простых к сложным, включая их повторение в течение года</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-section_content">
+                        <div class="section_headline form-section_headline">
+                            <p>Преимущества</p>
+                            <h2>Запишитесь на консультацию</h2>
+                        </div>
+                        <div class="white_timer form-timer">
+                            <div class="countdown" date-time="2021-04-15"></div>
+                        </div>
+                        <div class="social social-form">
+                            <ul>
+                                <li><a href="#"><img src="img/tg.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/whats-white.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-box">
+                        <h3>Заполните форму и получите доступ к первым бесплатным занятиям</h3>
+                        <form action="">
+                            <span class="user-name">
+                                <input type="text" name="name" placeholder="Имя" required>
+                            </span>
+                            <span class="user-phone">
+                                <input type="tel" name="phone" placeholder="Телефон" required>
+                            </span>
+                            <span class="user-messanger" required>
+                                <select name="messanger" id="">
+                                    <option>Мессенджер</option>
+                                    <option value="whatsApp">WhatsApp</option>
+                                    <option value="viber">Viber</option>
+                                    <option value="telegram">Telegram</option>
+                                </select>
+                            </span>
+                            <button>Отправить</button>
+                        </form>
+                        <p>Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных на <span class="open-policy">условиях политики</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section_headline about_headline">
+                        <p>О вебинаре</p>
+                        <h2>Для чего вебинар</h2>
+                    </div>
+                    <div class="about_text">
+                        <p>Ученикам старших классов, которые хотят набрать максимум баллов для поступления на бюджет в престижный университет.
+                            <br><br>
+                            Вместе с опытными преподавателями и кураторами будете учить теорию, делать домашние задания и работать над ошибками. К концу учебного года вы перестанете бояться ЕГЭ, справитесь с любыми заданиями и сможете получить баллы, на которые рассчитываете.
+                            <br><br>
+                            <b>Максимальный результат</b>
+                            <br><br>
+                            Программа охватывает все темы ЕГЭ от простых к сложным
+                        </p>
+                        <button class="main_btn open-popup">Записаться на вебинар</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="about_img">
+                        <img src="img/about.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="speaker">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="avatart">
+                        <img src="img/ava.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="speraker_text">
+                        <div class="section_headline speaker_headline">
+                            <p>Спикер</p>
+                            <h2>Алексей Федоров</h2>
+                        </div>
+                        <h3><img src="img/speaker-icon.svg" alt=""> Действующий преподаватель</h3>
+                        <p>Все наши преподаватели прошли строгий отбор. Мы выбрали не только опытных, но и самых дружелюбных специалистов. Они умеют просто и с юмором объяснять даже сложные темы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section white-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-section_content">
+                        <div class="section_headline form-section_headline">
+                            <p>Преимущества</p>
+                            <h2>Запишитесь на консультацию</h2>
+                        </div>
+                        <div class="form_sub_content">
+                            <p>Это бесплатно и ни к чему вас не обязывает. Мы вам сразу перезвоним, и вы сможете уточнить все детали у нашего консультанта.</p>
+                        </div>
+                        <div class="white_timer form-timer">
+                            <div class="countdown" date-time="2021-04-15"></div>
+                        </div>
+                        <div class="social social-form">
+                            <ul>
+                                <li><a href="#"><img src="img/tg-blue.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/whats-blue.svg" alt=""></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-box">
+                        <h3>Заполните форму и получите доступ к первым бесплатным занятиям</h3>
+                        <form action="">
+                            <span class="user-name">
+                                <input type="text" name="name" placeholder="Имя" required>
+                            </span>
+                            <span class="user-phone">
+                                <input type="tel" name="phone" placeholder="Телефон" required>
+                            </span>
+                            <span class="user-messanger" required>
+                                <select name="messanger" id="">
+                                    <option>Мессенджер</option>
+                                    <option value="whatsApp">WhatsApp</option>
+                                    <option value="viber">Viber</option>
+                                    <option value="telegram">Telegram</option>
+                                </select>
+                            </span>
+                            <button>Отправить</button>
+                        </form>
+                        <p>Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных на <span class="open-policy">условиях политики</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="webinar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_headline we_headline">
+                        <p>Преимущества</p>
+                        <h2>Почему наш вебинар</h2>
+                    </div>
+                </div>
+                <div class="webinar_steps">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="webinar_item">
+                            <h3>Группы по 25 человек</h3>
+                            <p>Мы разбиваем группы по уровням в зависимости от ваших целей</p>
+                            <img src="img/step1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="webinar_item">
+                            <h3>Группы по 25 человек</h3>
+                            <p>Мы разбиваем группы по уровням в зависимости от ваших целей</p>
+                            <img src="img/step2.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="webinar_item">
+                            <h3>Группы по 25 человек</h3>
+                            <p>Мы разбиваем группы по уровням в зависимости от ваших целей</p>
+                            <img src="img/step3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="webinar_item">
+                            <h3>Группы по 25 человек</h3>
+                            <p>Мы разбиваем группы по уровням в зависимости от ваших целей</p>
+                            <img src="img/step4.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="webinar-for">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section_headline we_headline">
+                        <p>Преимущества</p>
+                        <h2>Почему наш вебинар</h2>
+                    </div>
+                    <div class="webinar-for_text">
+                        <p>
+                            Ученикам старших классов, которые хотят набрать максимум баллов для поступления на бюджет в престижный университет.
+                            <br><br>
+                            Вместе с опытными преподавателями и кураторами будете учить теорию, делать домашние задания и работать над ошибками. К концу учебного года вы перестанете бояться ЕГЭ, справитесь с любыми заданиями и сможете получить баллы, на которые рассчитываете.
+                        </p>
+                        <button class="main_btn open-popup">Записаться на вебинар</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="webinar-for_img">
+                        <img src="img/webinar-for.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_headline reviews_headline">
+                        <p>Отзывы</p>
+                        <h2>Что о нас говорят</h2>
+                    </div>
+                    <div class="review-slider">
+                        <div class="review-item">
+                            <h3>А.В. Тимошина</h3>
+                            <p>Вместе с опытными преподавателями и кураторами будете учить теорию, делать домашние задания и работать над ошибками. К концу учебного года вы перестанете бояться ЕГЭ, справитесь с любыми заданиями и сможете получить баллы, на которые рассчитываете.</p>
+                        </div>
+                        <div class="review-item">
+                            <h3>А.В. Тимошина</h3>
+                            <p>Вместе с опытными преподавателями и кураторами будете учить теорию, делать домашние задания и работать над ошибками. К концу учебного года вы перестанете бояться ЕГЭ, справитесь с любыми заданиями и сможете получить баллы, на которые рассчитываете.</p>
+                        </div>
+                        <div class="review-item">
+                            <h3>А.В. Тимошина</h3>
+                            <p>Вместе с опытными преподавателями и кураторами будете учить теорию, делать домашние задания и работать над ошибками. К концу учебного года вы перестанете бояться ЕГЭ, справитесь с любыми заданиями и сможете получить баллы, на которые рассчитываете.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-section_content">
+                        <div class="section_headline form-section_headline">
+                            <p>Преимущества</p>
+                            <h2>Запишитесь на консультацию</h2>
+                        </div>
+                        <div class="white_timer form-timer">
+                            <div class="countdown" date-time="2021-04-15"></div>
+                        </div>
+                        <div class="social social-form">
+                            <ul>
+                                <li><a href="#"><img src="img/tg.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/whats-white.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-box">
+                        <h3>Заполните форму и получите доступ к первым бесплатным занятиям</h3>
+                        <form action="">
+                            <span class="user-name">
+                                <input type="text" name="name" placeholder="Имя" required>
+                            </span>
+                            <span class="user-phone">
+                                <input type="tel" name="phone" placeholder="Телефон" required>
+                            </span>
+                            <span class="user-messanger" required>
+                                <select name="messanger" id="">
+                                    <option>Мессенджер</option>
+                                    <option value="whatsApp">WhatsApp</option>
+                                    <option value="viber">Viber</option>
+                                    <option value="telegram">Telegram</option>
+                                </select>
+                            </span>
+                            <button>Отправить</button>
+                        </form>
+                        <p>Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных на <span class="open-policy">условиях политики</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="footer_logo">
+                        <a href="/">Logo</a>
+                    </div>
+                    <div class="footer_menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#why-we" class="scrollto">Преимущества</a></li>
+                                <li><a href="#about" class="scrollto">О вебинаре</a></li>
+                                <li><a href="#reviews" class="scrollto">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="footer_contacts">
+                        <ul>
+                            <li><a href="tel:79022578800"> <img src="img/phone.svg" alt="">+7 902 257 88 00</a></li>
+                            <li><a href="#"> <img src="img/mail.svg" alt="">mail@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer_social">
+                        <ul>
+                            <li><a href="#"><img src="img/tg-blue.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/whats-blue.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_cat">
+                        <img src="img/cat.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <div class="popup-form">
+       <div class="close-popup">x</div>
+        <div class="form-box">
+            <h3>Заполните форму и получите доступ к первым бесплатным занятиям</h3>
+            <form action="">
+                <span class="user-name">
+                    <input type="text" name="name" placeholder="Имя" required>
+                </span>
+                <span class="user-phone">
+                    <input type="tel" name="phone" placeholder="Телефон" required>
+                </span>
+                <span class="user-messanger" required>
+                    <select name="messanger" id="">
+                        <option>Мессенджер</option>
+                        <option value="whatsApp">WhatsApp</option>
+                        <option value="viber">Viber</option>
+                        <option value="telegram">Telegram</option>
+                    </select>
+                </span>
+                <button>Отправить</button>
+            </form>
+            <p>Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных на <span class="open-policy">условиях политики</span></p>
+        </div>
+    </div>
+    <div class="black-bg"></div>
+    <!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+    <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+    <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+    <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+    <script src="libs/countdown/jquery.plugin.js"></script>
+    <script src="libs/countdown/jquery.countdown.min.js"></script>
+    <script src="libs/countdown/jquery.countdown-ru.js"></script>
+    <script src="libs/landing-nav/navigation.js"></script>
+    <script src="libs/slick/slick.js"></script>
+    <script src="js/common.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter -->
+    <!-- /Google Analytics counter -->
+</body></html>

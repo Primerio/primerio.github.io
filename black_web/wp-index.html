@@ -1,0 +1,617 @@
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package awidex
+ */
+
+get_header();
+?>
+
+ 
+
+ <section class="top-section" id="top-section">
+        <div class="container">
+            <div class="row top-section-img-relative">
+                <div class="col-lg-11 col-md-12 col-sm-12 top-section-box wow animate__fadeInLeft">
+                    <h2 class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.5s">профессиональная</h2>
+                    <h1 class="wow fadeInUp">Разработка <span>сайтов</span>, <br> проектирование <span>интерфейсов</span> <br> создание <span>брендинга</span></h1>
+                    <h3 class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.5s">вашего бизнеса</h3>
+                </div>
+                <div class="top-section-img wow fadeIn">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top-img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <section class="our-services-home">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<h2>Наши услуги</h2>
+    				<a href="#" class="more-services">Все услуги</a>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="services-home-item">
+    					 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.svg" alt="">
+    					 <h3>Розработка сайтов</h3>
+    					 <p>Отличный вариант для получения прибыли из вашего бизнеса или личного хобби </p>
+                         <a href="#" class="services-home-item_link">Заказать услугу <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+           <div class="services-home-item">
+                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.svg" alt="">
+                         <h3>Розработка сайтов</h3>
+                         <p>Отличный вариант для получения прибыли из вашего бизнеса или личного хобби </p>
+                          <a href="#" class="services-home-item_link">Заказать услугу <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>         
+                </div>
+    			<div class="col-md-4">
+           <div class="services-home-item">
+                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.svg" alt="">
+                         <h3>Розработка сайтов</h3>
+                         <p>Отличный вариант для получения прибыли из вашего бизнеса или личного хобби</p>
+                          <a href="#" class="services-home-item_link">Заказать услугу <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>         
+                </div>
+    		</div>
+    	</div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 portfolio-side-wrapper hidden-sm hidden-xs wow fadeInUp">
+                    <div class="portfolio-side">
+                        <h2>Кейсы студии</h2>
+                        <ul>
+                            <li><a href="#">Лендингы</a></li>
+                            <li><a href="#">Интернет магазины</a></li>
+                            <li><a href="#">Корпоративные сайты</a></li>
+                            <li><a href="#">Новостные порталы</a></li>
+                            <li><a href="#">Сайты визитки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="portfolio-items">
+                        <h2 class="wow fadeInUp">Последние работы</h2>
+                        <!--*****************-->
+                        <div class="portfolio-item wow fadeInUp">
+                            <div class="portfolio-item-head">
+                                <h3><a href="#">justfood</a></h3>
+                                <a href="#" class="portfolio-item_link"> Посмотреть проект <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="portfolio-item-content">
+                                <figure>
+                                    <figcaption>
+                                        <p>Российская транснациональная энергетическая компания, более 50 % акций которой принадлежит государству. Является холдинговой компанией Группы «Газпром</p>
+                                    </figcaption>
+                                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/porthome1.png" alt=""></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <!--*****************-->
+                        <!--*****************-->
+                        <div class="portfolio-item wow fadeInUp">
+                            <div class="portfolio-item-head">
+                                <h3><a href="#">justfood</a></h3>
+                                <a href="#" class="portfolio-item_link"> Посмотреть проект <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="portfolio-item-content">
+                                <figure>
+                                    <figcaption>
+                                        <p>Российская транснациональная энергетическая компания, более 50 % акций которой принадлежит государству. Является холдинговой компанией Группы «Газпром</p>
+                                    </figcaption>
+                                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/porthome2.png" alt=""></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <!--*****************-->
+                        <!--*****************-->
+                        <div class="portfolio-item wow fadeInUp">
+                            <div class="portfolio-item-head">
+                                <h3><a href="#">justfood</a></h3>
+                                <a href="#" class="portfolio-item_link"> Посмотреть проект <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="portfolio-item-content">
+                                <figure>
+                                    <figcaption>
+                                        <p>Российская транснациональная энергетическая компания, более 50 % акций которой принадлежит государству. Является холдинговой компанией Группы «Газпром</p>
+                                    </figcaption>
+                                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/porthome3.png" alt=""></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <!--*****************-->
+                        <!--*****************-->
+                        <div class="portfolio-item wow fadeInUp">
+                            <div class="portfolio-item-head">
+                                <h3><a href="#">justfood</a></h3>
+                                <a href="#" class="portfolio-item_link"> Посмотреть проект <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="portfolio-item-content">
+                                <figure>
+                                    <figcaption>
+                                        <p>Российская транснациональная энергетическая компания, более 50 % акций которой принадлежит государству. Является холдинговой компанией Группы «Газпром</p>
+                                    </figcaption>
+                                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio.jpg" alt=""></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <!--*****************-->
+                        <!--*****************-->
+                        <div class="portfolio-item wow fadeInUp">
+                            <div class="portfolio-item-head">
+                                <h3><a href="#">justfood</a></h3>
+                                <a href="#" class="portfolio-item_link"> Посмотреть проект <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="portfolio-item-content">
+                                <figure>
+                                    <figcaption>
+                                        <p>Российская транснациональная энергетическая компания, более 50 % акций которой принадлежит государству. Является холдинговой компанией Группы «Газпром</p>
+                                    </figcaption>
+                                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio.jpg" alt=""></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <!--*****************-->
+                        <!--*****************-->
+                        <div class="portfolio-item wow fadeInUp">
+                            <div class="portfolio-item-head">
+                                <h3><a href="#">justfood</a></h3>
+                                <a href="#" class="portfolio-item_link"> Посмотреть проект <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="portfolio-item-content">
+                                <figure>
+                                    <figcaption>
+                                        <p>Российская транснациональная энергетическая компания, более 50 % акций которой принадлежит государству. Является холдинговой компанией Группы «Газпром</p>
+                                    </figcaption>
+                                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio.jpg" alt=""></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <!--*****************-->
+                        <a href="#" class="show-all-portfolio wow fadeInUp">Смотреть все проекты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!--    <section class="why-we">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="fadeInUp wow">Почему мы?</h2>
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <div class="why-we_item">
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/i1.svg" alt="">
+                            <figcaption>
+                                <h3>Дизайн от настоящих перфекционистов</h3>
+                            </figcaption>
+                        </figure>
+                        <p>Профессиональные дизайнеры в программах, которые известны очень узкому кругу специалистов, разработают уникальный вкусный дизайн вашего предложения.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <div class="why-we_item">
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/i2.svg" alt="">
+                            <figcaption>
+                                <h3>Дизайн от настоящих перфекционистов</h3>
+                            </figcaption>
+                        </figure>
+                        <p>Профессиональные дизайнеры в программах, которые известны очень узкому кругу специалистов, разработают уникальный вкусный дизайн вашего предложения.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <div class="why-we_item">
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/i3.svg" alt="">
+                            <figcaption>
+                                <h3>Дизайн от настоящих перфекционистов</h3>
+                            </figcaption>
+                        </figure>
+                        <p>Профессиональные дизайнеры в программах, которые известны очень узкому кругу специалистов, разработают уникальный вкусный дизайн вашего предложения.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+   <!--  <section class="advantages">
+        <div class="advantages-headline">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="advantages-wrapper">
+               <div class="col-md-5 ">
+                    <h2>Наши преимущества, которые не просто написаны, а и проверены клентами</h2>
+                    
+                </div> -->
+               <!--   <div class="col-md-6 ">
+                    <div class="advantages-item">
+                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/advantages1.svg" alt="">
+                         <h3>Внимание к деталям</h3>
+                         <p>Профессиональные дизайнеры в программах, которые известны очень узкому кругу специалистов, разработают уникальный вкусный дизайн вашего предложения.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="advantages-item">
+                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/advantages1.svg" alt="">
+                         <h3>Внимание к деталям</h3>
+                         <p>Профессиональные дизайнеры в программах, которые известны очень узкому кругу специалистов, разработают уникальный вкусный дизайн вашего предложения.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="advantages-item">
+                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/advantages1.svg" alt="">
+                         <h3>Внимание к деталям</h3>
+                         <p>Профессиональные дизайнеры в программах, которые известны очень узкому кругу специалистов, разработают уникальный вкусный дизайн вашего предложения.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="advantages-item">
+                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/advantages1.svg" alt="">
+                         <h3>Внимание к деталям</h3>
+                         <p>Профессиональные дизайнеры в программах, которые известны очень узкому кругу специалистов, разработают уникальный вкусный дизайн вашего предложения.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="parallax-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paralax.jpg" alt="" class="parallax">
+    </section> -->
+
+    <section class="how-we-work">
+        <div class="mid-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7">
+                        <h3>Консультация и подача заявки</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-5">
+                        <p>Мы свяжемся с вами на протяжении суток</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7 col-sm-12">
+                        <div class="bot-box_left">
+                            <ul>
+                                <li>
+                                    <p>Свяжитесь с нами по номеру телефона. В случае, когда вы не смогли к нам дозвонится, мы обьязательно вам перезвоним</p>
+                                </li>
+                                <li>
+                                    <p>Свяжитесь с нами по номеру телефона. В случае, когда вы не смогли к нам дозвонится, мы обьязательно вам перезвоним</p>
+                                </li>
+                                <li>
+                                    <p>Свяжитесь с нами по номеру телефона. В случае, когда вы не смогли к нам дозвонится, мы обьязательно вам перезвоним</p>
+                                </li>
+                            </ul>
+                            <button class="bot-box_left_btn">Начать проект</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 hidden-sm hidden-xs">
+                        <div class="bot-box_right contact-box">
+                            <a href="tel:380930000000">+380 93 000 00 00</a>
+                            <p>Свяжитесь с нами</p>
+                            <ul>
+                                <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/telegram.svg" alt=""></a></li>
+                                <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/whats.svg" alt=""></a></li>
+                                <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/viber.svg" alt=""></a></li>
+                                <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.svg" alt=""></a></li>
+                            </ul>
+                            <span>Наша почта</span>
+                            <a href="mail:aaa" class="bot-box_right_mail">office@some.com</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!--    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="fadeInUp wow">Гарантии</h2>
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <div class="features-item">
+                        <span>1</span>
+                        <h3>Мы всегда на связи и готовы помочь по любому вопросу</h3>
+                        <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и отвечаем в тот же день</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <div class="features-item">
+                        <span>2</span>
+                        <h3>Мы всегда на связи и готовы помочь по любому вопросу</h3>
+                        <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и отвечаем в тот же день</p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <div class="features-item">
+                        <span>3</span>
+                        <h3>Мы всегда на связи и готовы помочь по любому вопросу</h3>
+                        <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и отвечаем в тот же день</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="features-wrapper">
+                    <div class="col-md-12">
+                        <div class="features-headline">
+                            <h2>Гарантии, которые мы <br> предоставляем</h2>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/features.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <span>01</span>
+                            <h3>Мы всегда на связи</h3>
+                            <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и всегда прийдём на помощь с любым вопросом</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <span>02</span>
+                            <h3>Мы всегда на связи</h3>
+                            <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и всегда прийдём на помощь с любым вопросом</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <span>03</span>
+                            <h3>Мы всегда на связи</h3>
+                            <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и всегда прийдём на помощь с любым вопросом</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <span>03</span>
+                            <h3>Мы всегда на связи</h3>
+                            <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и всегда прийдём на помощь с любым вопросом</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <span>03</span>
+                            <h3>Мы всегда на связи</h3>
+                            <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и всегда прийдём на помощь с любым вопросом</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features-item">
+                            <span>03</span>
+                            <h3>Мы всегда на связи</h3>
+                            <p>Вы всегда сможете связаться с нами. Мы работаем 24/7 и всегда прийдём на помощь с любым вопросом</p>
+                        </div>
+                    </div>
+                </div>
+               <!--  <div class="col-md-12">
+                    <div class="features-img">
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/features-bg.jpg" alt="">
+                        </figure>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 about-left">
+                    <h2 class="fadeInUp wow">Поддержка сайта</h2>
+                    <p class="wow fadeInUp">При покупке сайта вы получаете <span>бессплатный 1 месяц поддержки сайта</span>, и насладится всеми её прелестями
+                        <br><br>
+                        При приобретении подписки вы получите полностью ведение сайта, вместо вас. В зависимости от выбраной вами подписки, вы можете получить довольно большой сегмент услуг. Создание новых блоков и страниц, обновление, програмирование, вёрстка, исправление ошибок в вашем сайте, получение и фиксируем заявки, а также многое другое
+                        <br><br>
+                        Для получения подписки вам нужно всего лишь выбрать нужный вам вариант подписки, связаться с нами или оставить заявку, предоставить данные для аутентификации, либо если вы приобрели у нас сайт, просто оплачивать сумму, каждый месяц, указаную в вашем варианте подписки
+                    </p>
+                    <button>Заказать разработку</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="sticker-wrapper">
+                        <div class="dws pop_videe_apart">
+                            <div class="pulse">
+                                <div class="phone">
+                                    <figure>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/big-logo.svg" alt="">
+                                    </figure>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="popular-headline">
+                        <h2>Популярные услуги</h2>
+                        <a href="#">Все услуги</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="popular-wrapper">
+                    <div class="col-md-4">
+                        <div class="popular-item">
+                            <div class="popular-item-top">
+                                <h3>Лендинг</h3>
+                                <span>01</span>
+                                <p>веб-страница, основной задачей которой является сбор контактных данных целевой аудитории</p>
+                            </div>
+                            <div class="popular-item-bottom">
+                                <a href="#">Заказать <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                <p>до <span>10</span> дней</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="popular-item">
+                            <div class="popular-item-top">
+                                <h3>Лендинг</h3>
+                                <span>01</span>
+                                <p>веб-страница, основной задачей которой является сбор контактных данных целевой аудитории</p>
+                            </div>
+                            <div class="popular-item-bottom">
+                                <a href="#">Заказать <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                <p>до <span>10</span> дней</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="popular-item">
+                            <div class="popular-item-top">
+                                <h3>Лендинг</h3>
+                                <span>01</span>
+                                <p>веб-страница, основной задачей которой является сбор контактных данных целевой аудитории</p>
+                            </div>
+                            <div class="popular-item-bottom">
+                                <a href="#">Заказать <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                <p>до <span>10</span> дней</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!--   <section class="timing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left-box">
+                        <h2 class="wow fadeInUp">Сроки</h2>
+                        <p>Для оценки сроков проекта вы должны заполнить бриф
+                            <br><br>
+                            Самый быстрый способ это выбрать нужный вам сайт и нажать на кнопку “Заказать сайт”
+                            <br><br>
+                            Наши цены - адекватные и умеренные. Все оплаты мы разбиваем на 2 этапа, это удобно и доступно. Вы можете получить очень качественный сайт на основе готового решения, с уникальным дизайном
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="right-box">
+                        <div class="col-md-6 wow fadeInUp">
+                            <div class="timing-item">
+                                <a href="#" class="timing-item_link">
+                                    <h3>Лендинг</h3>
+                                    <div class="timing-item_bot">
+                                        <span>Заказать <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                                        <p>до <span>10</span> дней</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="timing-item">
+                                <a href="#" class="timing-item_link">
+                                    <h3>Лендинг</h3>
+                                    <div class="timing-item_bot">
+                                        <span>Заказать <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                                        <p>до <span>10</span> дней</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="timing-item">
+                                <a href="#" class="timing-item_link">
+                                    <h3>Лендинг</h3>
+                                    <div class="timing-item_bot">
+                                        <span>Заказать <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                                        <p>до <span>10</span> дней</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="timing-item">
+                                <a href="#" class="timing-item_link">
+                                    <h3>Лендинг</h3>
+                                    <div class="timing-item_bot">
+                                        <span>Заказать <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                                        <p>до <span>10</span> дней</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="get-site">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-9">
+                    <div class="left-box">
+                        <ul>
+                            <li class="hidden-md">
+                                <h2>Заказать сайт сейчас</h2>
+                            </li>
+                            <li>
+                                <p>Вы удивитесь насколько может быть хорош ваш сайт, сделанный нами</p>
+                            </li>
+                            <li><button>Заказать сайт</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="right-box">
+                        <a href="#">Все услуги <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	 
+<?php
+ 
+get_footer();

@@ -1,0 +1,207 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header_phone li a {
+        font-size: 14px;
+    }
+    .header_menu a {
+        font-size: 14px;
+    }
+    .top-section_content h1 {
+        font-size: 36px;
+    }
+    .white-form .social-form {
+        margin-top: 203px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+    .mob-menu {
+        position: fixed;
+        top: 0;
+        left: -2222px;
+        background: #fff;
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+        padding: 15px;
+        transition: all .30s;
+    }
+    .mob-menu_open {
+        left: 0;
+        transition: all .30s;
+    }
+    .mob_logo {
+        font-weight: bold;
+        color: #0038FF;
+        font-size: 22px;
+    }
+    .mob-menu li {
+        display: block;
+        margin: 0 0 32px 0;
+        text-align: center;
+    }
+    .header_menu {
+        margin-top: 50px;
+    }
+    .close-mob-menu-btn {
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    .mob_phone {
+        margin-top: 100px;
+    }
+
+    .mob_phone ul li {
+        margin-bottom: 16px;
+    }
+    .mob_phone ul li a {
+        color: #00114F;
+        font-weight: bold;
+    }
+    .mob_phone ul li button {
+        border: 1px solid #0038FF;
+        outline: none;
+        background: transparent;
+        color: #0038FF;
+        font-weight: bold;
+        max-width: 320px;
+        width: 1005px;
+        padding: 12px 0;
+        border-radius: 5PX;
+    }
+    .top-section {
+        padding: 30px 0;
+    }
+    .top-timer {
+        margin: 30px auto;
+    }
+    .top_img {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .we_numbers_item span {
+        text-align: center;
+        margin-right: 0;
+    }
+    .we_numbers_item p {
+        display: block;
+        text-align: center;
+    }
+    .section_headline h2 {
+        font-size: 36px;
+    }
+    .social-form {
+        margin-top: 26px;
+    }
+    .form-box {
+        float: none;
+        margin-top: 36px;
+        max-width: 100%;
+    }
+    .avatart {
+        max-width: 100%;
+        text-align: center;
+    }
+    .avatart img {
+        max-width: 470px;
+        width: 100%;
+        height: auto;
+    }
+    .avatart:before {
+        right: 131px;
+    }
+    .speraker_text {
+        margin-top: 50px;
+    }
+    .white-form .social-form {
+        margin-top: 26px;
+    }
+    .webinar_item {
+        margin-bottom: 32px;
+    }
+    .footer_social {
+        float: none;
+        text-align: left;
+    }
+    .footer_cat {
+        float: none;
+        text-align: left;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .we_numbers_item   {
+         margin-bottom: 32px;
+    }
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .white_timer {
+        max-width: 100%;
+    }
+    .social-form {
+        text-align: center;
+    }
+    .webinar {
+        padding: 10px 0;
+    }
+    .white-form .form-box {
+        padding: 20px;
+    }
+    .review-slider {
+        padding: 0;
+    }
+    .popup-form .form-box h3 {
+        font-size: 18px;
+    }
+    .popup-form .form-box p {
+        font-size: 14px;
+    }
+    .section_headline h2 {
+        font-size: 27px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

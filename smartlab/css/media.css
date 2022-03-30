@@ -1,0 +1,157 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .about-card {
+        padding: 40px;
+    }
+    .about-name {
+        margin-left: 60px;
+    }
+    .autor-autor {
+        margin-top: 230px;
+    }
+    .top-footer a, .top-footer p {
+        font-size: 14px;
+    }
+     
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .autor-autor {
+        margin-top: 0;
+    }
+    .about-name {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about-img {
+        text-align: center;
+    }
+    .lesson-start_left {
+        text-align: center;
+    }
+    .lesson-start_right {
+        float: none;
+        margin: 30px auto;
+        display: block;
+    }
+    .lesson-headline-right {
+        float: none;
+    }
+    .slider-box {
+        top: 10%;
+    }
+    .top-footer {
+        text-align: left;
+    }
+    .top-footer a, .top-footer p {
+        margin: 10px 0;
+        display: inline-block;
+        font-size: 22px;
+    }
+    .lesson-items {
+        margin-top: 68px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .lesson-item img {
+        width: 30px;
+        height: auto;
+    }
+    .lesson-item_desr {
+        display: inherit;
+        margin: 0 0 0 40px;
+    }
+    .slider-box {
+        position: relative;
+        margin: 0 auto;
+    }
+    .team {
+        padding: 100px 0 70px;
+    }
+    .call-to-action h2 {
+        font-size: 28px;
+    }
+    .call-to-action h3 {
+        font-size: 18px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .call-to-action p {
+        margin-top: 10px;
+    }
+    .header-headline h1 {
+        font-size: 45px;
+    }
+    .lesson-headline-right a {
+        float: none;
+        margin-top: 10px;
+    }
+    .slider-box {
+        padding: 50px;
+    }
+    .about-card {
+        padding: 10px;
+    }
+    .header-phone a {
+        font-size: 17px;
+    }
+    .header-headline .header-date {
+        display: block;
+        margin-left: 0;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .top-section {
+        padding-bottom: 130px;
+    }
+    .autor-autor img {
+        margin-left: 18px;
+    }
+    .autor-autor p {
+        margin-left: 39px;
+    }
+    .header-phone a {
+        font-size: 16px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

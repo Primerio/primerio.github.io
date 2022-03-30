@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Заголовок</title>
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+    <link rel="stylesheet" href="fonts/sfpro/font.css" />
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="libs/fancy/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="libs/fancy/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="top_header hidden-sm hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="header_social">
+                            <ul>
+                                <li><a href="#"><img src="img/whats-white.svg" alt="whatsapp"></a></li>
+                                <li><a href="#"><img src="img/viber-white.svg" alt="viber"></a></li>
+                                <li><a href="#"><img src="img/tel-white.svg" alt="telegram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-9">
+                        <div class="top_menu">
+                            <ul>
+                                <li><a href="#">Купить онлайн</a></li>
+                                <li><a href="#"><img src="img/persent.svg" alt="Рассрочка в 0%"> Рассрочка в 0%</a></li>
+                                <li><a href="#"><img src="img/pickers.svg" alt="Районы стамбула">Районы стамбула</a></li>
+                                <li><a href="#"><img src="img/red-file.svg" alt="Гражданство в Турции">Гражданство в Турции</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="img/logo.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 hidden-md hidden-lg">
+                        <div class="menu-burger__header">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <div class="header_menu">
+                            <ul>
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Недвижимость</a></li>
+                                <li><a href="#">Статьи</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 hidden-sm hidden-xs">
+                        <div class="header_phone">
+                            <div class="header_phone_item header_phone_item_first">
+                                <a href="tel:88007754824">8 800 775 48 24</a>
+                                <span>Бесплатно по России</span>
+                                <button class="header_phone_more_btn"><i class="fas fa-sort-down"></i></button>
+                            </div>
+                            <div class="header_phone_hidden">
+                                <div class="header_phone_item">
+                                    <a href="tel:905384122042">+90 538 412 20 42</a>
+                                    <span>WhatsApp</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 hidden-sm hidden-xs">
+                        <div class="header_call_to_action">
+                            <button class="open_main_popup">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="close_mob_menu"><i class="fas fa-times"></i></div>
+                        <div class="mobile_logo">
+                            <a href="#"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <div class="mobile_menu_content">
+                            <div class="mobile_main_menu">
+                                <ul>
+                                    <li><a href="#">Главная</a></li>
+                                    <li><a href="#">Недвижимость</a></li>
+                                    <li><a href="#">Статьи</a></li>
+                                    <li><a href="#">Отзывы</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <div class="mobole_menu_info">
+                                <ul>
+                                    <li><a href="#">Купить онлайн</a></li>
+                                    <li><a href="#"><img src="img/persent.svg" alt="Рассрочка в 0%"> Рассрочка в 0%</a></li>
+                                    <li><a href="#"><img src="img/pickers.svg" alt="Районы стамбула">Районы стамбула</a></li>
+                                    <li><a href="#"><img src="img/red-file.svg" alt="Гражданство в Турции">Гражданство в Турции</a></li>
+                                </ul>
+                            </div>
+                            <div class="mobile_menu_social">
+                                <ul>
+                                    <li><a href="#"><img src="img/whats-white.svg" alt="whatsapp"></a></li>
+                                    <li><a href="#"><img src="img/viber-white.svg" alt="viber"></a></li>
+                                    <li><a href="#"><img src="img/tel-white.svg" alt="telegram"></a></li>
+                                </ul>
+                            </div>
+                            <div class="mobile_menu_contacts">
+                                <div class="mobile_menu_contacts_item">
+                                    <a href="tel:905384122042">+90 538 412 20 42</a>
+                                </div>
+                                <div class="mobile_menu_contacts_item">
+                                    <a href="tel:905384122042">+90 538 412 20 42</a>
+                                </div>
+                                <div class="mobile_menu_contacts_item">
+                                    <a href="tel:905384122042">+90 538 412 20 42</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile_get_call">
+                            <button class="mobile_open_main_popup">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="#">Главная / </a></li>
+                            <li><span>Контакты</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="item_single">
+            <div class="container">
+                <div class="row">
+                    <div class="item_single_head">
+                        <div class="col-md-8">
+                            <div class="item_single_head_left">
+                                <h1>Квартира Ümraniye</h1>
+                                <p><img src="img/item-picker.svg" alt="">Район: Bayrampaşa</p>
+                                <button><i class="fas fa-cloud-download-alt"></i>Скачать PDF</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item_single_head_right">
+                                <span>$ 1 230 000</span>
+                                <p>Рассрочка в 0%</p>
+                                <div class="item_single_head_right_btns">
+                                    <button class="open_main_popup">Получить информацию</button>
+                                    <button class="item_single_head_video"><img src="img/video.svg" alt="">Видео</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item_single_content">
+                        <div class="col-md-8">
+                            <div class="item_single_slider">
+                                <div class="item_single_slidet_top">
+                                    <a href="img/blog-item.jpg" data-fancybox="images">
+                                        <img src="img/blog-item.jpg" alt="">
+                                    </a>
+                                    <a href="img/item-single.jpg" data-fancybox="images">
+                                        <img src="img/item-single.jpg" alt="">
+                                    </a>
+                                    <a href="img/item-single.jpg" data-fancybox="images">
+                                        <img src="img/item-single.jpg" alt="">
+                                    </a>
+                                    <a href="img/item-single.jpg" data-fancybox="images">
+                                        <img src="img/item-single.jpg" alt="">
+                                    </a>
+                                    <a href="img/item-single.jpg" data-fancybox="images">
+                                        <img src="img/item-single.jpg" alt="">
+                                    </a>
+                                    <a href="img/item-single.jpg" data-fancybox="images">
+                                        <img src="img/item-single.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="item_single_slider_bottom">
+                                    <img src="img/blog-item.jpg" alt="">
+                                    <img src="img/item-single.jpg" alt="">
+                                    <img src="img/item-single.jpg" alt="">
+                                    <img src="img/item-single.jpg" alt="">
+                                    <img src="img/item-single.jpg" alt="">
+                                    <img src="img/item-single.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item_single_content_list">
+                                <h2>Описание недвижимости</h2>
+                                <div class="col-md-6 left">
+                                    <div class="item_single_content_list_item">
+                                        <span class="name">Номер</span>
+                                        <span class="val">№2504</span>
+                                    </div>
+                                    <div class="item_single_content_list_item">
+                                        <span class="name">Тип</span>
+                                        <span class="val">Квартира</span>
+                                    </div>
+                                    <div class="item_single_content_list_item">
+                                        <span class="name">Площадь</span>
+                                        <span class="val">180 м2</span>
+                                    </div>
+                                    <div class="item_single_content_list_item">
+                                        <span class="name">Другое</span>
+                                        <span class="val">-</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 right">
+                                    <div class="item_single_content_list_item">
+                                        <span class="name">Этаж</span>
+                                        <span class="val">11</span>
+                                    </div>
+                                    <div class="item_single_content_list_item">
+                                        <span class="name">Этажность дома</span>
+                                        <span class="val">22</span>
+                                    </div>
+                                    <div class="item_single_content_list_item">
+                                        <span class="name">Кол-во комнат</span>
+                                        <span class="val">1+0</span>
+                                    </div>
+                                    <div class="item_single_content_list_item">
+                                        <span class="name">Отопление</span>
+                                        <span class="val">Нет</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item_single_content_text">
+                                <p>Видовая однокомнатная квартира в новом стильном комплексе ЖК Seven с панорамными окнами на Днепр, Днепровская набережная 18а — 24 этаж. Дизайнерский ремонт, лучшая прямая планировка с просторной кухней и гостиной. Вся квартира оклеена стеклохолстом что защитит стены от трещин при усадке дома. Установлены двери скрытого монтажа. Есть подогрев пола. Красивые световые линии, дорогая мебель. Просторная гардеробная в стиле Loft, большой шкаф в коридоре. </p>
+                                <p>Квартира укомплектована всей необходимой итальянской и немецкой техникой Удобная барная стойка из натурального дерева с мягкими барными стульями. Установлен бойлер на 100 л. Вытяжка Franke. Защита от перепадов напряжения. Очень развита инфраструктура, метро Осокорки 5 мин., ТРЦ River Mall 5 мин., ТРЦ Arkadia 3 мин., рядом Яхт клуб, спортклуб, магазины Novus и Сильпо. На территории красивые стильные детские площадки, детский сад прямо на территории комплекса. На территории есть паркинг, места отдыха рядом парк. Охрана и видеонаблюдение. Звоните и мы договоримся о просмотре в максимально удобное время.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item_single_aside">
+                                <div class="infrastructure">
+                                    <h3>Инфраструктура</h3>
+                                    <ul>
+                                        <li><span><i class="fas fa-check"></i></span>Бассейн в комплексе</li>
+                                        <li><span><i class="fas fa-check"></i></span>Бассейн в комплексе</li>
+                                        <li><span><i class="fas fa-check"></i></span>Бассейн в комплексе</li>
+                                        <li><span><i class="fas fa-check"></i></span>Бассейн в комплексе</li>
+                                        <li><span><i class="fas fa-check"></i></span>Бассейн в комплексе</li>
+                                        <li><span><i class="fas fa-check"></i></span>Бассейн в комплексе</li>
+                                    </ul>
+                                </div>
+                                <div class="item_single_aside_contact">
+                                    <div class="page_aside_contacts">
+                                        <div class="logo">
+                                            <img src="img/logo.svg" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h3>Консультация</h3>
+                                            <p>Свяжитесь с нашим специалистом по недвижимости</p>
+                                        </div>
+                                        <div class="page_aside_contacts_form">
+                                            <input type="tel" placeholder="Ваш номер">
+                                            <input type="submit" value="Спросить">
+                                        </div>
+                                        <div class="page_aside_contacts_bottom">
+                                            <a href="tel:+8 800 775  48  24">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect width="24" height="24" rx="12" fill="#FEB800" />
+                                                    <path d="M18 14.9467V17.304C18.0001 17.4728 17.9361 17.6353 17.8211 17.7588C17.706 17.8823 17.5484 17.9575 17.38 17.9693C17.0887 17.9893 16.8507 18 16.6667 18C10.7753 18 6 13.2247 6 7.33333C6 7.14933 6.01 6.91133 6.03067 6.62C6.04248 6.45163 6.11772 6.29401 6.2412 6.17894C6.36468 6.06387 6.52722 5.99992 6.696 6H9.05333C9.13603 5.99992 9.2158 6.03057 9.27715 6.08601C9.33851 6.14145 9.37706 6.21772 9.38533 6.3C9.40067 6.45333 9.41467 6.57533 9.428 6.668C9.56049 7.59262 9.832 8.49189 10.2333 9.33533C10.2967 9.46867 10.2553 9.628 10.1353 9.71333L8.69667 10.7413C9.5763 12.791 11.2097 14.4244 13.2593 15.304L14.286 13.868C14.328 13.8093 14.3892 13.7673 14.459 13.7491C14.5288 13.7309 14.6028 13.7379 14.668 13.7687C15.5113 14.1692 16.4104 14.4401 17.3347 14.572C17.4273 14.5853 17.5493 14.6 17.7013 14.6147C17.7835 14.6231 17.8596 14.6617 17.9149 14.7231C17.9702 14.7844 18.0008 14.8641 18.0007 14.9467H18Z" fill="#292946" />
+                                                </svg>
+
+                                                +8 800 775 48 24</a>
+                                            <ul>
+                                                <li><a href="#"><img src="img/whats-white.svg" alt="whatsapp"></a></li>
+                                                <li><a href="#"><img src="img/viber-white.svg" alt="viber"></a></li>
+                                                <li><a href="#"><img src="img/tel-white.svg" alt="telegram"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recommended_single_item">
+            <img src="img/grey_line.svg" alt="" class="grey_line">
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-12">
+                      <div class="section_headline">
+                            <h2>Выгодные предложения от Real East</h2>
+                            <div class="slick_arrows">
+                                <button class="slick_prev"><i class="fas fa-chevron-left"></i></button>
+                                <button class="slick_next"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                       <div class="recommended_single_item_slider">
+                          <!--item-->
+                           <div class="col-md-3 col-sm-4 no-padding">
+                               <div class="item">
+                                    <a href="#">
+                                        <div class="item_img">
+                                            <figure>
+                                                <img src="img/item.jpg" alt="">
+                                            </figure>
+                                            <span class="item_popular">
+                                                <img src="img/popular.svg" alt="">
+                                                Популярный
+                                            </span>
+                                            <span class="item_video">
+                                                <img src="img/video.svg" alt="">
+                                                Видео
+                                            </span>
+                                        </div>
+                                        <div class="item_descr">
+                                            <a href="#">
+                                                <h3>Квартира Ümraniye</h3>
+                                            </a>
+                                            <span class="item_price">
+                                                $ 1 230 000
+                                            </span>
+                                            <span class="item_district">
+                                                <img src="img/item-picker.svg" alt="">
+                                                Район: Bayrampaşa
+                                            </span>
+                                            <p>Новый жилой комплекс расположен возле одной из главных дорог Стамбула - трассы Е-5. Буквально в 5 минутах находится остановка метробуса</p>
+                                        </div>
+                                        <div class="item_stats">
+                                            <span>
+                                                <img src="img/item-bed.svg" alt="">
+                                                1+0
+                                            </span>
+                                            <span>
+                                                <img src="img/item-sq.svg" alt="">
+                                                179 m2
+                                            </span>
+                                            <span>
+                                                <img src="img/item-id.svg" alt="">
+                                                № 2501
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="item_bottom">
+                                        <div class="item_contacts">
+                                            <div class="contact_popup">
+                                                <span class="close_item_contact"><i class="fas fa-times"></i></span>
+                                                <h4>Свяжитесь с нами</h4>
+                                                <p>Напишите нам в мессенджен или позвоните</p>
+                                                <ul>
+                                                    <li><a href="#"><img src="img/whats-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/viber-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/tel-white.svg" alt=""></a></li>
+                                                </ul>
+                                                <a href="#" class="item_contacts_phone"><span><i class="fas fa-phone"></i></span> +8 800 775 48 24</a>
+                                            </div>
+                                        </div>
+                                        <button class="open_item_contacts">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <a href="#">Подробнее</a>
+                                    </div>
+                                </div>
+                           </div>
+                            <!--item-->
+                            <!--item-->
+                           <div class="col-md-3 col-sm-4 no-padding">
+                               <div class="item">
+                                    <a href="#">
+                                        <div class="item_img">
+                                            <figure>
+                                                <img src="img/item.jpg" alt="">
+                                            </figure>
+                                            <span class="item_popular">
+                                                <img src="img/popular.svg" alt="">
+                                                Популярный
+                                            </span>
+                                            <span class="item_video">
+                                                <img src="img/video.svg" alt="">
+                                                Видео
+                                            </span>
+                                        </div>
+                                        <div class="item_descr">
+                                            <a href="#">
+                                                <h3>Квартира Ümraniye</h3>
+                                            </a>
+                                            <span class="item_price">
+                                                $ 1 230 000
+                                            </span>
+                                            <span class="item_district">
+                                                <img src="img/item-picker.svg" alt="">
+                                                Район: Bayrampaşa
+                                            </span>
+                                            <p>Новый жилой комплекс расположен возле одной из главных дорог Стамбула - трассы Е-5. Буквально в 5 минутах находится остановка метробуса</p>
+                                        </div>
+                                        <div class="item_stats">
+                                            <span>
+                                                <img src="img/item-bed.svg" alt="">
+                                                1+0
+                                            </span>
+                                            <span>
+                                                <img src="img/item-sq.svg" alt="">
+                                                179 m2
+                                            </span>
+                                            <span>
+                                                <img src="img/item-id.svg" alt="">
+                                                № 2501
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="item_bottom">
+                                        <div class="item_contacts">
+                                            <div class="contact_popup">
+                                                <span class="close_item_contact"><i class="fas fa-times"></i></span>
+                                                <h4>Свяжитесь с нами</h4>
+                                                <p>Напишите нам в мессенджен или позвоните</p>
+                                                <ul>
+                                                    <li><a href="#"><img src="img/whats-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/viber-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/tel-white.svg" alt=""></a></li>
+                                                </ul>
+                                                <a href="#" class="item_contacts_phone"><span><i class="fas fa-phone"></i></span> +8 800 775 48 24</a>
+                                            </div>
+                                        </div>
+                                        <button class="open_item_contacts">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <a href="#">Подробнее</a>
+                                    </div>
+                                </div>
+                           </div>
+                            <!--item-->
+                             <!--item-->
+                           <div class="col-md-3 col-sm-4 no-padding">
+                               <div class="item">
+                                    <a href="#">
+                                        <div class="item_img">
+                                            <figure>
+                                                <img src="img/item.jpg" alt="">
+                                            </figure>
+                                            <span class="item_popular">
+                                                <img src="img/popular.svg" alt="">
+                                                Популярный
+                                            </span>
+                                            <span class="item_video">
+                                                <img src="img/video.svg" alt="">
+                                                Видео
+                                            </span>
+                                        </div>
+                                        <div class="item_descr">
+                                            <a href="#">
+                                                <h3>Квартира Ümraniye</h3>
+                                            </a>
+                                            <span class="item_price">
+                                                $ 1 230 000
+                                            </span>
+                                            <span class="item_district">
+                                                <img src="img/item-picker.svg" alt="">
+                                                Район: Bayrampaşa
+                                            </span>
+                                            <p>Новый жилой комплекс расположен возле одной из главных дорог Стамбула - трассы Е-5. Буквально в 5 минутах находится остановка метробуса</p>
+                                        </div>
+                                        <div class="item_stats">
+                                            <span>
+                                                <img src="img/item-bed.svg" alt="">
+                                                1+0
+                                            </span>
+                                            <span>
+                                                <img src="img/item-sq.svg" alt="">
+                                                179 m2
+                                            </span>
+                                            <span>
+                                                <img src="img/item-id.svg" alt="">
+                                                № 2501
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="item_bottom">
+                                        <div class="item_contacts">
+                                            <div class="contact_popup">
+                                                <span class="close_item_contact"><i class="fas fa-times"></i></span>
+                                                <h4>Свяжитесь с нами</h4>
+                                                <p>Напишите нам в мессенджен или позвоните</p>
+                                                <ul>
+                                                    <li><a href="#"><img src="img/whats-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/viber-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/tel-white.svg" alt=""></a></li>
+                                                </ul>
+                                                <a href="#" class="item_contacts_phone"><span><i class="fas fa-phone"></i></span> +8 800 775 48 24</a>
+                                            </div>
+                                        </div>
+                                        <button class="open_item_contacts">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <a href="#">Подробнее</a>
+                                    </div>
+                                </div>
+                           </div>
+                            <!--item-->
+                             <!--item-->
+                           <div class="col-md-3 col-sm-4 no-padding">
+                               <div class="item">
+                                    <a href="#">
+                                        <div class="item_img">
+                                            <figure>
+                                                <img src="img/item.jpg" alt="">
+                                            </figure>
+                                            <span class="item_popular">
+                                                <img src="img/popular.svg" alt="">
+                                                Популярный
+                                            </span>
+                                            <span class="item_video">
+                                                <img src="img/video.svg" alt="">
+                                                Видео
+                                            </span>
+                                        </div>
+                                        <div class="item_descr">
+                                            <a href="#">
+                                                <h3>Квартира Ümraniye</h3>
+                                            </a>
+                                            <span class="item_price">
+                                                $ 1 230 000
+                                            </span>
+                                            <span class="item_district">
+                                                <img src="img/item-picker.svg" alt="">
+                                                Район: Bayrampaşa
+                                            </span>
+                                            <p>Новый жилой комплекс расположен возле одной из главных дорог Стамбула - трассы Е-5. Буквально в 5 минутах находится остановка метробуса</p>
+                                        </div>
+                                        <div class="item_stats">
+                                            <span>
+                                                <img src="img/item-bed.svg" alt="">
+                                                1+0
+                                            </span>
+                                            <span>
+                                                <img src="img/item-sq.svg" alt="">
+                                                179 m2
+                                            </span>
+                                            <span>
+                                                <img src="img/item-id.svg" alt="">
+                                                № 2501
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="item_bottom">
+                                        <div class="item_contacts">
+                                            <div class="contact_popup">
+                                                <span class="close_item_contact"><i class="fas fa-times"></i></span>
+                                                <h4>Свяжитесь с нами</h4>
+                                                <p>Напишите нам в мессенджен или позвоните</p>
+                                                <ul>
+                                                    <li><a href="#"><img src="img/whats-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/viber-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/tel-white.svg" alt=""></a></li>
+                                                </ul>
+                                                <a href="#" class="item_contacts_phone"><span><i class="fas fa-phone"></i></span> +8 800 775 48 24</a>
+                                            </div>
+                                        </div>
+                                        <button class="open_item_contacts">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <a href="#">Подробнее</a>
+                                    </div>
+                                </div>
+                           </div>
+                            <!--item-->
+                             <!--item-->
+                           <div class="col-md-3 no-padding">
+                               <div class="item">
+                                    <a href="#">
+                                        <div class="item_img">
+                                            <figure>
+                                                <img src="img/item.jpg" alt="">
+                                            </figure>
+                                            <span class="item_popular">
+                                                <img src="img/popular.svg" alt="">
+                                                Популярный
+                                            </span>
+                                            <span class="item_video">
+                                                <img src="img/video.svg" alt="">
+                                                Видео
+                                            </span>
+                                        </div>
+                                        <div class="item_descr">
+                                            <a href="#">
+                                                <h3>Квартира Ümraniye</h3>
+                                            </a>
+                                            <span class="item_price">
+                                                $ 1 230 000
+                                            </span>
+                                            <span class="item_district">
+                                                <img src="img/item-picker.svg" alt="">
+                                                Район: Bayrampaşa
+                                            </span>
+                                            <p>Новый жилой комплекс расположен возле одной из главных дорог Стамбула - трассы Е-5. Буквально в 5 минутах находится остановка метробуса</p>
+                                        </div>
+                                        <div class="item_stats">
+                                            <span>
+                                                <img src="img/item-bed.svg" alt="">
+                                                1+0
+                                            </span>
+                                            <span>
+                                                <img src="img/item-sq.svg" alt="">
+                                                179 m2
+                                            </span>
+                                            <span>
+                                                <img src="img/item-id.svg" alt="">
+                                                № 2501
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="item_bottom">
+                                        <div class="item_contacts">
+                                            <div class="contact_popup">
+                                                <span class="close_item_contact"><i class="fas fa-times"></i></span>
+                                                <h4>Свяжитесь с нами</h4>
+                                                <p>Напишите нам в мессенджен или позвоните</p>
+                                                <ul>
+                                                    <li><a href="#"><img src="img/whats-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/viber-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/tel-white.svg" alt=""></a></li>
+                                                </ul>
+                                                <a href="#" class="item_contacts_phone"><span><i class="fas fa-phone"></i></span> +8 800 775 48 24</a>
+                                            </div>
+                                        </div>
+                                        <button class="open_item_contacts">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <a href="#">Подробнее</a>
+                                    </div>
+                                </div>
+                           </div>
+                            <!--item-->
+                             <!--item-->
+                           <div class="col-md-3 no-padding">
+                               <div class="item">
+                                    <a href="#">
+                                        <div class="item_img">
+                                            <figure>
+                                                <img src="img/item.jpg" alt="">
+                                            </figure>
+                                            <span class="item_popular">
+                                                <img src="img/popular.svg" alt="">
+                                                Популярный
+                                            </span>
+                                            <span class="item_video">
+                                                <img src="img/video.svg" alt="">
+                                                Видео
+                                            </span>
+                                        </div>
+                                        <div class="item_descr">
+                                            <a href="#">
+                                                <h3>Квартира Ümraniye</h3>
+                                            </a>
+                                            <span class="item_price">
+                                                $ 1 230 000
+                                            </span>
+                                            <span class="item_district">
+                                                <img src="img/item-picker.svg" alt="">
+                                                Район: Bayrampaşa
+                                            </span>
+                                            <p>Новый жилой комплекс расположен возле одной из главных дорог Стамбула - трассы Е-5. Буквально в 5 минутах находится остановка метробуса</p>
+                                        </div>
+                                        <div class="item_stats">
+                                            <span>
+                                                <img src="img/item-bed.svg" alt="">
+                                                1+0
+                                            </span>
+                                            <span>
+                                                <img src="img/item-sq.svg" alt="">
+                                                179 m2
+                                            </span>
+                                            <span>
+                                                <img src="img/item-id.svg" alt="">
+                                                № 2501
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="item_bottom">
+                                        <div class="item_contacts">
+                                            <div class="contact_popup">
+                                                <span class="close_item_contact"><i class="fas fa-times"></i></span>
+                                                <h4>Свяжитесь с нами</h4>
+                                                <p>Напишите нам в мессенджен или позвоните</p>
+                                                <ul>
+                                                    <li><a href="#"><img src="img/whats-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/viber-white.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="img/tel-white.svg" alt=""></a></li>
+                                                </ul>
+                                                <a href="#" class="item_contacts_phone"><span><i class="fas fa-phone"></i></span> +8 800 775 48 24</a>
+                                            </div>
+                                        </div>
+                                        <button class="open_item_contacts">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <a href="#">Подробнее</a>
+                                    </div>
+                                </div>
+                           </div>
+                            <!--item-->
+                       </div>
+                   </div> 
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer_top_text">
+                            <h2>Поможем подобрать и разобратсья со всеми вопросами по недвижимости</h2>
+                            <p>Это бесплатно! Вам нужно только оставить заявку и наш консультан в тот же день вам перезвонит. Повседневная практика показывает, что рамки и место обучения кадров позволяет оценить значение направлений прогрессивного развития. </p>
+                            <ul>
+                                <li><a href="#"><img src="img/whats-white.svg" alt="whatsapp"></a></li>
+                                <li><a href="#"><img src="img/viber-white.svg" alt="viber"></a></li>
+                                <li><a href="#"><img src="img/tel-white.svg" alt="telegram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-2">
+                        <div class="footer_top_form">
+                            <form action="">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="tel" placeholder="Ваш телефон">
+                                <select>
+                                    <option>Ваш мессенджер</option>
+                                    <option>Ваш мессенджер</option>
+                                    <option>Ваш мессенджер</option>
+                                    <option>Ваш мессенджер</option>
+                                </select>
+                                <input type="submit" value="Оставить заявку">
+                            </form>
+                            <div class="footer_top_form_check">
+                                <input type="checkbox" checked id="foote_form_check">
+                                <label for="foote_form_check">Я согласен с <a href="#">политикой конфиденциальности</a></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                        <div class="footer_logo">
+                            <a href="#">
+                                <img src="img/logo.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-5">
+                        <div class="footer_menu">
+                            <h4>Меню</h4>
+                            <ul>
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Недвижимость</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-5">
+                        <div class="footer_menu_info">
+                            <h4>Полезная информация</h4>
+                            <ul>
+                                <li><a href="#">Купить онлайн</a></li>
+                                <li><a href="#">Ипотека</a></li>
+                                <li><a href="#">Районы стамбула</a></li>
+                                <li><a href="#">Ознакомительный тур</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-5 col-sm-offset-2 col-md-offset-0 col-lg-offset-0">
+                        <div class="footer_contacts">
+                            <h4>Контакты</h4>
+                            <div class="footer_contacts_item">
+                                <a href="tel:8 800 775  48  24">8 800 775 48 24</a>
+                                <span>Бесплатно по России</span>
+                            </div>
+                            <div class="footer_contacts_item">
+                                <a href="tel:8 800 775  48  24">8 800 775 48 24</a>
+                                <span>Бесплатно по России</span>
+                            </div>
+                            <div class="footer_contacts_item">
+                                <a href="tel:8 800 775  48  24">8 800 775 48 24</a>
+                                <span>Бесплатно по России</span>
+                            </div>
+                            <ul>
+                                <li><a href="#"><img src="img/facebook.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/vk.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer_address">
+                            <h4>Адресс</h4>
+                            <div class="footer_address_item">
+                                <h5>Турция</h5>
+                                <address>
+                                    Türkiye, İstanbul, Esenyurt, Güzelyurt mah., 7.Cadde, No 3, Delta Plaza B1 blok, kat 10, daire 20.
+                                </address>
+                            </div>
+                            <div class="footer_address_item">
+                                <h5>Украина</h5>
+                                <address>
+                                    Бербер Ирина Васильевна. АН "Александр-Н". Одесса. Пр. Шевченко, 8
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="main_popup">
+        <span class="close_main_popup"><i class="fas fa-times"></i></span>
+        <h2>Оставить заявку</h2>
+        <p>Оставьте ваши контакты для подальшей связи с вами в ближайшее время</p>
+        <form action="">
+            <input type="text" placeholder="Ваше имя">
+            <input type="tel" placeholder="Ваш телефон">
+            <select name="" id="">
+                <option>Ваш мессенджер</option>
+            </select>
+            <input type="submit" value="Оставить заявку">
+        </form>
+        <div class="main_popup_checkbox">
+            <input type="checkbox" checked id="main_popup_check">
+            <label for="main_popup_check">Я согласен с <a href="#">политикой конфиденциальности</a></label>
+        </div>
+    </div>
+    <div class="black_page_wrapper"></div>
+
+    <!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+
+    <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+    <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+    <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+    <script src="libs/countdown/jquery.plugin.js"></script>
+    <script src="libs/countdown/jquery.countdown.min.js"></script>
+    <script src="libs/countdown/jquery.countdown-ru.js"></script>
+    <script src="libs/landing-nav/navigation.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="libs/fancy/jquery.fancybox.min.js"></script>
+    <script src="js/common.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter -->
+    <!-- /Google Analytics counter -->
+</body></html>

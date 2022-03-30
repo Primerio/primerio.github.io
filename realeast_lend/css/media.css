@@ -1,0 +1,318 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+    .top-content .left h1 {
+        font-size: 45px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .footer-menu {
+        margin: 30px 0;
+    }
+    .footer-menu li {
+        display: block;
+        margin-bottom: 16px;
+    }
+    .footer-social {
+        text-align: left;
+    }
+    .footer-social li {
+        margin-right: 16px;
+    }
+    .turk-address {
+        float: none;
+        padding-left: 40px;
+    }
+    .service-form, .reviews-form {
+        background: #252525;
+    }
+    .full-form-wrapper input {
+        margin-top: 16px;
+    }
+    .full-form-wrapper select {
+        margin-top: 16px;
+    }
+    .full-form-wrapper button {
+        margin-top: 16px;
+    }
+    .we-work {
+        background: #1E1E1E;
+    }
+    .offer-item {
+        margin: 30px auto;
+    }
+    .contact-turk .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .turk-address {
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+    .contact-ukr .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ukr-address {
+        padding-left: 0;
+    }
+    .full-form-wrapper input[type=text] {
+        margin-bottom: 16px;
+    }
+    .top-content {
+        margin-top: 80px;
+    }
+    .top-content .right form {
+        float: none;
+        margin-top: 70px;
+    }
+    .header {
+        padding-bottom: 100px;
+    }
+    .offers {
+        padding-top: 100px;
+    }
+    .full-form-wrapper .col-md-6 {
+        padding-left: 15px;
+    }
+    .reviews-header h1 {
+        font-size: 28px;
+    }
+    .reviews-header button {
+        margin-top: 10px;
+    }
+    .reviews-header button {
+        margin-top: 10px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .mob-menu-wrapper {
+        position: fixed;
+        top: 0;
+        left: -999px;
+        height: 100%;
+        width: 100%;
+        background: #252525;
+        z-index: 10;
+        overflow: auto;
+        transition: all .30s;
+    }
+    .open-mob-menu {
+        left: 0;
+        transition: all .30s;
+    }
+    .mob-logo {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 70px;
+    }
+    .header-menu_wrapper ul {
+        margin-left: 0;
+    }
+    .header-menu_wrapper li {
+        display: block;
+        margin-top: 25px;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header-social {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .header-social li {
+        margin: 10px 10px;
+    }
+    .mobile-phone {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .mobile-phone a {
+        display: block;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 16px;
+        font-size: 22px;
+    }
+    .close-mob-menu {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+    }
+    .mob-menu-btn {
+        background: transparent;
+        color: #fff;
+        font-size: 30px;
+        float: right;
+        border: none;
+        outline: none;
+        margin-top: 5px;
+    }
+    .mob-menu-btn span {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+    .header_logo {
+        float: left;
+    }
+    .reviews iframe {
+        height: 250px;
+    }
+    .reviews-header button {
+        float: none;
+    }
+    .slick-bottom .slick-bottom-img img {
+        height: 70px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .top-content .left h1 {
+        font-size: 35px;
+    }
+    .item-popup {
+        padding: 20px;
+    }
+    .item-popup h2 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .item-popup h3 {
+        font-size: 16px;
+    }
+    .slick-bottom .slick-bottom-img {
+        padding: 2px;
+    }
+    .slick-bottom {
+        max-width: 250px;
+    }
+    .item-popup {
+        height: 100%;
+    }
+    .popup-price span {
+        font-size: 24px;
+    }
+    .popup-get-info_bottom {
+        width: 100%;
+    }
+    .close-popup-bottom {
+        width: 100%;
+        margin-top: 16px;
+    }
+    .popup-get-info_top {
+        width: 100%;
+    }
+    .popup-price ul li:last-child {
+        margin: 0;
+    }
+    .popup-price li {
+        width: 49%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .left_item {
+        position: relative;
+    }
+    .top-content .left .left_item p {
+        margin-left: 60px;
+    }
+    .top-content .left .left_item img {
+        position: absolute;
+    }
+}
+
+ 
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .top-content .left h1 {
+        font-size: 30px;
+    }
+    .top-content .left p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .offers h2 {
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+    .offers {
+        padding-top: 50px;
+    }
+    .top-content .right form {
+        padding: 32px 16px;
+    }
+    .services h2 {
+        font-size: 40px;
+    }
+    .services {
+        padding-top: 50px;
+    }
+    .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about h2 {
+        font-size: 42px;
+    }
+    .we-work h2 {
+        font-size: 35px;
+    }
+    .we-work {
+        padding-top: 50px;
+    }
+    .reviews h2 {
+        font-size: 33px;
+    }
+    .reviews {
+        padding: 50px 0;
+    }
+    .full-form {
+        padding: 50px 0;
+    }
+    .offer-item h3 {
+        font-size: 23px;
+    }
+    .top-content .left .left_item img {
+        top: 15px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

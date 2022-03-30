@@ -1,0 +1,380 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header-menu li {
+        margin-right: 15px;
+    }
+
+    .header-button button {
+        padding: 8px 30px;
+    }
+
+    .top-content__text {
+        margin-top: 40px;
+    }
+
+    .features__wrapper {
+        padding: 36px;
+    }
+
+    .about-company__text .block-title h2,
+    .about-us__text .block-title h2,
+    .packages__item-text .block-title h2 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    .about-us__text {
+        margin-top: 0;
+    }
+
+    .about-us__buttons button {
+        padding: 12px;
+    }
+
+    .about-us__buttons a {
+        padding: 10px 28px;
+    }
+
+    .about-company__counters-item {
+        padding: 16px 10px;
+    }
+
+    .about-company__text {
+        margin-top: 0;
+    }
+
+    .packages__item-text {
+        margin-top: 0;
+    }
+
+    .block-title h2 {
+        margin-top: 38px;
+        font-size: 28px;
+    }
+
+    .doctors__title {
+        margin-bottom: 38px;
+    }
+    .packages__title h2 {
+        font-size: 28px;
+    }
+    .packages__title button {
+        margin-top: 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .top-header address,
+    .top-header__social a span {
+        font-size: 14px;
+    }
+
+    .top-content {
+        padding: 60px 0;
+    }
+
+    .top-content__text {
+        margin-top: 0;
+    }
+
+    .top-content__form {
+        margin-top: 42px;
+    }
+
+    .features__wrapper {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .about-us__text {
+        margin-top: 24px;
+    }
+
+    .about-company__text {
+        margin-top: 24px;
+    }
+
+    .packages__item-text {
+        margin-top: 24px;
+    }
+
+    .video iframe {
+        height: 400px;
+    }
+
+    .doctors__item {
+        margin-bottom: 32px;
+    }
+
+    .doctors {
+        padding-bottom: 50px;
+    }
+
+    .reviews__top-line {
+        margin-bottom: 50px;
+    }
+
+    .contact__map {
+        margin-top: 32px;
+    }
+
+    .portfolio {
+        padding: 50px 0;
+    }
+
+    .features {
+        padding: 50px 0;
+    }
+
+    .about-company {
+        padding: 50px 0;
+    }
+
+    .about-us {
+        padding: 50px 0;
+    }
+
+    .video {
+        padding: 50px 0;
+    }
+
+    .packages {
+        padding: 50px 0;
+    }
+
+    .packages .row {
+        margin-bottom: 0;
+    }
+
+    .packages__item {
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+    .mobile-menu {
+        position: fixed;
+        background: #fff;
+        top: 0;
+        left: -999px;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .30s;
+    }
+    .mobile-menu__active {
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+        transition: all .30s;
+    }
+    
+    .header-menu ul {
+        text-align: center;
+        margin-top: 32px;
+    }
+    .header-menu li {
+        display: block;
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+    .mobile-logo {
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+    .close__mobile-menu {
+        position: absolute;
+        top: 26px;
+        right: 26px;
+        font-size: 22px;
+        color: #716e8d;
+        cursor: pointer;
+    }
+    .mobile_contact {
+        margin-top: 48px;
+        text-align: center;
+    }
+    .mobile_contact a {
+        display: block;
+        font-weight: 500;
+        color: #3C4552;
+        transition: all .30s;
+    }
+    .mobile_contact a:hover {
+        transition: all .30s;
+        color: #E41C40;
+    }
+    .mobile_contact a svg {
+        vertical-align: bottom;
+    }
+    .mobile_contact button {
+        padding: 12px 40px;
+        border: none;
+        outline: none;
+        background: #fff;
+        border: 1px solid #E41C40;
+        border-radius: 3px;
+        text-transform: uppercase;
+        color: #E41C40;
+        font-weight: bold;
+        margin-top: 16px;
+        font-family: 'Play', sans-serif;
+    }
+    .mobile__open-menu {
+        margin-top: 16px;
+        text-align: right;
+    }
+    .mobile__open-menu__btn {
+        background: #fff;
+        border: none;
+        outline: none;
+        font-size: 22px;
+        color: #3C4552;
+        font-family: 'Play', sans-serif;
+        text-transform: uppercase;
+    }
+    .close-form-popup {
+        top: 55px;
+    }
+    .packages__title-button {
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: 36px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .portfolio-buttons {
+        text-align: left;
+        margin-top: 16px;
+    }
+
+    .portfolio-buttons button {
+        margin-left: 0;
+        margin-right: 8px;
+    }
+
+    .about-company__counters-item {
+        padding: 24px 32px;
+    }
+
+    .video iframe {
+        height: 350px;
+    }
+
+    .about-company__counters .col-sm-6 {
+        padding: 0;
+    }
+    .reviews {
+        padding-bottom: 50px;
+    }
+    .contact {
+        padding: 50px 0;
+    }
+    .contact__form {
+        margin-top: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .top-content__text h1 {
+        font-size: 32px;
+    }
+
+    .top-content__form h2 {
+        font-size: 22px;
+    }
+
+    .about-us__buttons li {
+        display: block;
+    }
+
+    .about-us__buttons button {
+        width: 100%;
+        display: block;
+    }
+
+    .about-us__buttons a {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .block-title h2 {
+        font-size: 22px;
+    }
+    .portfolio-buttons button {
+        height: 36px;
+        width: 36px;
+    }
+    .portfolio-slider {
+        margin-top: 22px;
+    }
+    .video iframe {
+        height: 215px;
+    }
+    .doctors__title h2 {
+        font-size: 24px;
+    }
+    .doctors__title p {
+        font-size: 16px;
+    }
+    .reviews__title h2 {
+        font-size: 24px;
+    }
+    .reviews__title p {
+        font-size: 16px;
+    }
+    .contact__map iframe {
+        height: 340px;
+    }
+    .packages__title h2 {
+        font-size: 25px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .top-content__form {
+        padding: 16px;
+    }
+    .top-content__form p {
+        font-size: 16px;
+    }
+    .top-content__form h2 {
+        font-size: 18px;
+    }
+    .form-popup .top-content__form h2 {
+        font-size: 16px;
+    }
+    .form-popup .top-content__form p {
+        font-size: 14px;
+    }
+    .close-form-popup {
+        top: 44px;
+        right: 12px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}

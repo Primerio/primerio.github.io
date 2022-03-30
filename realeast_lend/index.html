@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Недвижимость в Стамбуле от Real East</title>
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="libs/telnp/intlTelInput.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-menu">
+                <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-2 col-xs-12">
+                        <div class="header_logo">
+                            <a href="/"><img loading="lazy" src="img/logo.svg" alt="logo"></a>
+                        </div>
+                        <button class="mob-menu-btn hidden-sm hidden-md hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i><span>Меню</span></button>
+                    </div>
+                    <div class="col-lg-7 col-md-8 mob-menu-wrapper">
+                        <div class="close-mob-menu hidden-sm hidden-md hidden-lg"><img loading="lazy" src="img/close.svg" alt=""></div>
+                        <div class="mob-logo hidden-sm hidden-md hidden-lg">
+                            <a href="/">
+                                <img loading="lazy" src="img/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="header-menu_wrapper">
+                            <ul>
+                                <li><a href="#catalog" class="scrollto">Каталог недвижимости</a></li>
+                                <li><a href="#services" class="scrollto">Услуги</a></li>
+                                <li><a href="#reviews" class="scrollto">Отзывы</a></li>
+                                <li><a href="#contacts" class="scrollto">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile-phone hidden-md hidden-lg hidden-sm">
+                            <a href="tel:+380960900900">+ 38 096 0 900 900</a>
+                            <a href="tel:+905523721620">+ 90 552 372 16 20</a>
+                        </div>
+                        <div class="footer-social header-social hidden-md hidden-lg hidden-sm">
+                            <ul>
+                                <li><a href="https://vk.com/real.east" target="_blank"><img loading="lazy" src="img/vk.svg" alt=""></a></li>
+                                <li><a href="https://www.facebook.com/nedvijimostvstambule/" target="_blank"><img loading="lazy" src="img/fb.svg" alt=""></a></li>
+                                <li><a href="https://www.instagram.com/realeast.su/?igshid=1v680n9ae527v" target="_blank"><img loading="lazy" src="img/inst.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 hidden-sm hidden-xs">
+                        <div class="header_phone">
+                            <ul>
+                                <li class="hidden-sm hidden-xs hidden-md"><a href="tel:+905523721620">+90 552 372 16 20</a></li>
+                                <li><button class="open-form">Оставить заявку</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="left">
+                            <h1>Недвижимость <br> в Стамбуле</h1>
+                            <p>От качественных вариантов за <b>60 000</b> <span>$</span> до <br>
+                                роскошных вилл. Вид на жительство для всей <br>
+                                семьи. <b>Гражданство</b></p>
+                            <div class="left_item">
+                                <img loading="lazy" src="img/icon1.svg" alt="icon">
+                                <p>Мы с Вами от встречи в аэропорту <br> до получения ключей.</p>
+                            </div>
+                            <div class="left_item">
+                                <img loading="lazy" src="img/icon2.svg" alt="icon">
+                                <p>Полное юридическое <br> сопровождение.</p>
+                            </div>
+                            <div class="left_item">
+                                <img loading="lazy" src="img/icon3.svg" alt="icon">
+                                <p>Более <span>23 000</span> объектов в базе.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right">
+                            <form action="send.php" method="post">
+                                <h2>ОСТАВЬТЕ СВОИ КОНТАКТЫ</h2>
+                                <input type="text" placeholder="Ваше имя" name="name" required>
+                                <input matInput style="padding-left: 100px;" id="phone1" type="tel" name="phone" class="phone-box" placeholder="Ваш телефон" pattern="+^[ 0-9]+$" autocomplete="off" required>
+                                <select name="messanger">
+                                   <option value="">Мессенджер для связи</option>
+                                    <option value="Whatsapp">Whatsapp</option>
+                                    <option value="Telegram">Telegram</option>
+                                    <option value="Viber">Viber</option>
+                                    <option value="imo">imo</option>
+                                </select>
+                                <button>Подберите мне варианты</button>
+                                <p>*Условия распространяются на тех клиентов, которые купили квартиру после осмотра всех вариантов</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="offers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Лучшие предложения <br> от Real East</h2>
+                </div>
+                <!--item 1-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-1" id="catalog">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item1/item1.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №1</h3>
+                            <span class="form-item-name hidden">SELF ISTANBUL</span>
+                            <!-- <h4>Район Кадыкёй</h4>-->
+                            <p>Жилой комплекс расположен рядом с одной из главных дорог, недалеко от крупного торгово-развлекательного комплекса - «Torium».</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>67 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 2 нет контента-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-2">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item2/item2.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №2</h3>
+                            <span class="form-item-name hidden">MARİNA 24 3+1</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Жилой комплекс расположен рядом с одной из главных дорог, недалеко от крупного торгово комплекса.</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>387 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 3-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-3">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item3/item3.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №3</h3>
+                            <span class="form-item-name hidden">MARİNA 24 3+1</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Новый уютный жилой комплекс расположен в самом сердце Стамбула — всего в 10 минутах от площади Таксим и от станции метро.</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>153 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 4-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-4">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item4/item4.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №4</h3>
+                            <span class="form-item-name hidden">maslak 1453</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Самый большой жилой комплекс Европы, гордо возвышающийся на высоком холме, виден издалека. Он стал «визитной карточкой» нового Стамбула.</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>190 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 5-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-5">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item5/item5.png" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №5</h3>
+                            <span class="form-item-name hidden">referans bahceşehir 2+1</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Новый жилой комплекс расположен в современном районе европейской части Стамбула - Бахчешехире.</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>134 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 6-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-6">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item6/item6.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №6</h3>
+                            <span class="form-item-name hidden">SEAPALM</span>
+                            <!-- <h4>Район Кадыкёй</h4>-->
+                            <p>Квартиры в новом жтлом комплексе, расположенном в Бейликдюзю. В шаговой доступности от моря. </p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>70 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 7-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-7">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item7/item7.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №7</h3>
+                            <span class="form-item-name hidden">yeni eyüp evleri</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Новый жилой комплекс расположен в районе Эйюп — одном из самых перспективных с точки зрения инвестиций районов Стамбула.</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>94 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 8-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-8">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item8/item8.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №8</h3>
+                            <span class="form-item-name hidden">Narlı bahçe</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Новый жилой комплекс, расположенный в Умрание, словно создан для тех, кто хочет жить рядом с природой.</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>136 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 9-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-9">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item9/item9.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №9</h3>
+                            <span class="form-item-name hidden">MESA CUBUKLU28</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Жизнь у природы, жизнь в экологически чистом районе — самое лучшее, что может выбрать для себя современный житель мегаполиса.</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>314 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 10-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-10">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item10/item10.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №10</h3>
+                            <span class="form-item-name hidden">Stay Çeken</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Новый жилой комплекс, расположенный в районе Стамбула Кагитхане, всего в 5 минутах от действующей станции метро.</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>176 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 11-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-11">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item11/item11.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №11</h3>
+                            <span class="form-item-name hidden">BÜYÜKYALI</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Современный дизайн квартир в классическом стиле и стиле модерн.
+                                Дорогая сантехника от ведущих фирм,  бытовая техника известных брендов</p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость от</p><span>498 000 $</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+                <!--item 12-->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item-12">
+                    <div class="offer-item">
+                        <div class="offer_img">
+                            <figure>
+                                <img loading="lazy" src="img/item12/item12.jpg" alt="">
+                            </figure>
+                            <div class="credit">
+                                Рассрочка <span>0%</span>
+                            </div>
+                        </div>
+                        <div class="offer-item_bottom">
+                            <h3>Объект №12</h3>
+                            <span class="form-item-name hidden">DENIZ ISTANBUL</span>
+                            <!--<h4>Район Кадыкёй</h4>-->
+                            <p>Закрытая, охраняемая территория, где есть всё необходимое для комфорта Вас и Вашей семьи. </p>
+                            <ul>
+                                <li>
+                                    <p>Стоимость</p><span>Цена по запросу</span>
+                                </li>
+                                <!--<li>
+                                    <p>Площа</p><span>12м x 12м</span>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--item-->
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Наши услуги</h2>
+                </div>
+                <div class="col-md-5 col-sm-6">
+                    <div class="services-item">
+                        <img loading="lazy" src="img/s1.svg" alt="">
+                        <h3>Консалтинг</h3>
+                        <p>Наши специалисты предоставляют консультации по всем финансовым, юридическим и другим вопросам, осуществляют экспертную оценку объектов</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-1 col-sm-6">
+                    <div class="services-item">
+                        <img loading="lazy" src="img/s4.svg" alt="">
+                        <h3>Индивидуальный проект</h3>
+                        <p>Мы предлагаем услуги разработки проекта, а также строительство «под ключ»</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-5 col-sm-6">
+                    <div class="services-item">
+                        <img loading="lazy" src="img/s2.svg" alt="">
+                        <h3>Подбор объектов</h3>
+                        <p>Наши инвесторы могут купить проект, на любом этапе строительства или приобрести уже готовую недвижимость</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-1 col-sm-6">
+                    <div class="services-item">
+                        <img loading="lazy" src="img/s5.svg" alt="">
+                        <h3>Продажа недвижимости</h3>
+                        <p>Мы предлагаем объекты недвижимости в Стамбуле, среди которых коммерческие и жилые здания, современные квартиры, виллы и земельные участки</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-5 col-sm-6">
+                    <div class="services-item">
+                        <img loading="lazy" src="img/s3.svg" alt="">
+                        <h3>Подбор земельных участков</h3>
+                        <p>Помощь в подборе земельных участков по самым выгодным ценам. Экспертная оценка земли</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-1 col-sm-6">
+                    <div class="services-item">
+                        <img loading="lazy" src="img/s6.svg" alt="">
+                        <h3>Оформление вида на жительство</h3>
+                        <p>При приобретении недвижимости через нашу компанию, услуги по оформлению Вида на жительство абсолютно бесплатно</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--form section-->
+    <section class="service-form full-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 full-form-wrapper">
+                    <div class="col-md-12">
+                        <h2>Бесплатная консультация</h2>
+                    </div>
+                    <form action="send.php" method="post">
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Ваше имя" name="name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input matInput style="padding-left: 100px;" id="phone2" type="tel" name="phone" class="phone-box" placeholder="Ваш телефон" pattern="+^[ 0-9]+$" autocomplete="off" required>
+                        </div>
+                        <div class="col-md-6">
+                            <select name="messanger">
+                               <option value="">Мессенджер для связи</option>
+                                <option value="Whatsapp">Whatsapp</option>
+                                <option value="Telegram">Telegram</option>
+                                <option value="Viber">Viber</option>
+                                <option value="imo">imo</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <button>Отставить заявку</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--form section-->
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>О компании</h2>
+                    <div class="about-text">
+                        <h3>Мы <span>№1</span> на рынке по недвижимости в Стамбуле</h3>
+                        <p>По данным статистики агентства Real East, цены на недвижимость увеличились более чем на 100% по сравнению с 2013 годом. В 2017 наблюдалось падение, но к 2018 цены снова начали расти. И мы прогнозируем новый рост в 2020 году.</p>
+                        <ul>
+                            <li>
+                                <p>7 лет добросовестной работы.</p>
+                            </li>
+                            <li>
+                                <p>Сотни довольных клиентов</p>
+                            </li>
+                            <li>
+                                <p>Личный опыт успешной эмиграции</p>
+                            </li>
+                            <li>
+                                <p>С нами сотрудничают лучшие компании-застройщики</p>
+                            </li>
+                            <li>
+                                <p>Люди доверяют нам свои деньги и вопросы безопасности</p>
+                            </li>
+                            <li>
+                                <p>Мы не только продаём недвижимость, но помогаем в адаптации на новом месте</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs">
+                    <div class="about-img">
+                        <figure>
+                            <img loading="lazy" src="img/about-img.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--animate counter-->
+
+    <!--animate counter-->
+    <section class="we-work">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-12 we-work-items-wrapper">
+                    <h2>Этапы нашей работы</h2>
+                    <div class="col-md-6">
+                        <div class="we-work_item">
+                            <span>01/</span>
+                            <h3>Консультация</h3>
+                            <p>Предварительный подбор жилья</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="we-work_item">
+                            <span>02/</span>
+                            <h3>Встреча в аэропорту</h3>
+                            <p>Размещение в гостинице</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="we-work_item">
+                            <span>03/</span>
+                            <h3>Знакомство</h3>
+                            <p>Подписание договора с нашим агентством</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="we-work_item">
+                            <span>04/</span>
+                            <h3>Обзорный тур</h3>
+                            <p>Выбор района. Подбор и показ недвижимости</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="we-work_item">
+                            <span>05/</span>
+                            <h3>Оценка рисков</h3>
+                            <p>Экспертная проверка квартиры</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="we-work_item">
+                            <span>06/</span>
+                            <h3>оформление документов</h3>
+                            <p>Заключение договора купли-продажи</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="we-work_item">
+                            <span>07/</span>
+                            <h3>Кадастровое сопровождение</h3>
+                            <p>Оформление квартиры в кадастровом ведомстве Тапу</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="we-work_item">
+                            <span>08/</span>
+                            <h3>Послепродажный сервис</h3>
+                            <p>Полное сопровождение по вопросам недвижимости от А до Я</p>
+                        </div>
+                    </div>
+                    <button class="open-form">Заказать консультацию</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Отзывы наших клиентов</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="reviews_item">
+                        <iframe src="https://www.youtube.com/embed/zFNM9UfUDWQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Татары в Турции. Переезд в Турцию</h3>
+                </div>
+                <div class="col-md-4">
+                    <div class="reviews_item">
+                        <iframe src="https://www.youtube.com/embed/GcEfjaDPBBA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Переезд из России в Турцию. Недвижимость в Турции</h3>
+                </div>
+                <div class="col-md-4">
+                    <div class="reviews_item">
+                        <iframe src="https://www.youtube.com/embed/MyYRbH6dQTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>"Выбираю Турцию, а не Европу!" Переезд в Турцию</h3>
+                </div>
+                <div class="col-md-12">
+                    <a href="reviews.html">посмотреть больше отзывов</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--form section-->
+    <section class="reviews-form full-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 full-form-wrapper">
+                    <div class="col-md-12">
+                        <h2>Бесплатная консультация</h2>
+                    </div>
+                    <form action="send.php" method="post">
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Ваше имя" name="name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input matInput style="padding-left: 100px;" id="phone3" type="tel" name="phone" class="phone-box" placeholder="Ваш телефон" pattern="+^[ 0-9]+$" autocomplete="off" required>
+                        </div>
+                        <div class="col-md-6">
+                            <select name="messanger">
+                               <option value="">Мессенджер для связи</option>
+                                <option value="Whatsapp">Whatsapp</option>
+                                <option value="Telegram">Telegram</option>
+                                <option value="Viber">Viber</option>
+                                <option value="imo">imo</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <button>Отставить заявку</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--form section-->
+
+    <section class="contact-ukr">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 hidden-xs hidden-sm">
+                    <figure>
+                        <img loading="lazy" src="img/contact-ukr.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="ukr-address" id="contacts">
+                        <h2>Украина <span>(Одесса)</span></h2>
+                        <ul>
+                            <li>
+                                <p>Телефон</p> <a href="tel:tel:380960900900">+ 38 096 0 900 900</a>
+                            </li>
+
+                            <li>
+                                <p>Адрес</p> <span>Бербер Ирина Васильевна. АН "Александр-Н". Одесса. Пр. Шевченко, 8</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-turk">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="turk-address">
+                        <h2>Турция <span>(Стамбул)</span></h2>
+                        <ul>
+                            <li>
+                                <p>Телефон</p> <a href="tel:tel:905384122042">+ 90 538 412 20 42 </a>
+                            </li>
+                            <li>
+                                <p>Email</p> <a href="mailto:info@realeast.su">info@realeast.su</a>
+                            </li>
+                            <li>
+                                <p>Адрес</p> <span>Türkiye, İstanbul, Esenyurt, Güzelyurt mah., 7.Cadde, No 3, Delta Plaza B1 blok, kat 10, daire 20.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 hidden-xs hidden-sm">
+                    <figure>
+                        <img loading="lazy" src="img/turk-contact.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-sm-12">
+                    <div class="footer-logo">
+                        <a href="/">
+                            <img loading="lazy" src="img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#catalog" class="scrollto">Каталог недвижимости</a></li>
+                            <li><a href="#services" class="scrollto">Услуги</a></li>
+                            <li><a href="#reviews" class="scrollto">Отзывы</a></li>
+                            <li><a href="#contacts" class="scrollto">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="footer-social">
+                        <ul>
+                            <li><a href="https://vk.com/real.east" target="_blank"><img loading="lazy" src="img/vk.svg" alt=""></a></li>
+                            <li><a href="https://www.facebook.com/nedvijimostvstambule/" target="_blank"><img loading="lazy" src="img/fb.svg" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/realeast.su/?igshid=1v680n9ae527v" target="_blank"><img loading="lazy" src="img/inst.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="black-bg"></div>
+    <!--popup form-->
+
+    <div class="popup-form">
+        <span class="close-popup-form">x</span>
+        <form action="send.php" method="post">
+            <h2>ОСТАВЬТЕ СВОИ КОНТАКТЫ</h2>
+            <input type="text" placeholder="Ваше имя" name="name" required>
+            <input matInput style="padding-left: 100px;" id="phone4" type="tel" name="phone" class="phone-box" placeholder="Ваш телефон" pattern="+^[ 0-9]+$" autocomplete="off" required>
+            <select name="messanger">
+                <option value="">Мессенджер для связи</option>
+                <option value="Whatsapp">Whatsapp</option>
+                <option value="Telegram">Telegram</option>
+                <option value="Viber">Viber</option>
+                <option value="imo">imo</option>
+            </select>
+            <input type="hidden" name="itemName" class="hidden-name">
+            <button>Подберите мне варианты</button>
+            <p>*Условия распространяются на тех клиентов, которые купили квартиру после осмотра всех вариантов</p>
+        </form>
+    </div>
+
+
+    <!--popup1-->
+    <div class="item-popup popup-1">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2>КВАРТИРА ДЛЯ СЧАСТЛИВОЙ СЕМЬИ </h2>
+        <h3>Жилой комплекс расположен рядом с одной из главных дорог, недалеко от крупного торгово-развлекательного комплекса - «Torium».</h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/4.jpg" alt="">
+                </div>
+                <!-- <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/5.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/6.jpg" alt="">
+                </div>-->
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/4.jpg" alt="">
+                </div>
+                <!--  <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/5.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/6.jpg" alt="">
+                </div>-->
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>67 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Концепцией проекта является наличие всех условий для спокойной и счастливой жизни семьи. Поэтому при проектировании учтены все потребности современных семей.
+                <br><br>
+                85% территории комплекса отведено под зелёные насаждения, искусственные водоёмы места для отдыха и прогулок.
+                <br><br>
+                Это даст возможность на территории комплекса отдохнуть от суеты огромного мегаполиса, которым является Стамбул, а также обеспечит прохладу и свежий воздух даже в разгар летнего зноя.
+                <br><br>
+                Жилой комплекс расположен вблизи транспортной магистрали Е- 5, соединяющей европейскую и азиатскую части города.
+                <br><br>
+                Здесь проходит линия метробуса, что позволит быстро добраться на работу, учёбу или просто на прогулку в самые удалённые районы Стамбула.
+                <br><br><br>
+
+
+                Закрытая охраняемая территория, где есть всё необходимое:<br>
+                - плавательный бассейн<br>
+                - сауна<br>
+                - фитнес-салон<br>
+                - игровые площадки для детей<br>
+                - спортивные площадки<br>
+                - подземный паркинг.<br>
+                <br><br>
+                Отличные цены и условия для инвесторов!
+
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup1-->
+
+    <!--popup2 нет контента-->
+    <div class="item-popup popup-2">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2>КВАРТИРА ДЛЯ СЧАСТЛИВОЙ СЕМЬИ </h2>
+        <h3>Жилой комплекс расположен рядом с одной из главных дорог, недалеко от крупного торгово-развлекательного комплекса - «Torium».</h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item2/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item2/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item2/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item2/4.jpg" alt="">
+                </div>
+                <!-- <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/5.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/6.jpg" alt="">
+                </div>-->
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item2/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item2/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item2/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item2/4.jpg" alt="">
+                </div>
+                <!--  <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/5.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/6.jpg" alt="">
+                </div>-->
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>85 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Концепцией проекта является наличие всех условий для спокойной и счастливой жизни семьи. Поэтому при проектировании учтены все потребности современных семей.
+                <br><br>
+                85% территории комплекса отведено под зелёные насаждения, искусственные водоёмы места для отдыха и прогулок.
+                <br><br>
+                Это даст возможность на территории комплекса отдохнуть от суеты огромного мегаполиса, которым является Стамбул, а также обеспечит прохладу и свежий воздух даже в разгар летнего зноя.
+                <br><br>
+                Жилой комплекс расположен вблизи транспортной магистрали Е- 5, соединяющей европейскую и азиатскую части города.
+                <br><br>
+                Здесь проходит линия метробуса, что позволит быстро добраться на работу, учёбу или просто на прогулку в самые удалённые районы Стамбула.
+                <br><br><br>
+
+
+                Закрытая охраняемая территория, где есть всё необходимое:<br>
+                - плавательный бассейн<br>
+                - сауна<br>
+                - фитнес-салон<br>
+                - игровые площадки для детей<br>
+                - спортивные площадки<br>
+                - подземный паркинг.<br>
+                <br><br>
+                Отличные цены и условия для инвесторов!
+
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup2-->
+
+
+    <!--popup3-->
+    <div class="item-popup popup-3">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2>КВАРТИРЫ РЯДОМ С ТАКСИМ </h2>
+        <h3>Новый уютный жилой комплекс расположен в самом сердце Стамбула — всего в 10 минутах от площади Таксим и от станции метро.</h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item3/8.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item3/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item3/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item3/4.jpg" alt="">
+                </div>
+                <!-- <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/5.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item1/6.jpg" alt="">
+                </div>-->
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item3/8.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item3/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item3/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item3/4.jpg" alt="">
+                </div>
+                <!--  <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/5.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item1/6.jpg" alt="">
+                </div>-->
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>153 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Идеальное место для тех, кто хочет жить рядом со знаменитой улицей Истикляль,  которую называют «Турецким Монмартром» из-за множества картинных галерей, магазинов, где художники продают свои творения.
+                <br><br>
+                Всего в 4-х километрах от дома находится знаменитый Zorlu Center — престижный торговый центр, где расположены бутики самых известных мировых брендов.<br><br>
+                К услугам жильцов:<br>
+                закрытый паркинг<br>
+                спортивный салон<br>
+                сауна<br>
+                хамам<br>
+                круглосуточная охрана<br>
+                стойка ресепшн<br><br>
+                 
+                Выгодное инвестиционное предложение.  На данном этапе цены привлекательны для инвесторов.<br>
+                Здесь всегда будет высокий спрос на аренду. Цены на аренду — одни из самых высоких в Стамбуле.<br><br>
+                Узнать условия оплаты — оставьте заявку на сайте.
+
+
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup3-->
+    <!--popup4-->
+    <div class="item-popup popup-4">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2>ЭЛИТНАЯ НЕДВИЖИМОСТЬ В САМОМ ПРЕСТИЖНОМ РАЙОНЕ ГОРОДА </h2>
+        <h3>Жизнь в роскоши, престиж и близость к природе - все эти аспекты современной жизни редко удаётся совместить жителю мегаполиса.</h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item4/7.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item4/8.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item4/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item4/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item4/5.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item4/6.jpg" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item4/7.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item4/8.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item4/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item4/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item4/5.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item4/6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>190 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Сарыер – район, раскинувшийся на берегу Босфора и граничащий с обширным лесным массивом. <br>
+                В Сарыер находится вилла и музей известного далеко за пределами Турции миллиардера-мецената Сапанджи.<br>
+                Дорогая отделка. Всё – от мебели со встроенной бытовой техникой до мелких деталей декора и фурнитуры выполнено по эскизам известных дизайнеров.<br><br>
+                Каждая квартира выполнена в стилистике, совмещающей последние тенденции дизайна с семейным уютом и ощущением тепла домашнего очага.
+                <br><br>
+                Панорамные окна, из которых видны горы, покрытые лесом. Тишина, которую дает высокое качество шумоизоляции. Удобство связи с любым районом города, обеспеченное наличием трансъевропейской магистрали и близостью к развязке крупнейших транспортных артерий Стамбула.
+                На территории комплекса имеются несколько центров, в каждом из которых есть социальные услуги:<br><br>
+                - тренажёрный зал<br>
+                - фитнес<br>
+                - сауна<br>
+                - СПА<br>
+                - турецкий хамам<br><br>
+                Есть также теннисные корты, спортивные площадки.<br>
+                По периметру расположены рестораны, кафе, салоны красоты, офисы.<br>
+                Это обеспечит Вам и Вашей семье комфортную жизнь в современном Стамбуле.
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup4-->
+
+    <!--popup5-->
+    <div class="item-popup popup-5">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2>СТАМБУЛ. КОМФОРТ, КОТОРЫЙ ВСЕГДА С ТОБОЙ  </h2>
+        <h3>Новый жилой комплекс расположен в современном районе европейской части Стамбула - Бахчешехире. </h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item5/item5.png" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item5/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item5/3.png" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item5/4.png" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item5/5.png" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item5/item5.png" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item5/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item5/3.png" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item5/4.png" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item5/5.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>134 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Здесь проходит скоростная трансъевропейска магистраль, соединяющая разные концы мегаполиса и пролегающая через другие страны Европы. Это обеспечит Вам возможность максимально быстро добраться в исторический центр Стамбула и в его самые отдалённые районы. <br><br>
+                В районе - отличное снабжение транспортом. Есть метро. <br>
+                В шаговой доступности - транспорт, есть несколько школ. <br>
+                Рядом с жилым комплексом находится один из крупнейших парков с каскадом озёр, где плавают лебеди. Здесь есть много мест для отдыха, есть кафе, рестораны. Это даёт возможность отдохнуть с семьёй, с детьми, с друзьями. <br>
+                Жилой комплекс возведён в соответствии с современными стандартами строительство и сейсмоустойчивости. <br>
+                Каждая квартира оборудована встроенной кухней. <br>
+                Качественная отделка, дорогая сантехника, надёжные окна с высокой степенью защиты от шума и пыли.<br>
+                Территория комплекса находится под круглосуточной охраной. <br><br>
+                К услугам жильцов:<br><br>
+                - открытый бассейн<br>
+                - закрытый бассейн<br>
+                - спортзал<br>
+                - сауна<br>
+                - хамам <br>
+                - подземный паркинг <br><br>
+                Всё это даст максимально комфортную жизнь Вам и Вашей семье. 
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup5-->
+
+    <!--popup6-->
+    <div class="item-popup popup-6">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2>Отличный варитант по отличной цене.   </h2>
+        <h3>Квартиры в новом жтлом комплексе, расположенном в Бейликдюзю. В шаговой доступности от моря.  </h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item6/item6.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item6/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item6/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item6/4.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item6/5.jpg" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item6/item6.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item6/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item6/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item6/4.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item6/5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>70 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Квартиры в новом жтлом комплексе, расположенном в Бейликдюзю. В шаговой доступности от моря. <br>
+                Закрытая, охраняемая территория. <br>
+                Рядом школы, магазины, транспорт.<br><br>
+                К услугам жильцов: <br>
+                - спортивный салон<br>
+                - бассейн<br>
+                -сауна<br>
+                -хамам <br><br>
+                Отличный варитант по отличной цене.
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup6-->
+
+    <!--popup7-->
+    <div class="item-popup popup-7">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2>КВАРТИРЫ В ИСТОРИЧЕСКОМ РАЙОНЕ СТАМБУЛА   </h2>
+        <h3>Новый жилой комплекс расположен в районе Эйюп — одном из самых перспективных с точки зрения инвестиций районов Стамбула.  </h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item7/item7.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item7/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item7/2.png" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item7/3.png" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item7/4.png" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item7/item7.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item7/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item7/2.png" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item7/3.png" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item7/4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>94 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Здесь есть несколько станций метро, благодаря чему можно быстро доехать в Султанахмет, до площади Таксим, и в другие районы города. <br>
+                Комплекс состоит из нескольких 15- этажных домов, расположенных на закрытой территории.<br><br>
+                К услугам жильцов:<br>
+                - Спортивный салон<br>
+                - бассейн<br>
+                - сауна<br>
+                - хамам<br>
+                - подземный паркинг<br><br>
+                Отличные условия рассрочки. Есть система скидок.
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup7-->
+
+
+    <!--popup8-->
+    <div class="item-popup popup-8">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2> «Город-сад» в азиатской части Стамбула   </h2>
+        <h3>Новый жилой комплекс, расположенный в Умрание, словно создан для тех, кто хочет жить рядом с природой.  </h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item8/item8.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item8/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item8/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item8/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item8/4.jpg" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item8/item8.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item8/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item8/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item8/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item8/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>136 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Концепцией комплекса является наличие везде зелёных зон. На территории растут декоративные деревья, кустарники, гранатовые деревья.
+                <br><br>
+                Также зелёные насаждения есть на террасах.<br>
+                В шаговой доступности расположен огромный лесной массив. Леса, часть из которых — национальные парки.<br>
+                Также в шаговой доступности школа и маркеты.<br>
+                Дом расположен недалеко от главной дороги, что поможет Вам быстро добраться до одного из мостов Босфора или до тоннеля.<br>
+                Территория комплекса закрыта и находится под охраной.<br><br>
+                К услугам жильцов:<br>
+                - бассейн<br>
+                - спортивный салон<br>
+                - сауна<br>
+                - хамам<br>
+                - закрытый паркинг<br><br>
+                Есть варианты квартир и выбор этажей.
+
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup8-->
+    <!--popup9-->
+    <div class="item-popup popup-9">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2> ЭЛИТНЫЙ ЖИЛОЙ КОМПЛЕКС НА БЕРЕГУ БОСФОРА </h2>
+        <h3>Жизнь у природы, жизнь в экологически чистом районе — самое лучшее, что может выбрать для себя современный житель мегаполиса.  </h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item9/item9.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item9/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item9/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item9/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item9/4.jpg" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item9/item9.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item9/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item9/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item9/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item9/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>314 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Район Бейкоз выбирают те, кому важны не только эти факторы, но, также высокий престиж и высокий уровень жизни.
+                Бейкоз расположен в азиатской части Стамбула, рядом с Босфором и огромным лесным массивом. <br>
+                Из окон и с террас квартир открывается широкий панорамный вид на лес и на залив.<br>
+                Жилой комплекс высокого класса состоит всего из нескольких домов малой этажности.<br>
+                Квартиры оборудованы панорамными окнами, балконами. Есть квартиры с большими террасами.<br>
+                Здесь всегда спокойно, нет шума большого города.<br><br>
+                Удачное расположение комплекса обеспечит Вам возможность быстро добраться в центр Стамбула. От дома всего 10 минут до моста через Босфор, 20 минут до Таксим, и всего 15 минут до финансового центра Стамбула — района Аташехир.<br><br>
+                В комплексе есть:<br>
+                — круглосуточная охрана.<br>
+                — закрытый плавательный бассейн.<br>
+                — спортивный салон.<br>
+                — сауна.<br>
+                — хамам.<br>
+                — подземный паркинг.<br><br>
+                Это не просто недвижимость. Это — стиль жизни, который стоит выбрать.
+
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup9-->
+
+    <!--popup10-->
+    <div class="item-popup popup-10">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2> СТАМБУЛ. КВАРТИРЫ В 5 МИНУТАХ ОТ МЕТРО </h2>
+        <h3>Это выгодное преимущество для тех, кто хочет жить рядом с центром Стамбула.  </h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item10/item10.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item10/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item10/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item10/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item10/4.jpg" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item10/item10.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item10/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item10/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item10/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item10/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>314 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Всего за 20 минут Вы можете добраться в Султанахмет либо до площади Таксим. <br>
+                Сегодня Кагитхане — один из самых перспективных районов Стамбула с точки зрения инвестиций. <br>
+                Кагитхане граничит с элитным районом Шишли. Также район имеет выход к скоростной Трансъевропейской магистрали — одной из главных транспортных артерий Стамбула.  Отсюда Вы всего за 10-15 минут можете добраться до моста через Босфор. <br> <br>
+                Преимущества данного комплекса: <br>
+                - близость к метро <br>
+                - близость объектов социальной инфраструктуры — школы, супермаркеты <br>
+                - близость к большой транспортной развязке <br>
+                - выгодные условия оплаты <br> <br>
+                К услугам жильцов: <br>
+                - охраняемая территория <br>
+                - подземный паркинг <br>
+                - спортсалон <br>
+                - сауна <br>
+                - хамам <br> <br>
+                Фото разных квартир.
+
+
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup10-->
+
+
+    <!--popup11-->
+    <div class="item-popup popup-11">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2> ДЛЯ ТЕХ, КТО ЦЕНИТ ПРЕСТИЖ  </h2>
+        <h3>Новый грандиозный проект в центре Стамбула! </h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item11/item11.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item11/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item11/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item11/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item11/4.jpg" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item11/item11.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item11/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item11/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item11/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item11/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость от</p><span>498 000 $</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Закрытый элитный городок на берегу Мраморного моря.  <br><br>
+                Лучшее расположение из возможных – есть выход к морю и прямой выход к станции метро, пролегающим под  Босфором и соединяющем европейскую часть Стамбула с его исторической частью. Это даёт возможность за 30 минут добраться в самые отдалённые районы города.<br><br>
+                Высотные здания с открытыми и закрытыми террасами, с широкой панорамой моря и города. Обширная территория.  Зелёные насаждения. Просторные аллеи и зелёные лужайки. Места для прогулок и отдыха.<br><br>
+                На территории комплекса предусмотрены спортивный салон и фитнес-центр, автопарки, кафе и рестораны, магазины и торговый центр. Есть офисные помещения.<br><br>
+                Услугам жтльцов:<br>
+                - спортивный салон<br>
+                -бассейны<br>
+                -сауна<br>
+                - хамам<br><br>
+                Уникальной особенностью данного проекта является частичное воспроизведение исторического облика района, которым он был во времена Османской империи – некоторые постройки стилизованы под старинные здания, расположенные в порту Константинополя.<br><br>
+                Территория охраняется круглосуточно.<br>
+                Через дорогу – порт для частных яхт и катеров.<br><br>
+                Высокие стандарты строительства. В наружной и внутренней отделке зданий использованы дорогие материалы.
+
+
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup11-->
+
+
+
+    <!--popup12-->
+    <div class="item-popup popup-12">
+        <span class="close-popup">Закрыть <img loading="lazy" src="img/close-pop.svg" alt=""></span>
+        <h2> ВИЛЛЫ У МОРЯ В ЗАКРЫТОМ ВИЛЛОВОМ КОМПЛЕКСЕ </h2>
+        <h3>Виллы в престижном вилловом комплексе, расположенном рядом с морем.  </h3>
+        <div class="popup-slick">
+            <div class="slick-top">
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item12/item12.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item12/1.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item12/2.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item12/3.jpg" alt="">
+                </div>
+                <div class="slick-top-img">
+                    <img loading="lazy" src="img/item12/4.jpg" alt="">
+                </div>
+            </div>
+            <div class="slick-bottom">
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item12/item12.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item12/1.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item12/2.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item12/3.jpg" alt="">
+                </div>
+                <div class="slick-bottom-img">
+                    <img loading="lazy" src="img/item12/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="popup-price">
+            <ul>
+                <li>
+                    <p>Стоимость</p><span>Цена по запросу</span>
+                </li>
+                <!--<li>
+                    <p>Площа</p><span>12м x 12м</span>
+                </li>-->
+            </ul>
+        </div>
+        <button class="popup-get-info_top">Получить консультацию</button>
+        <div class="popup-text">
+            <h4>О проекте</h4>
+            <p>Закрытая, охраняемая территория, где есть всё необходимое для комфорта Вас и Вашей семьи.
+                Прямо от территории комплекса начинается прибрежная зона. <br>
+                Совсем рядом находится яхт-клуб с причалами для яхт, ресторанами и уютными кафе на морском берегу. <br><br>
+
+                К услугам жильцов: <br>
+                - теннисный корт<br>
+                - ипподром<br>
+                - сауна <br>
+                - бассейн<br>
+                - фитнес <br>
+                - детские игровые площадки <br><br>
+                 
+                Также есть свой ресторан, несколько кафе. <br>
+                Сервис высокого уровня - есть все необходимые услуги, а каждые 15 минут бесплатный транспорт доставляет жильцов к яхт-клубу, остановке метробуса, на ипподдром. 
+
+
+            </p>
+        </div>
+        <button class="popup-get-info_bottom">Оставить заявку</button>
+        <button class="close-popup-bottom">Закрыть</button>
+    </div>
+    <!--popup11-->
+    
+
+
+    <!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+    <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+    <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+    <script src="libs/countdown/jquery.plugin.js"></script>
+    <script src="libs/countdown/jquery.countdown.min.js"></script>
+    <script src="libs/countdown/jquery.countdown-ru.js"></script>
+    <script src="libs/landing-nav/navigation.js"></script>
+    <script src="libs/telnp/intlTelInput.js"></script>
+    <script src="libs/slick/slick.js"></script>
+    <!-- <script src="libs/blazy/blazy.min.js"></script>-->
+    <script src="js/common.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter -->
+    <!-- /Google Analytics counter -->
+</body>
+
+</html>

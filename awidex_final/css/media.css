@@ -1,0 +1,663 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header_menu li {
+        margin-right: 20px;
+    }
+
+    .header_lang li {
+        padding: 0 7px;
+    }
+
+    .top_text h1 {
+        font-size: 40px;
+    }
+
+    .top_stat p {
+        font-size: 20px;
+    }
+
+    .top_stat {
+        padding: 20px 10px;
+    }
+
+    .top_show_portfolio a {
+        padding: 37px;
+    }
+
+    .service_item .service_item_decr {
+        padding: 60px 78px;
+    }
+
+    .section_headline h2 {
+        font-size: 32px;
+    }
+
+    .main_form_phone_img {
+        margin-top: 50px;
+    }
+
+    .main_form_contacts_info li {
+        margin-right: 35px;
+    }
+
+    .footer_social li {
+        margin-right: 9px;
+    }
+
+    .footer_social a {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .portfolio-single .right .portfolio_item p {
+        font-size: 14px;
+    }
+
+    .portfolio-single .right .portfolio_item h4 {
+        margin-bottom: 16px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .top_text {
+        margin-top: 100px;
+    }
+
+    .top_logo {
+        margin-top: 200px;
+    }
+
+    .top_stat {
+        margin-top: 100px;
+    }
+
+    .top_show_portfolio {
+        margin-top: 30px;
+    }
+
+    .service_item {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .service_item .service_item_decr {
+        padding: 60px 39px;
+    }
+
+    .main_form_phone_img {
+        margin-top: 115px;
+    }
+
+    .main_form_contacts_info li {
+        margin-right: 20px;
+    }
+
+    .main_form_contacts_info a.phone {
+        font-size: 16px;
+    }
+
+    .main_form_contacts_info a {
+        font-size: 16px;
+    }
+
+    .main_form_contacts_social li a {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+
+    .main_form_contacts_social li {
+        margin-left: 20px;
+    }
+
+    .main_form_contacts_info p {
+        font-size: 14px;
+    }
+
+    .why_we_img {
+        margin-top: 95px;
+    }
+
+    .why_we_item h3 {
+        font-size: 19px;
+    }
+
+    .why_we_item p {
+        font-size: 14px;
+    }
+
+    .bottom_form_wrapper {
+        float: none;
+    }
+
+    .footer_menu {
+        margin-top: 50px;
+    }
+
+    .footer_contacts {
+        margin-top: 50px;
+    }
+
+    /*******************************/
+    .mobile_menu {
+        position: fixed;
+        top: 0;
+        left: -999px;
+        bottom: 0;
+        z-index: 100;
+        height: 100%;
+        width: 50%;
+        background: #1A2128;
+        padding: 15px;
+        transition: all .30s;
+    }
+
+    .open_mob_menu {
+        width: 100%;
+        left: 0;
+        transition: all .30s;
+    }
+
+    .mobile_logo {
+        margin-top: 3px;
+    }
+
+    .close_mob_menu {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .header_menu {
+        margin-top: 50px;
+    }
+
+    .header_menu li {
+        display: block;
+        text-align: center;
+        margin-top: 16px;
+        font-size: 20px;
+        margin-right: 0;
+    }
+
+    .mobile_phone {
+        text-align: center;
+        margin-top: 52px;
+    }
+
+    .mobile_phone a {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .mobile_social {
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .mobile_social li {
+        display: inline-block;
+    }
+
+    .mobile_social a {
+        display: block;
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        background: #27313A;
+        border-radius: 3px;
+        border-bottom: 1px solid #014DFE;
+        margin: 0 5px;
+    }
+
+    .header_lang {
+        display: inline-block;
+        float: right;
+        margin-right: 15px;
+    }
+
+    .menu-burger__header {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        cursor: pointer;
+        float: right;
+    }
+
+    .menu-burger__header span,
+    .menu-burger__header:after,
+    .menu-burger__header:before {
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #515758;
+        margin: 0 auto;
+    }
+
+    .menu-burger__header span {
+        top: 16px;
+        transition: 0.5s;
+    }
+
+    .menu-burger__header:after,
+    .menu-burger__header:before {
+        content: '';
+    }
+
+    .menu-burger__header:after {
+        bottom: 5px;
+        transition: 0.5s;
+    }
+
+    .menu-burger__header:before {
+        top: 5px;
+        transition: 0.5s;
+    }
+
+    .menu-burger__header.open-menu span {
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .menu-burger__header.open-menu:before {
+        transform: rotate(38deg);
+        top: 16px;
+        transition: 0.4s;
+    }
+
+    .menu-burger__header.open-menu:after {
+        transform: rotate(-38deg);
+        bottom: 16px;
+        transition: 0.4s;
+    }
+
+    .top_logo {
+        position: absolute;
+        top: -300px;
+        left: -150px;
+    }
+
+    .main_form_contacts_info li {
+        text-align: center;
+    }
+
+    .main_form_contacts_social {
+        text-align: center;
+    }
+
+    /********************************/
+    .portfolio_slider_item {
+        max-height: 420px;
+    }
+
+    .portfolio-head {
+        padding: 130px 0 32px;
+    }
+
+    .portfolio-single .right {
+        margin-top: 50px;
+    }
+    /***************************************/
+    .single-service-head .section_headline {
+        padding: 50px 0 0;
+    }
+    .single-service_bread {
+        margin-top: 48px;
+    }
+    .single_service_users {
+        padding: 50px 0;
+    }
+    .all_service_links {
+        margin-bottom: 50px;
+    }
+    .service_business_list_img {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .service_business_list_img img {
+        width: 50%;
+        height: auto;
+    }
+    #outer-circle {
+        margin: 0 auto;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .top_logo {
+        position: absolute;
+        top: -350px;
+        left: -50px;
+    }
+
+    .all_services_btn {
+        text-align: left;
+        margin-top: 32px;
+        margin-bottom: 10px;
+    }
+
+    .service_item {
+        margin: 15px auto;
+    }
+
+    .service_item .service_item_decr {
+        padding: 60px;
+    }
+
+    .main_form_contacts_info li {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .main_form_contacts_info a {
+        font-size: 21px;
+    }
+
+    .main_form_contacts_info a.phone {
+        font-size: 21px;
+    }
+
+    .main_form_contacts_social li {
+        margin: 0 10px 0 0;
+    }
+
+    .why-we .section_headline a {
+        margin-top: 20px;
+    }
+
+    .why_we_item {
+        margin-top: 50px;
+    }
+
+    .why_we_top {
+        margin-bottom: 0;
+    }
+
+    .how-we-work .section_headline a {
+        margin-top: 20px;
+    }
+
+    .bottom_form_wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .why_we_img {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .about_page_items {
+        margin-top: 40px;
+    }
+
+    .page-head h1 {
+        font-size: 32px;
+    }
+
+    .page-head p {
+        font-size: 16px;
+    }
+
+    .all_services_item {
+        padding: 0 15px;
+    }
+
+    .all_services_item p {
+        margin-top: 16px;
+    }
+
+    .portfolio_slider_info {
+        float: none;
+        margin-top: 32px;
+    }
+
+    .portfolio_slider_info img {
+        margin-left: 0;
+    }
+
+    .portfolio-single {
+        padding: 100px 0 0;
+    }
+
+    .next-portfolio {
+        margin-top: 50px;
+    }
+
+    .next-work {
+        text-align: left;
+        margin-top: 0;
+    }
+    .service_single_price_item {
+        margin-bottom: 16px;
+    }
+    #outer-circle {
+        height: 350px;
+        width: 350px;
+        line-height: 350px;
+        overflow: hidden;
+    }
+    .service_business_list p {
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .top_text h1 {
+        font-size: 35px;
+    }
+
+    .top_text h2 {
+        font-size: 14px;
+    }
+
+
+    .we_work_steps_item p {
+        padding-left: 40px;
+    }
+
+    .we_work_steps_item h3 span {
+        margin-right: 25px;
+    }
+
+    .we_work_steps_item h3 {
+        font-size: 18px;
+    }
+
+    .portfolio-item-head h3 a {
+        font-size: 20px;
+    }
+
+    .portfolio-item-head .portfolio-item_link {
+        display: block;
+        float: none;
+    }
+
+    .portfolio-item_link span {
+        width: 33px;
+        height: 33px;
+        line-height: 30px;
+    }
+
+    .portfolio-item-head {
+        margin-bottom: 10px;
+    }
+
+    .top_stat p {
+        font-size: 16px;
+    }
+
+    .top_show_portfolio a {
+        padding: 27px;
+    }
+
+    .top_show_portfolio a span {
+        font-size: 13px;
+    }
+
+    .top_show_portfolio a:before {
+        right: 16px;
+        top: 37px;
+    }
+
+    .top_stat span {
+        font-size: 15px;
+    }
+
+    .popup-form {
+        max-width: 95%;
+        top: 100px;
+    }
+
+    .popup-form .section_headline h2 {
+        font-size: 20px;
+    }
+
+    .section_headline p {
+        font-size: 14px;
+    }
+
+    .portfolio_slider_item {
+        max-height: 270px;
+    }
+
+    .portfolio-single .right .portfolio_item img {
+        margin: 0 24px 110px 0;
+    }
+
+    .portfolio_slider_info span {
+        font-size: 12px;
+    }
+    .portfolio_slider_page {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+    .portfolio_bread a {
+        font-size: 14px;
+    }
+    .portfolio-head .section_headline {
+        margin-bottom: -20px;
+    }
+    .portfolio-single {
+        padding: 50px 0 0;
+    }
+    .current_slides  {
+        font-size: 16px;
+    }
+    .all_slides {
+        font-size: 16px;
+    }
+    .portfolio_slider_arrows {
+        margin-top: 20px;
+    }
+    .service_business_list li {
+        margin-bottom: 6px;
+        margin-right: 6px;
+    }
+    .service_business_list p {
+        font-size: 13px;
+    }
+    .service_business_list p {
+        padding: 8px 12px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .header_logo img {
+        max-width: 120px;
+    }
+
+    .header_lang li a {
+        font-size: 14px;
+    }
+
+    .header_logo img {
+        max-width: 110px;
+        margin-top: 5px;
+    }
+
+    .top_text h1 {
+        font-size: 28px;
+    }
+
+    .top_text h2 {
+        font-size: 14px;
+    }
+
+    .top_text p {
+        font-size: 16px;
+    }
+
+    .top_logo {
+        position: absolute;
+        top: -400px;
+        left: -50px;
+    }
+
+    .top_stat .col-md-6 {
+        padding: 15px 13px;
+    }
+
+    .top_stat {
+        padding: 20px 5px;
+    }
+
+
+
+    .section_headline h2 {
+        font-size: 25px;
+    }
+
+    .service_item .service_item_decr {
+        padding: 72px;
+    }
+
+    .mobile_social a {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    .popup-form {
+        top: 10px;
+    }
+    #outer-circle {
+        width: 270px;
+        height: 270px;
+        line-height: 270px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
